@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Blogs - Gateway Clinics</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      justify-content: center;
+    }
+    @media (max-width: 767px) {
+      .blog-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="blog-page">
+
+  <!-- Header -->
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a
+              href="mailto:contact@example.com">info@gatewayclinics.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span> +(91)-(0422) 2542244 </span></i>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.jpg" alt="Gateway Clinics Logo" style="height: 70px;">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#home">Home<br></a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li class="dropdown">
+              <a href="index.html#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Appendicitis</a></li>
+                <li><a href="#">Gall Bladder Stone</a></li>
+                <li><a href="#">Common Bile Duct Stones</a></li>
+                <li><a href="#">All Types of Hernia and GERD</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#achievements">Achievements</a></li>
+            <li><a href="index.html#doctors">Our Team</a></li>
+            <li><a href="blog.html" class="active">Blogs</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- ================= BLOG GALLERY SECTION ================= -->
+    <section id="blogs" class="gallery section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Blogs</h2>
+        <p>Insights, health tips, and real stories from Gateway Clinics.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="blog-grid">
+
+          <!-- Blog 1 Card -->
+          <div>
+            <div class="blog-card" role="button" data-bs-toggle="modal" data-bs-target="#blog1Modal"
+              aria-label="Open article Junk Food vs Your Liver">
+              <img src="assets/img/blog/blog1.png" class="img-fluid" alt="Junk Food vs Your Liver">
+              <div class="blog-overlay">
+                <h3>Junk Food vs. Your Liver: 3 Hidden Fats</h3>
+                <p><b>The silent fats that build up from junk food — and how to reverse the damage quickly.</b></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 2 Card -->
+          <div>
+            <div class="blog-card" role="button" data-bs-toggle="modal" data-bs-target="#blog2Modal"
+              aria-label="Open article New Mom, New Body">
+              <img src="assets/img/blog/blog2.png" class="img-fluid" alt="New Mom, New Body">
+              <div class="blog-overlay">
+                <h3>New Mom, New Body: 15-Minute Meal Plans Post-Delivery</h3>
+                <p><b>Fast, nourishing 15-minute meal plans to heal, nourish, and help postpartum recovery.</b></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 3 Card -->
+          <div>
+            <div class="blog-card" role="button" data-bs-toggle="modal" data-bs-target="#blog3Modal"
+              aria-label="Open article Junk Food vs Your Liver">
+              <img src="assets/img/blog/blog1.png" class="img-fluid" alt="Junk Food vs Your Liver">
+              <div class="blog-overlay">
+                <h3>Junk Food vs. Your Liver: 3 Hidden Fats</h3>
+                <p><b>The silent fats that build up from junk food — and how to reverse the damage quickly.</b></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 4 Card -->
+          <div>
+            <div class="blog-card" role="button" data-bs-toggle="modal" data-bs-target="#blog4Modal"
+              aria-label="Open article New Mom, New Body">
+              <img src="assets/img/blog/blog2.png" class="img-fluid" alt="New Mom, New Body">
+              <div class="blog-overlay">
+                <h3>New Mom, New Body: 15-Minute Meal Plans Post-Delivery</h3>
+                <p><b>Fast, nourishing 15-minute meal plans to heal, nourish, and help postpartum recovery.</b></p>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOG 1 MODAL ================= -->
+    <div class="modal fade custom-modal" id="blog1Modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content custom-modal-content">
+
+          <!-- fixed close button (does not scroll with content) -->
+          <button class="close-fixed" data-bs-dismiss="modal" aria-label="Close">
+            <span>&times;</span>
+          </button>
+
+
+          <div class="modal-body">
+
+            <h2 class="blog-title">Junk Food vs. Your Liver: 3 Hidden Fats</h2>
+
+            <p>You sink your teeth into a hot samosa. The crunch is perfect, the spice just right. Your brain
+              celebrates. Your liver, however, begins a silent, invisible battle—one you won’t notice until years later
+              when blood reports flash red. That weekend burger, late-night chips, or sugary cola isn’t just adding
+              inches to your waist. It’s quietly building three dangerous fats deep inside your body that most people
+              never hear about until it’s too late. At Gateway Clinics in Coimbatore, we see the fallout every day:
+              young professionals with livers that look decades older, all because of habits that started as “just one
+              treat.”</p>
+
+            <h4>Visceral fat</h4>
+            <p>First comes visceral fat, the deep, hidden layer that wraps around your liver, pancreas, and intestines
+              like plastic wrap. It doesn’t bulge in the mirror or make your clothes tight. It forms fast—from trans
+              fats in French fries and pakoras, high-fructose corn syrup in soft drinks and packaged juices, and refined
+              carbs in white bread burgers. This fat squeezes your liver, triggering Grade 1 fatty liver in as little as
+              six to twelve months. It spikes insulin, paving the way for early diabetes, and blocks healthy blood flow,
+              raising heart attack risk. We once treated Mr. Ravi, a 38-year-old IT professional who loved Friday pizza
+              nights. Despite a flat stomach, his ultrasound showed Grade 2 fatty liver. Visceral fat hides—but it
+              hurts.</p>
+
+            <h4>Intramyocellular lipids (IMCL)</h4>
+            <p>Next is intramyocellular lipids, or IMCL—tiny fat droplets trapped inside your muscle cells. They come
+              from excess palm oil in instant noodles and repeated sugar crashes from too many sweets with chai. Your
+              muscles stiffen, stop burning glucose properly, and you feel heavy even after a short walk. Energy dips.
+              And if you undergo surgery—like a hernia repair at Gateway—recovery drags on twice as long. We’ve seen
+              patients struggle to stand on Day 2 because of high IMCL. The fix? Swap Maggi for oats upma. In just four
+              weeks, IMCL drops by thirty percent.</p>
+
+            <h4>Ectopic liver fat (NAFLD)</h4>
+            <p>The worst is ectopic fat in the liver—the kind that settles inside liver cells and sparks inflammation,
+              then scarring, then cirrhosis. It builds from daily fried snacks, sugary coffee, or late-night biryani
+              with cola. This is Non-Alcoholic Fatty Liver Disease (NAFLD), now affecting one in three urban Indians. No
+              pain, no warning—until stiffness sets in. In 2024, forty-two percent of our 1,200 GI oncology patients had
+              NAFLD, many under 35. Junk food isn’t fun anymore. It’s a liver time bomb.</p>
+
+            <h4>Reset plan — 3 days</h4>
+            <p>Your liver filters 1.4 liters of blood every minute and stays silent until seventy percent is damaged.
+              But you can reset it in three days at home—no juice cleanse needed.</p>
+            <p><strong>Day 1:</strong> oats with apple, brown rice with dal and spinach, vegetable soup with one roti.
+            </p>
+            <p><strong>Day 2:</strong> poha with peanuts, millet khichdi with curd, grilled paneer salad.</p>
+            <p><strong>Day 3:</strong> oil-free idli and sambar, quinoa with vegetable curry, clear rasam with steamed
+              veggies.</p>
+            <p>Drink one liter of buttermilk daily, walk twenty minutes after dinner, and cut out oil, sugar, and maida.
+              Patients at Gateway see liver enzymes drop fifteen to twenty percent in ten days.</p>
+
+            <h4>Practical advice</h4>
+            <p>You don’t have to quit treats. Follow the 80-20 rule: eighty percent clean, home-cooked, fiber-rich
+              meals. Twenty percent indulgence—but air-fry, not deep-fry, and eat salad or fruit first. Fiber slows fat
+              absorption by forty percent.</p>
+
+            <p class="strong-cta">One junk meal swapped tonight = one step to a healthier liver</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= BLOG 2 MODAL ================= -->
+    <div class="modal fade custom-modal" id="blog2Modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content custom-modal-content">
+
+          <button class="close-fixed" data-bs-dismiss="modal" aria-label="Close">
+            <span>&times;</span>
+          </button>
+
+
+          <div class="modal-body">
+
+            <h2 class="blog-title">New Mom, New Body: 15-Minute Meal Plans Post-Delivery</h2>
+
+            <p>You’re home with a newborn. Sleep is a myth. Cooking? Impossible. Yet the mirror shows a body you don’t
+              recognize—extra weight, bloating, low energy. After pregnancy and delivery, most women gain 10–15 kg.
+              Hormones are wild, time is zero, and “diet” feels like a cruel joke. But at Gateway Clinics, we’ve helped
+              hundreds of Coimbatore moms shed post-baby weight without skipping feeds or burning out. The secret?
+              15-minute meals that heal, nourish, and shrink the waist—no fancy ingredients, no guilt.</p>
+
+            <p>Your body just grew a human. It needs protein to repair, fiber to fight constipation, iron to beat
+              tiredness, and healthy fats to balance hormones. Crash diets? They crash milk supply. Starving? You’ll
+              crash by noon. Instead, eat small, smart, fast. These plans fit between naps, diaper changes, and endless
+              laundry.</p>
+
+            <h4>3-Day 15-Minute Reset (No Cooking Skills Needed)</h4>
+
+            <h5>Day 1 – Rebuild</h5>
+            <p><strong>Breakfast (5 min):</strong> 2 boiled eggs + 1 banana + glass of warm milk with turmeric.<br>
+              <strong>Lunch (10 min):</strong> 1 bowl cooked dal + 1 roti + grated carrot. Mash dal with jeera powder—no
+              oil.<br>
+              <strong>Dinner (8 min):</strong> Vegetable khichdi (pre-soaked rice + moong dal in pressure cooker) +
+              curd.
+            </p>
+
+            <h5>Day 2 – Reduce Bloat</h5>
+            <p><strong>Breakfast:</strong> Oats in milk (microwave 3 min) + chopped apple + 5 almonds.<br>
+              <strong>Lunch:</strong> 2 idlis + sambar (use yesterday’s leftover) + cucumber slices.<br>
+              <strong>Dinner:</strong> Ragi porridge with buttermilk + steamed beans.
+            </p>
+
+            <h5>Day 3 – Boost Energy</h5>
+            <p><strong>Breakfast:</strong> Poha with peanuts & lemon (soak night before, toss in morning).<br>
+              <strong>Lunch:</strong> Brown rice + rajma (pressure cook together) + tomato.<br>
+              <strong>Dinner:</strong> Clear chicken/veg soup + 1 whole wheat bread.
+            </p>
+
+            <h4>Rules</h4>
+            <p>Eat every 3 hours. Keep boiled eggs, fruits, curd ready. Drink 3 liters water + jeera water between
+              feeds. Walk 10 min inside home after every meal.</p>
+
+            <p><strong>Result:</strong> Moms at Gateway lose 1–1.5 kg per week, constipation vanishes in 48 hours, milk
+              flows better, energy returns by Day 4.</p>
+
+            <h4>The “No-Time” Hacks We Swear By</h4>
+            <p>Keep a “Mom Station” on your counter: steel dabba with roasted peanuts, dry fruits, boiled eggs, cut
+              fruits. One grab = one meal. Use one-pot pressure cooker recipes—throw in dal, rice, veggies, salt. Done
+              in 10 minutes. Add ghee (1 tsp) to baby’s food and yours—curbs cravings, heals C-section scars from
+              within. Avoid maida, sugar, fried snacks—they bloat, not fill.</p>
+
+            <h4>C-Section? Listen Up</h4>
+            <p>No exercise for 6 weeks, but food is your gym. Protein speeds wound healing. Fiber prevents pile-ups
+              (common post-delivery). Iron fights dizziness. One mom gained 18 kg after twins. She followed this plan
+              from Week 6. Lost 12 kg in 3 months—all while breastfeeding.</p>
+
+            <h4>Red Flags?</h4>
+            <p>Swollen feet, extreme fatigue, no bowel movement in 3 days</p>
+
+            <p class="strong-cta">Your body made magic. Give it 15 minutes a day. It will thank you with energy,
+              confidence, and a waist that fits your old jeans again.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= BLOG 3 MODAL ================= -->
+    <div class="modal fade custom-modal" id="blog3Modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content custom-modal-content">
+
+          <!-- fixed close button (does not scroll with content) -->
+          <button class="close-fixed" data-bs-dismiss="modal" aria-label="Close">
+            <span>&times;</span>
+          </button>
+
+
+          <div class="modal-body">
+
+            <h2 class="blog-title">Junk Food vs. Your Liver: 3 Hidden Fats</h2>
+
+            <p>You sink your teeth into a hot samosa. The crunch is perfect, the spice just right. Your brain
+              celebrates. Your liver, however, begins a silent, invisible battle—one you won’t notice until years later
+              when blood reports flash red. That weekend burger, late-night chips, or sugary cola isn’t just adding
+              inches to your waist. It’s quietly building three dangerous fats deep inside your body that most people
+              never hear about until it’s too late. At Gateway Clinics in Coimbatore, we see the fallout every day:
+              young professionals with livers that look decades older, all because of habits that started as “just one
+              treat.”</p>
+
+            <h4>Visceral fat</h4>
+            <p>First comes visceral fat, the deep, hidden layer that wraps around your liver, pancreas, and intestines
+              like plastic wrap. It doesn’t bulge in the mirror or make your clothes tight. It forms fast—from trans
+              fats in French fries and pakoras, high-fructose corn syrup in soft drinks and packaged juices, and refined
+              carbs in white bread burgers. This fat squeezes your liver, triggering Grade 1 fatty liver in as little as
+              six to twelve months. It spikes insulin, paving the way for early diabetes, and blocks healthy blood flow,
+              raising heart attack risk. We once treated Mr. Ravi, a 38-year-old IT professional who loved Friday pizza
+              nights. Despite a flat stomach, his ultrasound showed Grade 2 fatty liver. Visceral fat hides—but it
+              hurts.</p>
+
+            <h4>Intramyocellular lipids (IMCL)</h4>
+            <p>Next is intramyocellular lipids, or IMCL—tiny fat droplets trapped inside your muscle cells. They come
+              from excess palm oil in instant noodles and repeated sugar crashes from too many sweets with chai. Your
+              muscles stiffen, stop burning glucose properly, and you feel heavy even after a short walk. Energy dips.
+              And if you undergo surgery—like a hernia repair at Gateway—recovery drags on twice as long. We’ve seen
+              patients struggle to stand on Day 2 because of high IMCL. The fix? Swap Maggi for oats upma. In just four
+              weeks, IMCL drops by thirty percent.</p>
+
+            <h4>Ectopic liver fat (NAFLD)</h4>
+            <p>The worst is ectopic fat in the liver—the kind that settles inside liver cells and sparks inflammation,
+              then scarring, then cirrhosis. It builds from daily fried snacks, sugary coffee, or late-night biryani
+              with cola. This is Non-Alcoholic Fatty Liver Disease (NAFLD), now affecting one in three urban Indians. No
+              pain, no warning—until stiffness sets in. In 2024, forty-two percent of our 1,200 GI oncology patients had
+              NAFLD, many under 35. Junk food isn’t fun anymore. It’s a liver time bomb.</p>
+
+            <h4>Reset plan — 3 days</h4>
+            <p>Your liver filters 1.4 liters of blood every minute and stays silent until seventy percent is damaged.
+              But you can reset it in three days at home—no juice cleanse needed.</p>
+            <p><strong>Day 1:</strong> oats with apple, brown rice with dal and spinach, vegetable soup with one roti.
+            </p>
+            <p><strong>Day 2:</strong> poha with peanuts, millet khichdi with curd, grilled paneer salad.</p>
+            <p><strong>Day 3:</strong> oil-free idli and sambar, quinoa with vegetable curry, clear rasam with steamed
+              veggies.</p>
+            <p>Drink one liter of buttermilk daily, walk twenty minutes after dinner, and cut out oil, sugar, and maida.
+              Patients at Gateway see liver enzymes drop fifteen to twenty percent in ten days.</p>
+
+            <h4>Practical advice</h4>
+            <p>You don’t have to quit treats. Follow the 80-20 rule: eighty percent clean, home-cooked, fiber-rich
+              meals. Twenty percent indulgence—but air-fry, not deep-fry, and eat salad or fruit first. Fiber slows fat
+              absorption by forty percent.</p>
+
+            <p class="strong-cta">One junk meal swapped tonight = one step to a healthier liver</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= BLOG 4 MODAL ================= -->
+    <div class="modal fade custom-modal" id="blog4Modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content custom-modal-content">
+
+          <button class="close-fixed" data-bs-dismiss="modal" aria-label="Close">
+            <span>&times;</span>
+          </button>
+
+
+          <div class="modal-body">
+
+            <h2 class="blog-title">New Mom, New Body: 15-Minute Meal Plans Post-Delivery</h2>
+
+            <p>You’re home with a newborn. Sleep is a myth. Cooking? Impossible. Yet the mirror shows a body you don’t
+              recognize—extra weight, bloating, low energy. After pregnancy and delivery, most women gain 10–15 kg.
+              Hormones are wild, time is zero, and “diet” feels like a cruel joke. But at Gateway Clinics, we’ve helped
+              hundreds of Coimbatore moms shed post-baby weight without skipping feeds or burning out. The secret?
+              15-minute meals that heal, nourish, and shrink the waist—no fancy ingredients, no guilt.</p>
+
+            <p>Your body just grew a human. It needs protein to repair, fiber to fight constipation, iron to beat
+              tiredness, and healthy fats to balance hormones. Crash diets? They crash milk supply. Starving? You’ll
+              crash by noon. Instead, eat small, smart, fast. These plans fit between naps, diaper changes, and endless
+              laundry.</p>
+
+            <h4>3-Day 15-Minute Reset (No Cooking Skills Needed)</h4>
+
+            <h5>Day 1 – Rebuild</h5>
+            <p><strong>Breakfast (5 min):</strong> 2 boiled eggs + 1 banana + glass of warm milk with turmeric.<br>
+              <strong>Lunch (10 min):</strong> 1 bowl cooked dal + 1 roti + grated carrot. Mash dal with jeera powder—no
+              oil.<br>
+              <strong>Dinner (8 min):</strong> Vegetable khichdi (pre-soaked rice + moong dal in pressure cooker) +
+              curd.
+            </p>
+
+            <h5>Day 2 – Reduce Bloat</h5>
+            <p><strong>Breakfast:</strong> Oats in milk (microwave 3 min) + chopped apple + 5 almonds.<br>
+              <strong>Lunch:</strong> 2 idlis + sambar (use yesterday’s leftover) + cucumber slices.<br>
+              <strong>Dinner:</strong> Ragi porridge with buttermilk + steamed beans.
+            </p>
+
+            <h5>Day 3 – Boost Energy</h5>
+            <p><strong>Breakfast:</strong> Poha with peanuts & lemon (soak night before, toss in morning).<br>
+              <strong>Lunch:</strong> Brown rice + rajma (pressure cook together) + tomato.<br>
+              <strong>Dinner:</strong> Clear chicken/veg soup + 1 whole wheat bread.
+            </p>
+
+            <h4>Rules</h4>
+            <p>Eat every 3 hours. Keep boiled eggs, fruits, curd ready. Drink 3 liters water + jeera water between
+              feeds. Walk 10 min inside home after every meal.</p>
+
+            <p><strong>Result:</strong> Moms at Gateway lose 1–1.5 kg per week, constipation vanishes in 48 hours, milk
+              flows better, energy returns by Day 4.</p>
+
+            <h4>The “No-Time” Hacks We Swear By</h4>
+            <p>Keep a “Mom Station” on your counter: steel dabba with roasted peanuts, dry fruits, boiled eggs, cut
+              fruits. One grab = one meal. Use one-pot pressure cooker recipes—throw in dal, rice, veggies, salt. Done
+              in 10 minutes. Add ghee (1 tsp) to baby’s food and yours—curbs cravings, heals C-section scars from
+              within. Avoid maida, sugar, fried snacks—they bloat, not fill.</p>
+
+            <h4>C-Section? Listen Up</h4>
+            <p>No exercise for 6 weeks, but food is your gym. Protein speeds wound healing. Fiber prevents pile-ups
+              (common post-delivery). Iron fights dizziness. One mom gained 18 kg after twins. She followed this plan
+              from Week 6. Lost 12 kg in 3 months—all while breastfeeding.</p>
+
+            <h4>Red Flags?</h4>
+            <p>Swollen feet, extreme fatigue, no bowel movement in 3 days</p>
+
+            <p class="strong-cta">Your body made magic. Give it 15 minutes a day. It will thank you with energy,
+              confidence, and a waist that fits your old jeans again.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4 justify-content-between align-items-start">
+
+        <div class="col-lg-6 col-md-12 footer-about text-center text-lg-start">
+          <a href="#" class="logo d-flex align-items-center justify-content-center justify-content-lg-start">
+            <img src="assets/img/footer-logo.png" alt="Gateway Clinics Logo" style="height: 62px;">
+          </a>
+
+          <div class="footer-contact pt-3">
+            <p>Gateway Clinics,<br>
+              43, Periyasamy Road (West),<br>
+              Behind Eye Foundation,<br>
+              R.S. Puram, Coimbatore - 641 002.
+            </p>
+
+            <p class="mt-3"><strong>Phone:</strong> +(91)-(0422) 2542244</p>
+            <p><strong>Mobile:</strong> +91 92457 31318</p>
+            <p><strong>Email:</strong> info@gatewayclinics.com</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-links text-center text-lg-start">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Gateway Clinics</strong> <span>All Rights
+          Reserved</span></p>
+      <div class="credits"></div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <a href="https://wa.me/+919245731318?text=Hello,%20I%20visited%20the%20Gateway%20Clinics%20website%20and%20would%20like%20to%20speak%20with%20a%20specialist%20about%20a%20consultation."
+    class="whatsapp-float whatsapp-button-content" target="_blank">
+    <img src="assets/img/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
+    <span class="whatsapp-text">Chat with us</span>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
