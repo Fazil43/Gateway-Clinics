@@ -1350,11 +1350,35 @@ section,
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.10);
 }
 
+.achievement-box .achievement-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.achievement-box .achievement-icon {
+  background: linear-gradient(135deg, var(--accent-color), #2c4964);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.achievement-box .achievement-icon i {
+  font-size: 20px;
+}
+
 .achievement-box h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: #22304a;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  line-height: 1.3;
 }
 
 .achievement-box>p {
@@ -1362,6 +1386,74 @@ section,
   font-size: 15px;
   margin-bottom: 12px;
   line-height: 1.6;
+}
+
+/* Page Header Styles */
+.page-header {
+  padding: 80px 0 60px;
+  background: linear-gradient(135deg, #f5f7ff 0%, #e8f0ff 100%);
+  position: relative;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.page-header .lead {
+  font-size: 20px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Enhanced Stats Section */
+.stats .stats-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.stats .stats-item span {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--accent-color);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.stats .stats-item p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.stats i {
+  font-size: 36px;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 32px;
+  }
+  
+  .page-header .lead {
+    font-size: 16px;
+  }
+  
+  .achievement-box .achievement-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .achievement-box .achievement-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
 
 .read-more {
@@ -2122,4 +2214,8 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
