@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+
+}
+.top{
+background: #ffffff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 50%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f2f2f2), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f2f2f2 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f2f2f2 50%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f2f2f2 50%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#f2f2f2 50%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}
+.button ul li{
+	color:#000;
+}
+.button{
+	padding-top:28px;
+}
+.pro-heading{
+font-family:MyWebFont; text-align:center; margin-top:0;  font-size: 19px; letter-spacing: 1px; margin:0;
+}
+.product{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.pro{
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+p{
+	font-family:MyWebFont2;
+	font-size:14px;
+	line-height:23px;
+}
+.ali{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.ali2{
+	text-align:center;
+}
+.ali2 a{
+	   background-color:#0B5789;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration: none;
+}
+.ali2 a:hover{
+	   background-color:#4ad3eb;
+    border-radius: 3px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration: none;
+}
+.ali3{
+	 margin: 0 0 10px 25px;
+}
+.ali4{
+	text-align:center;
+	font-family:MyWebFont2;
+	font-size: 23px; letter-spacing: 1px; padding-bottom:10px;
+}
+.ali5{
+		padding-top:15px;
+	padding-bottom:10px;
+}
+.welocme{
+	padding-top:30px;
+	padding-bottom:35px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.lft-img-margin {
+    margin: 0 15px 0 0;
+}
+.footer{
+	background-color:#0f0f0f;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+}
+hr{
+	 margin: 15px 0;
+}
+.ali6{
+	padding-bottom: 10px;
+	color:#FFF;
+	border-bottom:1px dashed #ffffff;
+}
+.ali7{
+	color:#FFF;
+	list-style:none;
+}
+.new2 img{
+	padding-right:20px;
+}
+.new3{
+	color:#FFF;
+}
+.bor{
+	padding-top:2px;
+	background-image:url(../images/bor.jpg);
+	background-repeat:repeat-x;
+}
+.new{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.ss{
+	color:#FFF;
+	text-decoration:none;
+}
+.ss:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+.medical{
+	background-color:#f2f2f2;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-top:10px;
+}
+.ali8{
+	text-align:center;
+	color:#0B5789;
+}
+.ali9{
+	color:#0B5789;
+	text-align:center;
+	margin-bottom:0;
+}
+.wid {
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+.wid3 li{
+	 list-style-image: url("../images/bul.png");
+	 line-height:25px;
+	 margin-left:30px;
+	 border-bottom:1px dashed #cccccc;
+	    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+	padding-left:5px;
+}

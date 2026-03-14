@@ -1,0 +1,831 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gateway Clinics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 	
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<style type="text/css">
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.eot'); /* IE9 Compat Modes */
+  src: url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.woff') format('woff'), /* Modern Browsers */
+       url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'MyWebFont2';
+  src: url('fonts/DroidSans/351806641-DroidSans.eot'); /* IE9 Compat Modes */
+  src: url('fonts/DroidSans/351806641-DroidSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/DroidSans/351806641-DroidSans.woff') format('woff'), /* Modern Browsers */
+       url('fonts/DroidSans/351806641-DroidSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/DroidSans/351806641-DroidSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+</style>
+<!--title animation-->
+<script type="text/javascript">
+function tb8_makeArray(n){
+this.length = n;
+return this.length;
+}
+tb8_messages = new tb8_makeArray(3);
+tb8_messages[0] = "Gateway Clinics";
+tb8_messages[1] = "Gateway Clinics";
+tb8_messages[2] = "Gateway Clinics";
+tb8_rptType = 'infinite';
+tb8_rptNbr = 5;
+tb8_speed = 100;
+tb8_delay = 2000;
+var tb8_counter=1;
+var tb8_currMsg=0;
+var tb8_tekst ="";
+var tb8_i=0;
+var tb8_TID = null;
+function tb8_pisi(){
+tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+document.title = tb8_tekst;
+tb8_sp=tb8_speed;
+tb8_i++;
+if (tb8_i==tb8_messages[tb8_currMsg].length){
+tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+}
+if (tb8_currMsg == tb8_messages.length){
+if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+clearTimeout(tb8_TID);
+return;
+}
+tb8_counter++;
+tb8_currMsg = 0;
+}
+tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+}
+tb8_pisi()
+</script>
+<!--end title animation-->
+<link rel="shortcut icon" href="images/fav.png" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="css/media.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/ndrop.css" rel="stylesheet" type="text/css">
+
+<!-- banner -->
+<link rel="stylesheet" type="text/css" href="css/2.css" />
+<script type="text/javascript" src="js/a.js"></script>
+<!-- end banner -->
+
+
+<!-- gallery -->
+    <!-- CSS Global Compulsory-->
+    <!-- CSS Implementing Plugins -->    
+    <link rel="stylesheet" href="assets/plugins/fancybox/source/jquery.fancybox.css">           
+    <link rel="stylesheet" href="assets/css/effects.css">           
+    <!-- CSS Theme -->    
+    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">    
+    <!-- end Gallery -->
+
+</head>
+
+<body>
+<div class="top">
+<div class="container">
+
+<div class="row-fluid">
+<div class="span12">
+<div class="span3"><img src="images/logo.png"></div>
+<div class="span2"><div style="padding-top:20px;"><!-- <a href="#"><img src="images/company.jpg"></a> --></div></div>
+<div class="span7 pull-right">
+<div class="button">
+
+
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a>
+                    <ul class="submenu">
+                       <li><a href="Facilities.html">Facilities</a></li>
+					<li><a href="Training.html">Training</a></li>
+					<li><a href="Slide-Atlas.html">Slide Atlas</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Services</a>
+                    <ul class="submenu">
+                       	<li><a href="Appendix.html">Appendix</a></li>
+					<li><a href="Cancer.html">Cancer</a></li>
+					<li><a href="Gallbladder.html">GallBladder</a></li>
+                    <li><a href="Hernia-Ipom.html">Hernia Ipom</a></li>
+					<li><a href="Hysterectomy.html">Hysterectomy</a></li>
+					<li><a href="Inguinal-Hernia.html">Ingunal Hernia</a></li>
+                    <li><a href="Piles.html">Piles (Hemorrhoids)</a></li>
+					<li><a href="Anal-Fistula.html">Anal Fistula</a></li>
+					<li><a href="Endoscopy.html">Endoscopy</a></li>
+                    <li><a href="Colonoscopy.html">Colonoscopy</a></li>
+					<li><a href="ERCP.html">ERCP</a></li>
+					<li><a href="Weight Loss.html">Weight Loss Surgery</a></li>
+                    <li><a href="Sleeve-Gastrectomy.html">Sleeve Gastrectomy</a></li>
+					<li><a href="Gastric-Bypass-Surgery.html">Gastric Bypass Surgery</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Gallery</a>
+                    <ul class="submenu">
+					<li><a href="gallery.html">Photo Gallery</a></li>
+					<li><a href="video-gallery.html">Video Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Categories</a>
+                 <ul class="submenu">
+					<li><a href="Doctor-Page.html">Doctor's Page</a></li>
+					<li><a href="Social-Service.html">Social Services</a></li>
+					<li><a href="about-management.html">About Management</a></li>
+					<li><a href="Infrastructure.html">Infrastructure</a></li>
+                    </ul>
+                </li>
+                <li><a href="medical.html">Medical Tourism</a></li>
+                <li><a href="#">Contact Us</a>
+                 <ul class="submenu">
+					<li><a href="contact.php">Coimbatore</a></li>
+					<li><a href="chennai.php">Chennai</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div><!-- end top -->
+<div style="padding-top:2px; background-color:#0b5789;"></div>
+<div class="banner">
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+<li><img src="images/newb1.jpg" alt="" title="" id="wows1_0"/></li>
+<li><img src="images/banner2.jpg" alt="" title="" id="wows1_1"/></li>
+<li><img src="images/banner3.jpg" alt="" title="" id="wows1_2"/></li>
+<li><img src="images/banner4.jpg" alt="" title="" id="wows1_2"/></li>
+</ul></div>
+</div>
+</div>
+<div style="padding-top:2px; background-color:#0b5789;"></div>
+<div style="padding-top:20px;"></div>
+
+<div class="welocme">
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+
+<div class="span3">
+<div class="wid"><h4 style="text-align:center; background-color:#0B5789; color:#FFF; margin:0; padding-top:10px; padding-bottom:10px;" class="wid2">Our Services</h4>
+<ul class="wid3">
+<li><a class="se" href="Appendix.html">Appendix</a></li>
+<li><a class="se" href="Cancer.html">Cancer</a></li>
+<li><a class="se" href="Gallbladder.html">GallBladder</a></li>
+<li><a class="se" href="Hernia-Ipom.html">Hernia Ipom</a></li>
+<li><a class="se" href="Hysterectomy.html">Hysterectomy</a></li>
+<li><a class="se" href="Inguinal-Hernia.html">Ingunal Hernia</a></li>
+<li><a class="se" href="Piles.html">Piles (Hemorrhoids)</a></li>
+<li><a class="se" href="Anal-Fistula.html">Anal Fistula</a></li>
+<li><a class="se" href="Endoscopy.html">Endoscopy</a></li>
+<li><a class="se" href="Colonoscopy.html">Colonoscopy</a></li>
+<li><a class="se" href="ERCP.html">ERCP</a></li>
+<li><a class="se" href="Weight Loss.html">Weight Loss Surgery</a></li>
+<li><a class="se" href="Sleeve-Gastrectomy.html">Sleeve Gastrectomy</a></li>
+<li style="border:none;"><a class="se" href="Gastric-Bypass-Surgery.html">Gastric Bypass Surgery</a></li>
+</ul></div>
+</div>
+
+<div class="span9"><h4 class="ali4" style="padding-bottom:20px;">Endoscopy Atlas</h4>
+<p align="justify">Endoscopy is a procedure that lets your doctor look inside your body. It uses an instrument called an endoscope, or scope for short. Scopes have a tiny camera attached to a long, thin tube. The doctor moves it through a body passageway or opening to see inside an organ. Sometimes scopes are used for surgery, such as for removing polyps from the colon.</p>
+<br/>
+
+<div class="row-fluid">
+<div class="span3"><img src="images/endoscopy_new.jpg"><h5 class="new4">Endoscopy</h5></div>
+<div class="span3"><img src="images/upperendoscopy.jpg"><h5 class="new4">Upper Endoscopy</h5></div>
+</div>
+
+<br/>
+<div class="gallery">
+        <ul class="thumbnails">
+            <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Normal pylorus" href="images/img1.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img1.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Normal pylorus</h5>
+            </li>
+            <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Schatzki's ring" href="images/img2.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img2.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Schatzki's ring</h5>
+            </li>
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Grade 2 oesophagitis" href="images/img3.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img3.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Grade 2 oesophagitis</h5>
+            </li>
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Multiple haemorrhagic erosions" href="images/img4.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img4.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Multiple haemorrhagic erosions</h5>
+            </li>
+        </ul><!--/thumbnails-->
+      
+        <ul class="thumbnails">
+            <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Congestive gastropathy" href="images/img5.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img5.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Congestive gastropathy</h5>
+            </li>
+            <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Grade 1 oesophageal varices 4 columns" href="images/img6.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img6.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Grade 1 oesophageal varices 4 columns</h5>
+            </li>
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Haemorrhagic erosions in the fundus" href="images/img7.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img7.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Haemorrhagic erosions in the fundus</h5>
+            </li>
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="CBD stent (Endoscopic Retrieval)" href="images/img8.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img8.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">CBD stent (Endoscopic Retrieval)</h5>
+            </li>
+        </ul><!--/thumbnails-->
+        
+       <ul class="thumbnails">
+            <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Sessile friable Polypoidal lesion near OG junction" href="images/img9.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img9.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Sessile friable Polypoidal lesion near OG junction</h5>
+            </li>
+            <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Healed duodenal ulcer" href="images/img10.jpg">
+                    <div class="overlay-zoom">	
+                        <img src="images/img10.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                <h5 class="new4">Healed duodenal ulcer</h5>
+            </li>
+            
+                        <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Oesophageal moniliasis" href="images/img11.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img11.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Oesophageal moniliasis</h5>
+                </li>
+            
+                     
+        </ul><!--/thumbnails-->  
+<ul class="thumbnails">
+                   <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Ulceroprolifrative growth 22cm from incisor in oesophagus" href="images/img12.jpg">
+                    <div class="overlay-zoom ">	 	
+                        <img src="images/img12.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Ulceroprolifrative growth 22cm from incisor in oesophagus</h5>
+                </li>
+                     
+            
+                        <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Duodenitis with erosion" href="images/img13.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img13.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Duodenitis with erosion</h5>
+                </li>
+            
+                     
+        </ul><!--/thumbnails-->
+        <ul class="thumbnails">
+                   <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Sliding hiatus hernia.Prolapsing gastropathy" href="images/img14.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img14.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Sliding hiatus hernia.Prolapsing gastropathy</h5>
+                </li>
+                     
+            
+                        <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Sliding hiatus with Barrets oesopaghus" href="images/img15.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img15.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Sliding hiatus with Barrets oesopaghus</h5>
+                </li>
+            
+                     
+        </ul><!--/thumbnails-->
+         <ul class="thumbnails">
+                   <li class="span9">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Thickened irregular mucosal folds with poor distensibility involving the fundus and body of the stomach " href="images/img17.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img17.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Thickened irregular mucosal folds with poor distensibility involving the fundus and body of the stomach</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Sliding hiatus with Barrets oesopaghus" href="images/img43.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img43.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Few nodules seen in the body of stomach along the greater curvature.</h5>
+                </li>
+            
+                     
+        </ul><!--/thumbnails-->
+             <ul class="thumbnails">
+                   <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Ingestion of foreign body One Rupee coin - (Endoscopic retrieval done from Stomach)" href="images/img44.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img44.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Ingestion of foreign body One Rupee coin - (Endoscopic retrieval done from Stomach)</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Granular mucosa in 2nd part duodenum" href="images/img18.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img18.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Granular mucosa in 2nd part duodenum</h5>
+                </li>
+                
+                 <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Gastritis with patchy erosion" href="images/img19.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img19.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Gastritis with patchy erosion</h5>
+                </li>
+                
+                 <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Prolapsing gastropathy with linear erosion LEO" href="images/img20.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img20.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Prolapsing gastropathy with linear erosion LEO</h5>
+                </li>
+            
+                     
+        </ul><!--/thumbnails-->
+<ul class="thumbnails">
+                   <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Large sliding hiatus hernia With erosion LEO" href="images/img23.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img23.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Large sliding hiatus hernia With erosion LEO</h5>
+                </li>
+                     
+            
+                        <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Status transhiatal oesophagectomy with cervical Oesophagogastric anastomosis " href="images/img24.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img24.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Status transhiatal oesophagectomy with cervical Oesophagogastric anastomosis</h5>
+                </li>
+            
+                     
+        </ul><!--/thumbnails--> 
+<ul class="thumbnails">
+                   <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Early Grade 1 varices" href="images/img21.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img21.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Early Grade 1 varices</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Gastritis with patchy erosion" href="images/img22.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img22.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Gastritis with patchy erosion</h5>
+                </li>
+                
+                   <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Patchy Antral erosions" href="images/img41.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img41.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Patchy Antral erosions</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Active ulcer with deformity and mild narrowing in part 1 duodenum" href="images/img29.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img29.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Active ulcer with deformity and mild narrowing in part 1 duodenum</h5>
+                </li>            
+                     
+        </ul><!--/thumbnails--> 
+        
+<ul class="thumbnails">
+                   <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="prolapsing gasrtopathy" href="images/img25.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img25.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">prolapsing gasrtopathy</h5>
+                </li>
+                     
+            
+                        <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Hemorrhagic erosion" href="images/img27.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img27.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Hemorrhagic erosion</h5>
+                </li>           
+        </ul><!--/thumbnails-->
+        
+        <ul class="thumbnails">
+                   <li class="span9">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Multiple diverticulam in duodenum 2nd part and peri-ampullary region" href="images/img30.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img30.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Multiple diverticulam in duodenum 2nd part and peri-ampullary region</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Lax LES" href="images/img31.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img31.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Lax LES</h5>
+                </li>           
+        </ul><!--/thumbnails-->
+        
+ <ul class="thumbnails">
+                   <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Sub mucosal swelling in oesophagus. submucosal nodule along the lesser curvature" href="images/img33.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img33.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Sub mucosal swelling in oesophagus. submucosal nodule along the lesser curvature</h5>
+                </li>
+                     
+            
+                        <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Multiple diverticuli in part 2 duodenum" href="images/img40.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img40.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Multiple diverticuli in part 2 duodenum</h5>
+                </li>           
+        </ul><!--/thumbnails-->   
+ <ul class="thumbnails">
+                   <li class="span9">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Ulcero proliferative growth in middle and lower 1/3rd of rectum, Starting 3cm from the anal verge and extending upto 8cms proximally." href="images/img35.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img35.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Ulcero proliferative growth in middle and lower 1/3rd of rectum, Starting 3cm from the anal verge and extending upto 8cms proximally.</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Lax LES, Large Sliding hiatus hernia" href="images/img34.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img34.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Lax LES, Large Sliding hiatus hernia</h5>
+                </li>           
+        </ul><!--/thumbnails-->  
+        
+<ul class="thumbnails">
+                   <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="ACHALASIA CARDIA (DIALATED ESOPHAGUS WITH FOOD STASIS)" href="images/img37.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img37.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">ACHALASIA CARDIA (DIALATED ESOPHAGUS WITH FOOD STASIS)</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Oesophageal stent. (Palliative treatment for inoperable Cancer Oesophagus)" href="images/img42.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img42.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Oesophageal stent. (Palliative treatment for inoperable Cancer Oesophagus)</h5>
+                </li> 
+                             <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Active ulcer with deformity and mild narrowing in part 1 duodenum" href="images/img39.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img39.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Active ulcer with deformity and mild narrowing in part 1 duodenum</h5>
+                </li>  
+                             <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Duodenitis with erosions" href="images/img32.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img32.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Duodenitis with erosions</h5>
+                </li>            
+        </ul><!--/thumbnails-->                      
+  <ul class="thumbnails">
+                   <li class="span9">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Ulcero proliferative growth in middle and lower 1/3rd of rectum, Starting 3cm from the anal verge and extending upto 8cms proximally." href="images/img35.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img35.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Ulcero proliferative growth in middle and lower 1/3rd of rectum, Starting 3cm from the anal verge and extending upto 8cms proximally.</h5>
+                </li>
+                     
+            
+                        <li class="span3">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Lax LES, Large Sliding hiatus hernia" href="images/img34.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img34.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">Lax LES, Large Sliding hiatus hernia</h5>
+                </li>           
+        </ul><!--/thumbnails-->  
+        
+<ul class="thumbnails">
+                   <li class="span6">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="-Rectal polyp. Polypectomy done using diathermy. (Endo cut - Q mode)" href="images/img38.jpg">
+                    <div class="overlay-zoom ">	
+                        <img src="images/img38.jpg" alt="" />
+                        <div class="zoom-icon"></div>					
+                    </div>												
+                </a>
+                 <h5 class="new4">-Rectal polyp. Polypectomy done using diathermy. (Endo cut - Q mode)</h5>
+                </li>
+                     
+        </ul><!--/thumbnails-->                                  
+        </div><!-- end gallery -->
+
+
+
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="footer">
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+
+<div class="span3">
+<div class="new">
+<h4 class="ali6">Endoscopy Atlas</h4>
+<div class="row-fluid">
+<div class="span12">
+<div class="span6"><center><img src="images/foo.jpg"></center><h5 style="text-align:center; color:#FFF;">Normal pylorus</h5></div>
+<div class="span6"><center><img src="images/foo2.jpg"></center><h5 style="text-align:center; color:#FFF;">Schatzki's ring</h5></div>
+</div>
+</div>
+</div>
+<h4 class="ali2"><a href="Endoscopy.html">Read More</a></h4>
+</div>
+
+<div class="span3">
+<div class="new new2">
+<h4 class="ali6">News and Events</h4>
+<marquee loop="true" onmouseout="start();" onmouseover="stop();">
+<a href="news.html"><img src="images/news1.jpg"></a>
+<a href="news.html"><img src="images/news2.jpg"></a>
+<a href="news.html"><img src="images/news3.jpg"></a>
+<a href="news.html"><img src="images/news4.jpg"></a>
+<a href="news.html"><img src="images/news5.jpg"></a>
+<a href="news.html"><img src="images/news6.jpg"></a>
+<a href="news.html"><img src="images/news7.jpg"></a>
+<a href="news.html"><img src="images/news8.jpg"></a>
+<a href="news.html"><img src="images/news9.jpg"></a>
+<a href="news.html"><img src="images/news10.jpg"></a>
+<a href="news.html"><img src="images/news11.jpg"></a>
+<a href="news.html"><img src="images/news12.jpg"></a>
+<a href="news.html"><img src="images/news13.jpg"></a>
+<a href="news.html"><img src="images/news14.jpg"></a>
+</marquee>
+</div>
+</div>
+
+<div class="span3">
+<div class="new new3">
+<h4 class="ali6">Contact Us</h4>
+<b>Dr. K. SENDHIL KUMAR</b><br/>
+MS, FICS, FACS (USA), DNB (Surg. Gastro) <br/>
+Surgical Gastroenterologist & Laparoscopic Surgeon<br/><br/>
+
+43, Periyasamy Road (West),<br/>
+Behind Eye Foundation, R.S. Puram,<br/>
+Coimbatore - 641 002,<br/>
+Tamil Nadu, India.<br/><br/>
+
+Phone : 0422 2542244<br/>
+Mobile : 9245731318<br/>
+</div>
+</div>
+
+<div class="span3">
+<div class="new">
+<h4 class="ali6">Information</h4>
+<ul class="ali7">
+<li>Home</li>
+<li>About Us</li>
+<li>Services</li>
+<li>Gallery</li>
+<li>Categories</li>
+<li>Medical Tourism</li>
+<li>Contact Us</li>
+</ul>
+<h4 class="ali6">Follow Us</h4>
+<a href="#"><img src="images/facebook.png"></a>
+<a href="#"><img src="images/twitter.png"></a>
+<a href="#"><img src="images/linkedin.png"></a>
+<a href="#"><img src="images/googleplus.png"></a>
+<a href="#"><img src="images/p1.png"></a>
+<a href="#"><img src="images/p2.png"></a>
+<a href="#"><img src="images/p3.png"></a>
+</div>
+</div>
+
+</div>
+</div>
+
+<hr/>
+<div style="padding-top:15px;">
+<div class="row-fluid"><div class="span12">
+<div class="span4"><p style="color:#FFF;">Copyright &#169; 2015 Gateway Clinics</p></div>
+<div class="span4 pull-right"><p class="pull-right" style="color:#FFF;">Designed by : <a href="http://marvelouswebsolutions.com" target="_blank" class="ss">Marvelouswebsolutions.com</a></p></div>
+</div></div>
+</div>
+</div>
+</div>
+<!-- gallery -->
+<!-- JS Global Compulsory -->           
+<script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>        
+<!-- JS Implementing Plugins -->           
+<script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        App.initFancybox();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/js/respond.js"></script>
+<![endif]-->
+<!-- end gallery -->
+
+<!-- banner -->
+<script type="text/javascript" src="js/d.js"></script>
+<script type="text/javascript" src="js/e.js"></script>
+<!-- end banner -->
+
+       
+<script type="text/javascript" src="js/back-to-top.js"></script>
+<!-- end click to top -->
+
+ <script type="text/javascript" src="js/bootstrap.js"></script>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gateway Clinics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 	
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<style type="text/css">
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.eot'); /* IE9 Compat Modes */
+  src: url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.woff') format('woff'), /* Modern Browsers */
+       url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/MyriadPro-BoldCond/613952637-MyriadPro-BoldCond.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'MyWebFont2';
+  src: url('fonts/DroidSans/351806641-DroidSans.eot'); /* IE9 Compat Modes */
+  src: url('fonts/DroidSans/351806641-DroidSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/DroidSans/351806641-DroidSans.woff') format('woff'), /* Modern Browsers */
+       url('fonts/DroidSans/351806641-DroidSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/DroidSans/351806641-DroidSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+</style>
+<!--title animation-->
+<script type="text/javascript">
+function tb8_makeArray(n){
+this.length = n;
+return this.length;
+}
+tb8_messages = new tb8_makeArray(3);
+tb8_messages[0] = "Gateway Clinics";
+tb8_messages[1] = "Gateway Clinics";
+tb8_messages[2] = "Gateway Clinics";
+tb8_rptType = 'infinite';
+tb8_rptNbr = 5;
+tb8_speed = 100;
+tb8_delay = 2000;
+var tb8_counter=1;
+var tb8_currMsg=0;
+var tb8_tekst ="";
+var tb8_i=0;
+var tb8_TID = null;
+function tb8_pisi(){
+tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+document.title = tb8_tekst;
+tb8_sp=tb8_speed;
+tb8_i++;
+if (tb8_i==tb8_messages[tb8_currMsg].length){
+tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+}
+if (tb8_currMsg == tb8_messages.length){
+if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+clearTimeout(tb8_TID);
+return;
+}
+tb8_counter++;
+tb8_currMsg = 0;
+}
+tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+}
+tb8_pisi()
+</script>
+<!--end title animation-->
+<link rel="shortcut icon" href="images/fav.png" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="css/media.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/ndrop.css" rel="stylesheet" type="text/css">
+
+<!-- banner -->
+<link rel="stylesheet" type="text/css" href="css/2.css" />
+<script type="text/javascript" src="js/a.js"></script>
+<!-- end banner -->
+
+
+
+
+</head>
+
+<body>
+<div class="top">
+<div class="container">
+
+<div class="row-fluid">
+<div class="span12">
+<div class="span3"><img src="images/logo.png"></div>
+<div class="span2"><div style="padding-top:20px;"><!-- <a href="#"><img src="images/company.jpg"></a>  --> </div></div>
+<div class="span7 pull-right">
+<div class="button">
+
+
+          <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a>
+                    <ul class="submenu">
+                       <li><a href="Facilities.html">Facilities</a></li>
+					<li><a href="Training.html">Training</a></li>
+					<li><a href="Slide-Atlas.html">Slide Atlas</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Services</a>
+                    <ul class="submenu">
+                       	<li><a href="Appendix.html">Appendix</a></li>
+					<li><a href="Cancer.html">Cancer</a></li>
+					<li><a href="Gallbladder.html">GallBladder</a></li>
+                    <li><a href="Hernia-Ipom.html">Hernia Ipom</a></li>
+					<li><a href="Hysterectomy.html">Hysterectomy</a></li>
+					<li><a href="Inguinal-Hernia.html">Ingunal Hernia</a></li>
+                    <li><a href="Piles.html">Piles (Hemorrhoids)</a></li>
+					<li><a href="Anal-Fistula.html">Anal Fistula</a></li>
+					<li><a href="Endoscopy.html">Endoscopy</a></li>
+                    <li><a href="Colonoscopy.html">Colonoscopy</a></li>
+					<li><a href="ERCP.html">ERCP</a></li>
+					<li><a href="Weight Loss.html">Weight Loss Surgery</a></li>
+                    <li><a href="Sleeve-Gastrectomy.html">Sleeve Gastrectomy</a></li>
+					<li><a href="Gastric-Bypass-Surgery.html">Gastric Bypass Surgery</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Gallery</a>
+                    <ul class="submenu">
+					<li><a href="gallery.html">Photo Gallery</a></li>
+					<li><a href="video-gallery.html">Video Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Categories</a>
+                 <ul class="submenu">
+					<li><a href="Doctor-Page.html">Doctor's Page</a></li>
+					<li><a href="Social-Service.html">Social Services</a></li>
+					<li><a href="about-management.html">About Management</a></li>
+					<li><a href="Infrastructure.html">Infrastructure</a></li>
+                    </ul>
+                </li>
+                <li><a href="medical.html">Medical Tourism</a></li>
+                <li><a href="#">Contact Us</a>
+                 <ul class="submenu">
+					<li><a href="contact.php">Coimbatore</a></li>
+					<li><a href="chennai.php">Chennai</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div><!-- end top -->
+<div style="padding-top:2px; background-color:#0b5789;"></div>
+<div class="banner">
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+<li><img src="images/newb1.jpg" alt="" title="" id="wows1_0"/></li>
+<li><img src="images/banner2.jpg" alt="" title="" id="wows1_1"/></li>
+<li><img src="images/banner3.jpg" alt="" title="" id="wows1_2"/></li>
+<li><img src="images/banner4.jpg" alt="" title="" id="wows1_2"/></li>
+</ul></div>
+</div>
+</div>
+<div style="padding-top:2px; background-color:#0b5789;"></div>
+<div style="padding-top:20px;"></div>
+
+<div class="welocme">
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+
+<div class="span3">
+<div class="wid"><h4 style="text-align:center; background-color:#0B5789; color:#FFF; margin:0; padding-top:10px; padding-bottom:10px;" class="wid2">Our Services</h4>
+<ul class="wid3">
+<li><a class="se" href="Appendix.html">Appendix</a></li>
+<li><a class="se" href="Cancer.html">Cancer</a></li>
+<li><a class="se" href="Gallbladder.html">GallBladder</a></li>
+<li><a class="se" href="Hernia-Ipom.html">Hernia Ipom</a></li>
+<li><a class="se" href="Hysterectomy.html">Hysterectomy</a></li>
+<li><a class="se" href="Inguinal-Hernia.html">Ingunal Hernia</a></li>
+<li><a class="se" href="Piles.html">Piles (Hemorrhoids)</a></li>
+<li><a class="se" href="Anal-Fistula.html">Anal Fistula</a></li>
+<li><a class="se" href="Endoscopy.html">Endoscopy</a></li>
+<li><a class="se" href="Colonoscopy.html">Colonoscopy</a></li>
+<li><a class="se" href="ERCP.html">ERCP</a></li>
+<li><a class="se" href="Weight Loss.html">Weight Loss Surgery</a></li>
+<li><a class="se" href="Sleeve-Gastrectomy.html">Sleeve Gastrectomy</a></li>
+<li style="border:none;"><a class="se" href="Gastric-Bypass-Surgery.html">Gastric Bypass Surgery</a></li>
+</ul></div>
+</div>
+
+<div class="span9"><h4 class="ali4" style="padding-bottom:20px;">Laparoscopic Approach to Weight Loss Surgery</h4>
+<h5>Laparoscopic Approach</h5>
+<p align="justify">All the procedures are performed Laparoscopically. When a Laparoscopic operation is performed, a small video camera inserted into the abdomen allows the surgeon to conduct and view the surgery on a video monitor.</p>
+<p align="justify">The camera and surgical instruments are usually inserted through small incisions made in the abdominal wall.</p>
+<p align="justify">Laparoscopic procedures for <b>weight loss surgery employ</b> the same principles as their 'open' counterparts and produce similar excess weight loss.</p>
+Compared to open surgery, some benefits of <b>laparoscopic surgery</b> include Faster recovery and return to pre-surgical level of activity. 
+<br/><br/>
+<div class="row-fluid"><div class="span12">
+<div class="span3"><img src="images/stomach1.jpg" class="img-polaroid"></div>
+<div class="span3"><img src="images/stomach2.jpg" class="img-polaroid"></div>
+</div></div>
+<br/>
+<p align="justify">Modern laparoscopic treatment offers the following advantages </p>
+<ul class="ali11">
+<li>Short stay</li>
+<li>Practically pain free</li>
+<li>No wound related complications.</li>
+<li>Patients returns to work in less than a week.</li>
+<li>Cosmetically 5 tiny scars 1/2 - 1 1/2 cm.</li>
+<li>Low complication rate comparable to any other surgery.</li>
+<li>Improves overall quality of life .</li>
+</ul>
+<p align="justify">Risk All major surgery involves a certain level of risk. Risks involved with weight loss surgery vary according to procedure performed. Complications</p>
+<ul class="ali11">
+<li>Re-operation rate 1%</li>
+<li>Anastomotic leak 1%</li>
+<li>Anastomotic stricture 2%</li>
+<li>Wound infection 1%</li>
+<li>Obstruction 5%</li>
+<li>Deep vein thrombosis 1%</li>
+</ul>
+
+<h4>Side Effects</h4>
+<ul class="ali11">
+<li>Restriction of eating small meal indefinitely.</li>
+<li>Occasional Vomiting / Regurgitations.</li>
+<li>Minor hair loss.</li>
+<li>Occasional constipation.</li>
+<li>Loose / Boggy skin.</li>
+<li>Deficiency of Protein /Vitamins if supplements are stopped.</li>
+</ul>
+<h4>MPORTANT CONSIDERATIONS FOR All WEIGHT LOSS SURGERY</h4>
+<h5>Surgery should not be considered until all other options have been evaluated</h5>
+<ul class="ali11">
+<li>Weight loss surgery is not a cosmetic surgery.</li>
+<li>The decision to elect surgical treatment requires an assessment of the risk and benefit to you and the meticulous performance of the appropriate surgical procedure.</li>
+<li>The success of weight loss surgery is dependent on your long term lifestyle changes in diet, exercise and behavior modification.</li>
+<li>In a survey of over 10,000 patients, the mortality rate for weight loss surgery was 0.30%.</li>
+</ul>
+<p align="justify">What defines successful weight loss surgery?</p>
+<h4>A recent study established the following criteria</h4>
+<ul class="ali11">
+<li>The ability to achieve and maintain loss of at least 50% of excess body weight without having substantial adverse effects.</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="footer">
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+
+<div class="span3">
+<div class="new">
+<h4 class="ali6">Endoscopy Atlas</h4>
+<div class="row-fluid">
+<div class="span12">
+<div class="span6"><center><img src="images/foo.jpg"></center><h5 style="text-align:center; color:#FFF;">Normal pylorus</h5></div>
+<div class="span6"><center><img src="images/foo2.jpg"></center><h5 style="text-align:center; color:#FFF;">Schatzki's ring</h5></div>
+</div>
+</div>
+</div>
+<h4 class="ali2"><a href="Endoscopy.html">Read More</a></h4>
+</div>
+
+<div class="span3">
+<div class="new new2">
+<h4 class="ali6">News and Events</h4>
+<marquee loop="true" onmouseout="start();" onmouseover="stop();">
+<a href="news.html"><img src="images/news1.jpg"></a>
+<a href="news.html"><img src="images/news2.jpg"></a>
+<a href="news.html"><img src="images/news3.jpg"></a>
+<a href="news.html"><img src="images/news4.jpg"></a>
+<a href="news.html"><img src="images/news5.jpg"></a>
+<a href="news.html"><img src="images/news6.jpg"></a>
+<a href="news.html"><img src="images/news7.jpg"></a>
+<a href="news.html"><img src="images/news8.jpg"></a>
+<a href="news.html"><img src="images/news9.jpg"></a>
+<a href="news.html"><img src="images/news10.jpg"></a>
+<a href="news.html"><img src="images/news11.jpg"></a>
+<a href="news.html"><img src="images/news12.jpg"></a>
+<a href="news.html"><img src="images/news13.jpg"></a>
+<a href="news.html"><img src="images/news14.jpg"></a>
+</marquee>
+</div>
+</div>
+
+<div class="span3">
+<div class="new new3">
+<h4 class="ali6">Contact Us</h4>
+<b>Dr. K. SENDHIL KUMAR</b><br/>
+MS, FICS, FACS (USA), DNB (Surg. Gastro) <br/>
+Surgical Gastroenterologist & Laparoscopic Surgeon<br/><br/>
+
+43, Periyasamy Road (West),<br/>
+Behind Eye Foundation, R.S. Puram,<br/>
+Coimbatore - 641 002,<br/>
+Tamil Nadu, India.<br/><br/>
+
+Phone : 0422 2542244<br/>
+Mobile : 9245731318<br/>
+</div>
+</div>
+
+<div class="span3">
+<div class="new">
+<h4 class="ali6">Information</h4>
+<ul class="ali7">
+<li>Home</li>
+<li>About Us</li>
+<li>Services</li>
+<li>Gallery</li>
+<li>Categories</li>
+<li>Medical Tourism</li>
+<li>Contact Us</li>
+</ul>
+<h4 class="ali6">Follow Us</h4>
+<a href="#"><img src="images/facebook.png"></a>
+<a href="#"><img src="images/twitter.png"></a>
+<a href="#"><img src="images/linkedin.png"></a>
+<a href="#"><img src="images/googleplus.png"></a>
+<a href="#"><img src="images/p1.png"></a>
+<a href="#"><img src="images/p2.png"></a>
+<a href="#"><img src="images/p3.png"></a>
+</div>
+</div>
+
+</div>
+</div>
+
+<hr/>
+<div style="padding-top:15px;">
+<div class="row-fluid"><div class="span12">
+<div class="span4"><p style="color:#FFF;">Copyright &#169; 2015 Gateway Clinics</p></div>
+<div class="span4 pull-right"><p class="pull-right" style="color:#FFF;">Designed by : <a href="http://marvelouswebsolutions.com" target="_blank" class="ss">Marvelouswebsolutions.com</a></p></div>
+</div></div>
+</div>
+</div>
+</div>
+
+
+<!-- banner -->
+<script type="text/javascript" src="js/d.js"></script>
+<script type="text/javascript" src="js/e.js"></script>
+<!-- end banner -->
+<script type="text/javascript" src="js/ndrop1.js"></script>
+<script type="text/javascript" src="js/ndrop2.js"></script>
+
+ <!-- click to top -->
+       
+<script type="text/javascript" src="js/back-to-top.js"></script>
+<!-- end click to top -->
+
+ <script type="text/javascript" src="js/bootstrap.js"></script>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

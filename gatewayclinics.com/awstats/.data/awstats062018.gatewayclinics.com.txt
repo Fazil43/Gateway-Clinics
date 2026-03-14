@@ -1,0 +1,3879 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201806 will be lost/reset.
+# Last config file used to build this data file was /home/gatewayclinics/tmp/awstats/awstats.gatewayclinics.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2692                
+POS_VISITOR 32529               
+POS_DAY 113248              
+POS_DOMAIN 3726                
+POS_LOGIN 5748                
+POS_ROBOT 5903                
+POS_WORMS 7848                
+POS_EMAILSENDER 7979                
+POS_EMAILRECEIVER 8122                
+POS_SESSION 114205              
+POS_SIDER 114418              
+POS_FILETYPES 8257                
+POS_DOWNLOADS 8608                
+POS_OS 9015                
+POS_BROWSER 9533                
+POS_SCREENSIZE 14298               
+POS_UNKNOWNREFERER 14372               
+POS_UNKNOWNREFERERBROWSER 15221               
+POS_ORIGIN 17599               
+POS_SEREFERRALS 17752               
+POS_PAGEREFS 19644               
+POS_SEARCHWORDS 21333               
+POS_KEYWORDS 23611               
+POS_MISC 2356                
+POS_ERRORS 25725               
+POS_CLUSTER 5604                
+POS_SIDER_404 25887               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180701003024 1 0 8712285149489
+FirstTime 20180601012855
+LastTime 20180630214629
+LastUpdate 20180702001436 1 0 0 0 0
+TotalVisits 1005                
+TotalUnique 773                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 2632                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 284 3015 225726518 955 1238 175130125
+1 280 2655 191307417 199 410 7510789
+2 1590 6864 459422362 169 477 144809995
+3 1168 5352 309650476 204 641 32177753
+4 182 1570 92391185 118 423 47502491
+5 184 2379 140938184 77 330 26887435
+6 218 2226 106968394 94 313 27908865
+7 207 3326 295945009 131 380 52521291
+8 295 3007 150676875 348 554 59399026
+9 168 2484 186136091 129 322 67403662
+10 194 2074 117758850 113 286 43598681
+11 204 2847 445445726 157 347 117537852
+12 110 1342 30878774 736 960 72251187
+13 71 834 24370975 435 630 187952825
+14 123 2272 128704428 357 512 34348070
+15 70 414 18134130 386 563 15917735
+16 63 740 23180010 413 585 53719485
+17 164 725 25703904 269 556 54223202
+18 67 367 9167559 299 482 59857662
+19 23 224 9872045 1090 1289 65536393
+20 99 874 36216190 827 1061 52914654
+21 87 922 29630838 351 561 104673922
+22 227 2651 176391050 283 507 89152682
+23 314 3520 359368802 333 543 37683076
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 118
+in 4207 31385 1804908090
+us 872 8201 514660557
+ip 342 5438 554058356
+gb 155 558 21156295
+ru 101 179 10335629
+ua 96 105 3676721
+cn 77 246 8670738
+nl 48 251 10007551
+au 46 515 26573623
+ca 40 546 38380495
+at 30 325 19809265
+ae 28 302 46381600
+za 25 697 17234149
+zz 24 219 15551473
+om 19 290 210281231
+sa 17 292 7891849
+pk 17 80 1493000
+sg 15 189 13220518
+ir 14 175 8451272
+jp 14 193 5602408
+gr 13 184 2288061
+ph 11 140 11596642
+qa 11 185 34170245
+fr 11 33 1675258
+th 10 121 2909656
+al 1 3 124811
+dz 0 6 578938
+tt 0 2 172946
+sk 0 6 327611
+pe 4 70 931870
+fi 0 2 127830
+gi 0 1 67361
+lu 0 1 37939
+ie 5 104 2155117
+tn 0 1 82945
+si 0 2 91849
+se 0 6 756809
+mm 4 70 1236883
+lb 0 6 824044
+gn 0 1 33927
+lv 0 3 209834
+hu 0 4 141543
+cu 0 1 57403
+il 4 29 894597
+dm 1 1 8658
+ve 0 2 405280
+cr 0 2 215290
+ng 1 2 67144
+ar 1 7 622055
+az 0 3 500417
+uy 0 5 385537
+hk 1 5 212965
+mk 0 3 244739
+pl 3 10 823039
+my 7 168 2793494
+ec 0 3 207426
+dk 0 3 161047
+kw 7 38 746628
+lk 1 5 316185
+rs 0 2 218174
+pt 2 4 187342
+eu 1 19 508189
+iq 0 7 322017
+nz 0 6 568525
+ba 1 3 323682
+co 0 5 476298
+gh 4 31 411938
+be 1 12 861615
+rw 0 1 6599
+br 4 23 1481972
+tw 6 72 7196496
+sb 0 1 109087
+bh 0 2 164080
+jo 0 2 142891
+pa 0 1 71774
+lt 0 3 8017405
+cy 0 3 164208
+pg 0 1 24233
+mw 1 7 8658
+ee 0 1 33927
+bg 1 4 510497
+ge 0 4 193227
+so 4 65 778603
+do 0 5 239644
+es 4 33 1439964
+tz 4 30 412451
+vn 0 3 163457
+by 1 1 8658
+cz 1 5 414675
+it 10 117 2150447
+ao 0 2 98345
+bb 0 1 109087
+gy 4 144 1181985
+md 0 1 24233
+is 1 1 33217
+af 0 1 63859
+no 0 6 444667
+eg 8 48 1897585
+jm 0 2 320461
+tr 2 29 1275766
+ch 0 9 547493
+gt 0 1 26855
+kr 4 41 2710347
+et 4 83 1005605
+mx 1 16 940630
+ro 7 17 1357781
+ma 1 20 327839
+kz 1 2 103213
+ke 0 2 166490
+bd 0 7 815386
+cl 2 9 397826
+de 5 26 1711715
+zw 0 1 384826
+bo 0 2 160882
+hr 0 8 630160
+np 8 43 756641
+id 9 105 2288865
+mu 7 160 974204
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 43
+crawl 2228 25111172 20180629201209 36
+bingbot/ 2069 444491754 20180630234422 96
+Googlebot/ 1468 216476831 20180630214403 49
+SemrushBot/ 746 8785569 20180628231023 13
+Googlebot\-Image/ 650 8574650 20180630110948 0
+SeznamBot/ 607 404241882 20180630232042 254
+[\s_+:,\.\;\/\\-]bot 532 13267882 20180630231026 0
+spbot/ 530 5864382 20180610125456 1
+DomainCrawler/ 508 25068255 20180608004259 1
+007ac9[\x20]Crawler 497 5549472 20180624193035 1
+java 428 16774487 20180626203849 0
+Baiduspider/ 276 9616077 20180630232528 5
+CCBot/ 221 11887110 20180624204342 7
+Google[\x20]Web[\x20]Preview 213 2982377 20180627121331 0
+YandexBot/ 212 113423817 20180630221215 107
+Applebot/ 211 1233874 20180630200036 63
+bingpreview 209 95788648 20180630170354 0
+MJ12bot/ 186 2450448 20180629224958 24
+AhrefsBot/ 168 2339820 20180630220521 51
+DotBot/ 101 7858474 20180630212026 57
+Sogou[\x20]web[\x20]spider/ 86 5987971 20180629215924 16
+YandexImages/ 75 95096812 20180630171031 0
+SiteExplorer/ 69 598008 20180619100445 4
+baidu 52 6016204 20180628212920 0
+no_user_agent 37 5885872 20180628204047 1
+MojeekBot/ 8 36921 20180611174611 4
+link 6 81271 20180626163215 1
+DuckDuckGo\-Favicons\-Bot/ 14 72884 20180628095536 0
+Mail\.RU_Bot/ 16 44676 20180629110408 9
+facebookexternalhit/ 3 113817 20180608075940 0
+unknown 32 992 20180629200202 32
+Cliqzbot/ 6 28447 20180629204814 3
+curl 1 0 20180610192646 0
+(firefox/)([0-9]\.|[0-1][0]\.) 34 909552 20180630023017 14
+AdsBot\-Google[\x20]\( 20 220624 20180620125417 0
+MSIECrawler 3 99651 20180606143719 0
+archive\.org_bot 17 527 20180629063330 17
+360Spider 16 138528 20180629160748 0
+linkdexbot/ 7 64028 20180628014106 2
+Dalvik/ 12 70362746 20180628223449 0
+netEstate[\x20]NE[\x20]Crawler 20 179376 20180605082532 1
+KomodiaBot/ 1 33217 20180607111348 0
+bot[\s_+:,\.\;\/\\-] 10 72815 20180630022559 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+woff 1042 43972636 0 0
+html 1838 29873399 0 0
+css 4116 26656569 0 0
+png 4267 138144498 0 0
+svg 5 130607 0 0
+gif 324 712096 0 0
+eot 14 534387 0 0
+xml 1 837 0 0
+pdf 17 348554155 0 0
+ttf 122 5938432 0 0
+jpg 31204 2776882808 0 0
+js 6359 71503149 0 0
+swf 56 716072 0 0
+php 3319 12295894 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 7
+/data/uploads/mch-page-2.pdf 35 2 439502993
+/data/uploads/mch-page-1.pdf 34 0 405391430
+/data/uploads/about-page.pdf 19 28 413906394
+/data/uploads/mch-page-3.pdf 13 3 291575441
+/data/uploads/newsletter.pdf 8 0 51478720
+/data/uploads/course.pdf 8 0 2332472
+/data/uploads/Laparoscopic%20Hernia%20surgery%20Information%20Booklet%20for%20Patients.pdf 6 0 7072128
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 33
+win98 2 2
+j2me 94 15
+macosx12 60 31
+macosx7 1 0
+win7 7108 809
+ios_ipod 1 0
+win16 3 3
+win10 10355 2594
+winphone 62 11
+wince 3 3
+linux 295 70
+winunknown 3 3
+Unknown 271 136
+winnt 25 25
+unix 81 4
+macosx8 6 3
+ios_ipad 314 19
+linuxubuntu 5 4
+macosx5 4 4
+macosx 319 43
+winlong 217 36
+winxp 249 70
+ios_iphone 4224 280
+win2003 14 14
+win8.1 801 89
+win2000 13 13
+macosx9 7 0
+linuxandroid 28000 2053
+win95 4 4
+win8 95 9
+macosx11 42 26
+macosx10 25 6
+macosx6 14 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 229
+chrome62.0.3202.94 5 5
+firefox33.0 12 11
+opera7.54 4 4
+chrome38.0.2125.102 20 1
+chrome68.0.3440.25 1 0
+chrome34.0.1825.4 1 0
+chrome28.0.1467.0 1 1
+chrome67.0.3396.99 4375 848
+chrome40.0.2214.85 114 12
+safari6.0.2 1 1
+chrome63.0.3205.0 20 3
+iphone 198 0
+chrome58.0.2991.0 55 6
+chrome32.0.1700.107 4 4
+firefox38.0 2 2
+chrome52.0.2743.116 6 5
+chrome58.0.3029.96 1 1
+firefox52.0 407 20
+chrome52.0.2743.98 52 10
+chrome50.0.2661.102 18 18
+msie8.0 26 4
+opera52.0.2871.64 53 1
+firefox56.0 210 14
+chrome67.0.3396.87 8044 937
+chrome64.0.3282.186 71 8
+chrome54.0.2840.99 17 17
+firefox53.0 4 2
+chrome66.0.3359.170 1 0
+chrome66.0.3359.126 199 9
+chrome49.0.2623.110 1 0
+safari10.1 2 0
+chrome54.0.2840.71 1 0
+safari5.1 6 4
+firefox59.0.1 2 0
+safari9.0 312 11
+chrome39.0.0.0 65 4
+chrome33.0.0.0 5 0
+safari5.0.6 2 2
+chrome65.0.3325.181 783 141
+chrome67.0.3396.68 652 36
+chrome37.0.0.0 284 19
+chrome55.0.2883.91 280 23
+msie6.0 7 7
+chrome64.0.3282.140 16 15
+chrome30.0.1599.101 1 0
+netscape3.0 1 1
+chrome37.0.2062.120 4 4
+chrome17.0.963.56 1 1
+safari7.0 1 0
+chrome33.0.1750.117 2 2
+firefox60.0 478 45
+chrome32.0.1664.3 1 1
+chrome49.0.2623.75 10 5
+chrome64.0.3282.167 2 1
+chrome38.0.1025.166 2403 134
+safari11.0.2 20 4
+chrome41.0.2272.96 33 33
+firefox58.0 15 13
+chrome67.0.3396.81 631 44
+msie3.02 3 3
+edge12 1 0
+chrome51.0.2704.106 33 6
+safari12.0 2 0
+firefox51.0 1 1
+edge17 244 47
+opera36.0.2130.80 1 0
+chrome61.0.3163.100 23 23
+chrome30.0.1599.114 5 0
+edge16 14 3
+safari11.1.1 23 0
+chrome54.0.2840.85 535 45
+chrome39.0.2171.93 55 4
+chrome31.0.1650.63 1 1
+firefox40.0 2 0
+opera8.01 4 4
+firefox47.0.1 2 2
+chrome62.0.3202.89 1 0
+chrome50.3.2661.154 1 0
+chrome26.0.1410.64 3 3
+webcapture 2 2
+safari8.0.8 2 0
+msie10.0 10 7
+safari10.1.2 6 0
+edge13 1 0
+firefox30.0 6 6
+chrome31.0.1650.34 1 0
+firefox47.0 714 244
+msie11.0 811 83
+safari6.2.6 1 0
+chrome55.0.2883.87 5 2
+chrome60.0.3112.101 1 0
+opera9.0 3 3
+chrome66.0.3359.117 58 6
+chrome66.0.3359.139 66 5
+firefox33.1 8 8
+chrome63.0.3239.108 6 2
+safari10.0.3 1 0
+chrome44.0.2403.133 269 17
+chrome60.0.3112.116 1 0
+chrome49.0.2623.105 54 5
+chrome57.0.2987.132 48 8
+safari11.0.3 6 2
+Unknown 242 128
+chrome49.0.2623.112 283 38
+opera36.0.2130.32 2 2
+chrome46.0.2480.0 1 0
+opera7.0 4 4
+chrome64.0.3282.190 67 4
+chrome60.0.3112.113 69 4
+firefox50.0 4 2
+chrome54.0.2840.68 2 0
+chrome30.0.1568.2 1 0
+firefox60.0.1 1 0
+chrome63.0.3239.111 679 41
+edge15 2 0
+chrome64.0.3282.119 10 8
+chrome41.0.2228.0 2 2
+safari5.0.2 4 4
+chrome24.0.1312.27 1 0
+mozilla 77 14
+chrome64.0.3282.123 1 0
+opera50.0.2762.67 3 3
+netscape7.1 1 1
+safari10.0.2 1 0
+android 146 12
+opera7.60 2 2
+chrome44.0.2403.89 1 1
+chrome22.0.1216.0 1 1
+chrome66.0.3359.181 2833 263
+chrome55.0.2883.95 1 0
+safari5.1.8 3 3
+safari9.0.3 1 0
+chrome45.0.2454.101 1 0
+chrome56.0.2972.99 2 2
+safari11.0.1 5 1
+firefox55.0 2 2
+opera29.0.1795.47 1 1
+chrome12.0.742.112 1 1
+chrome40.0.2214.89 1 0
+chrome59.0.3071.125 313 28
+chrome66.0.3359.106 187 7
+chrome66.0.3359.158 3195 239
+chrome53.0.2785.124 56 4
+opera9.01 2 2
+chrome60.0.3112.90 60 60
+chrome53.0.2785.146 302 10
+firefox60.0.2 1 0
+msie5.5 15 15
+firefox48.0 180 8
+chrome61.0.3163.98 256 12
+opera12.16 407 40
+safari6.1.6 1 0
+firefox30.1 2 2
+opera9.00 1 1
+firefox12.0 5 0
+chrome69.0.3452.0 55 4
+chrome46.0.2461.0 1 0
+edge14 1 0
+chrome55.0.2883.75 1 0
+chrome26.0.1410.65 1 1
+opera7.11 4 4
+msie2.0 8 8
+opera53.0.2907.99 36 9
+firefox40.1 66 66
+safari11.0 2886 200
+firefox18.0 1 0
+chrome46.0.2490.11 3 0
+chrome63.0.3239.132 24 21
+chrome65.0.3325.209 1 0
+chrome65.0.3325.109 1626 116
+safari11.1 74 3
+chrome60.0.3112.107 26 6
+firefox57.0 22 22
+chrome62.0.3202.84 285 35
+chrome57.0.2987.108 626 41
+chrome63.0.3239.84 16 15
+msie7.0 20 18
+chrome41.0.2272.118 463 26
+safari 658 56
+chrome58.0.3029.81 1 1
+opera46.3.2246.127744 1 0
+firefox61.0 56 7
+netscape0.6 1 1
+chrome58.0.3029.83 59 8
+msie5.0 8 8
+chrome50.0.2661.89 124 7
+chrome58.1.3029.81 1 0
+firefox54.0 1 1
+chrome40.0.2214.109 2 0
+safari10.1.1 2 0
+opera53.0.2907.68 7 0
+firefox44.0 1 0
+firefox32.0 2 1
+chrome30.0.0.0 7109 611
+chrome20.0.1132.21 1 0
+safari6.0.3 2 2
+chrome40.0.2214.93 1 1
+safari6.0.4 1 1
+chrome63.0.3223.8 2 2
+chrome43.0.2357.124 2 0
+firefox11.0 6 0
+chrome56.0.2924.87 666 45
+chrome67.0.3396.79 376 28
+chrome64.0.3282.137 1465 95
+safari5.1.7 4 4
+chrome53.0.2785.104 3 1
+chrome62.0.3202.75 6 6
+opera7.02 2 2
+chrome44.0.2403.119 183 21
+chrome58.0.3029.110 12 9
+firefox35.0 3 3
+chrome66.0.3359.203 6 0
+safari9.1.3 1 0
+chrome59.0.3071.122 3 0
+msie9.0 234 25
+safari11.1.2 66 4
+chrome46.0.2490.76 21 1
+chrome67.0.3396.62 317 15
+opera8.00 10 10
+firefox59.0 342 33
+vodafone 2 0
+chrome57.0.2987.133 1 0
+chrome5.0.375.99 1 1
+safari10.0 402 32
+firefox43.0 1713 734
+safari5.1.9 5 5
+chrome38.0.0.0 1 0
+chrome34.0.1847.118 159 7
+chrome53.0.2785.143 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 16
+Opera/9.80_(MAUI_Runtime;_Opera_Mini/4.4.39001/101.31;_U;_en)_Presto/2.12.423_Version/12.16 20180607035953
+Photon/1.0 20180609214307
+WhatsApp/2.18.191_A 20180623220221
+ia_archiver 20180617100908
+Mozilla/5.0_(compatible;_ips-agent) 20180610204527
+SEMrushBot 20180629162017
+python-requests/2.9.0 20180628230701
+python-requests/2.10.0 20180603080444
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20180601122942
+\ 20180608173309
+python-requests/2.14.2 20180623143715
+YahooCacheSystem;_YahooWebServiceClient 20180629160032
+Shockwave_Flash 20180629023048
+python-requests/2.18.3 20180626033541
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_5.1.1;_en-US;_SM-G531F)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20180608073237
+python-requests/2.18.4 20180611180646
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 39
+com.google.GoogleMobile/41.0.0_iPad/11.3.1_hw/iPad6_11 20180601000945
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_5.1.1;_en-US;_SM-G531F)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20180608073237
+com.google.GoogleMobile/50.0.0_iPad/11.2.2_hw/iPad4_1 20180601150738
+com.google.GoogleMobile/52.2.0_iPod_touch/11.4_hw/iPod7_1 20180630211740
+python-requests/2.18.4 20180611180646
+YahooCacheSystem;_YahooWebServiceClient 20180629160032
+com.google.GoogleMobile/42.0.0_iPad/9.3.5_hw/iPad3_1 20180629225546
+com.google.GoogleMobile/50.2.0_iPad/11.2.6_hw/iPad4_4 20180604085737
+SEMrushBot 20180629162017
+python-requests/2.10.0 20180603080444
+com.google.GoogleMobile/42.0.0_iPad/9.3.5_hw/iPad2_6 20180620200320
+com.google.GoogleMobile/51.0.0_iPad/11.1.1_hw/iPad7_3 20180629105516
+com.google.GoogleMobile/45.0.0_iPad/11.2.5_hw/iPad7_3 20180625151109
+com.google.GoogleMobile/51.0.0_iPad/11.4_hw/iPad4_5 20180621084826
+com.google.GoogleMobile/51.0.0_iPad/11.3.1_hw/iPad4_4 20180624172913
+python-requests/2.18.3 20180626033541
+com.google.GoogleMobile/43.0.0_iPad/11.2.6_hw/iPad4_1 20180611113947
+com.google.GoogleMobile/51.0.0_iPad/11.4_hw/iPad4_1 20180619131402
+com.google.GoogleMobile/51.0.0_iPad/11.4_hw/iPad5_3 20180623202639
+com.google.GoogleMobile/51.1.0_iPad/10.0.2_hw/iPad5_4 20180623162320
+com.google.GoogleMobile/46.0.0_iPad/10.3.3_hw/iPad3_6 20180623111614
+com.google.GoogleMobile/42.0.0_iPad/9.3.5_hw/iPad2_4 20180627121329
+com.google.GoogleMobile/51.1.0_iPad/11.4_hw/iPad4_4 20180617043253
+python-requests/2.14.2 20180623143715
+com.google.GoogleMobile/23.0.0_iPad/11.4_hw/iPad5_3 20180626102356
+\ 20180608173309
+Shockwave_Flash 20180629023048
+com.google.GoogleMobile/30.1.0_iPad/9.3.5_hw/iPad3_3 20180606181808
+com.google.GoogleMobile/42.0.0_iPad/9.3.5_hw/iPad2_5 20180607233552
+python-requests/2.9.0 20180628230701
+com.google.GoogleMobile/42.0.0_iPad/9.3.5_hw/iPad3_3 20180615132049
+com.google.GoogleMobile/51.1.0_iPad/11.4_hw/iPad5_4 20180624054351
+com.google.GoogleMobile/44.0.0_iPad/11.3.1_hw/iPad4_4 20180603225956
+com.google.GoogleMobile/52.2.0_iPad/11.4_hw/iPad5_3 20180629184538
+Photon/1.0 20180609214307
+ia_archiver 20180617100908
+com.google.GoogleMobile/31.0.0_iPad/9.3.5_hw/iPad2_4 20180630143025
+WhatsApp/2.18.191_A 20180623220221
+com.google.GoogleMobile/51.0.0_iPad/11.3_hw/iPad6_12 20180628132459
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 865 1661
+From1 43 43
+From2 477 1935
+From3 138 177
+From4 4869 48901
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 87
+www_google_com_pa 0 1
+www_google_com_kw 0 3
+www_google_de 0 8
+www_google_co_jp 0 2
+www_google_co_in 256 378
+www_google_com_tr 0 19
+images_search_yahoo_com 0 19
+www_google_ca 4 77
+www_google_com_pk 1 9
+www_google_co_uk 9 90
+www_google_com_eg 0 3
+www_google_com_ar 0 3
+www_google_se 0 4
+www_google_ch 0 5
+www_google_com_sg 3 8
+www_google_sk 0 6
+www_google_ro 1 4
+duckduckgo 3 3
+www_google_fi 0 1
+www_google_no 0 4
+www_google_com_pe 0 3
+www_google_nl 3 13
+www_google_com_ua 0 5
+www_google_com_np 0 4
+www_google_co_za 3 9
+www_google_com_lb 0 6
+www_google_com_ph 1 21
+www_google_rs 0 2
+www_google_ge 0 2
+uk_images_search_yahoo_com 0 2
+www_google_com_vn 0 2
+www_google_hu 0 3
+www_google_cl 0 5
+www_google_co_th 2 8
+www_google_com_au 5 35
+www_google_al 0 1
+www_google_com_mm 0 2
+baidu 2 2
+www_google_ee 0 1
+www_google_az 0 1
+www_google_it 0 11
+www_google_com 163 849
+www_google_lv 0 2
+www_google_com_ng 0 1
+www_google_gr 1 2
+www_google_pl 0 5
+www_google_ae 3 5
+www_google_lt 0 3
+search_yahoo_com 0 1
+bing 9 139
+www_google_dk 0 3
+www_google_bg 0 2
+www_google_co_il 0 1
+in_search_yahoo_com 1 1
+www_google_com_hk 0 3
+www_google_com_my 0 1
+www_google_com_ec 0 3
+www_google_ie 1 8
+www_google_com_cy 0 4
+yandexru 2 2
+www_google_co_kr 0 11
+www_google_es 1 4
+www_google_com_vc 0 1
+www_google_co_nz 0 4
+www_google_dz 0 3
+www_google_com_br 0 11
+www_google_com_uy 0 5
+www_google_com_sa 0 4
+www_google_mv 1 1
+www_google_com_bh 0 1
+www_google_com_mx 0 11
+www_google_be 0 6
+www_google_cz 0 2
+www_google_com_jm 0 2
+www_google_ru 0 1
+images_google_com 0 1
+www_google_lk 0 3
+www_google_iq 0 5
+www_google_fr 0 8
+www_google_jo 0 1
+www_google_hr 0 5
+www_google_at 0 2
+www_google_com_do 0 3
+www_google_com_co 0 2
+www_google_com_tw 2 13
+www_google_co_id 0 3
+www_google_ba 0 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 48
+https://www.cjb.net 33 33
+http://sladkoevideo.com 11 11
+https://yhirurga.ru 7 7
+https://hyip-zanoza.me 6 6
+https://krasnodar-avtolombard.ru 4 4
+http://%20gatewayclinics.com 4 4
+http://shops-ru.ru 4 4
+http://googleweblight.com 4 7
+https://slomm.ru 4 4
+http://%20www.gatewayclinics.com 4 4
+https://www.4istoshop.com 4 4
+http://shnyagi.net 3 3
+https://bird1.ru 3 3
+http://burger-imperia.com 3 3
+https://pills24h.com 3 3
+http://kino2018.cc 3 3
+https://moinozhki.com 3 3
+https://eduserver.net 3 3
+https://scat.porn 2 2
+http://avtovykup.kz 2 2
+http://l.facebook.com/l.php 2 2
+https://vzheludke.com 2 2
+https://brillianty.info 2 2
+https://ofermerah.com 2 2
+http://metallo-konstruktsii.ru 2 2
+https://m.facebook.com 1 1
+http://elvel.com.ua 1 1
+https://modforwot.ru 1 1
+https://officedocuments.net 1 1
+https://luckybull.io 1 1
+http://picflowhot.pw/anal-fissure-alcohol.html 0 6
+http://hemorrhoidinfection.club 0 1
+http://pizza-imperia.com 1 1
+https://spb-plitka.ru 1 1
+http://www.alinabaniecka.pl/en/what-do-i-offer/ 1 1
+https://l.facebook.com 1 1
+http://fidalsa.de 1 1
+http://sorus.ucoz.ru 1 1
+http://croootz.expandlive.site/mucus-in-stool-colon-cancer/ 0 1
+http://www.breastactivess.info/pics/a/anitha-kandasamy.html 0 1
+http://speechfoodie.com/hiatus-hernia-endoscopy-images/ 0 17
+http://t-rec.su 1 1
+https://filesdatabase.net 1 1
+http://keywordsuggest.org/gallery/72864.html 0 1
+https://vzubkah.com 2 2
+http://domain.com 0 9
+https://www.blog100.org/online-traffic-problems-are-now-a-thing-of-the-past/13310140/ 1 1
+https://sinhronperevod.ru 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 14
+gateway+clinic+coimbatore 8
+gateway+phone+number 2
+womenypg 1
+piles+docter+speech+tamil 1
+fishula+desic+opresh+video+in+hospital 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1824.hqptvjd6kgnqct4yh_bhabrfi0ws9vkd6y4lb8zjrqpeiubgr-l3jbbdwjgo7wvm.b175e0d44c8759bbbc0e0331fa249e18b5646724%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ykcjkrjchpdsttwxtkjwgra%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxbxk3mnvfs1pkbud1c1qznvlpc0qzzg5tcxjpshnkaky0u2c4mu1unhzkqjjauhrzng9tyjnrbmrzmwnvqzldemndcm1uumrclxettllrzfbxatzxwle%26b64e%3d2%26sign%3d9c3590d1da160960cd55be93b481fd48%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqxbyqp9t5vf6qcd1bbuut-blg0rf_dp7voa70pidyx8bhcchjwdojbm4wdmiea8xbwxvogsjiihyxnyx-q_6ncq1u4udux641zp9jwofv33fsxe02tqfghfd1vomos7m3kseu3p9aetc%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcw5ri5mztnseif2xrf6dvdhjkeqlqb7nse5smw6_al_kl4g4alvbtp63eunda-420rdm_vz-fg5sy0refiwn_ah%26l10n%3dru%26cts%3d1529457593110%26mc%3d5.43080989146 1
+gem+hospital+fissure+treatment 1
+gbk+clinic+in+coimbatore 1
+gateway+clinics-+kc+hospital+campus+coimbatore+tamil+nadu 1
+mld8 1
+gate+way+clinic+coimbatore 1
+https+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1835.s3uh5lnnbae3xuces46cmhxk7exd1g06nwfactzqi-haqduw7zbmxl0m6v9lwloy.ab1f3824e9f09d21f261f3d025dee7161efcd6ed%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yom24rr5dkidnijpu2tfuvc%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxb3pfoghobkdhwmv2dnb2wnbqnnmzndzezfitvvbod00xyjffemtzeuzvc2p5dm9hwdbmsjdvyk9kzl9nvgtovu4yyxrprwt0ue5fm0g4shhjnm04sda%26b64e%3d2%26sign%3d5fd71d1adaad7a5b96b3ed5eff861553%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqyp93xfrtkba0kirozftceie3h_e1m4j9sxxovtobtbv0ohduifueuusnwjtwngcsb-n7d7rgsntqb9dduntcly792qjwybvl6tsjbe8h02c51ah3qxrtqmihlmbwiijqe7zmsarzt3i%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvlviuok4qienee2myiwlli1hftjocaz1m9lkdl5vgujq1ec4hxma588c-tvfia0lrb8fox9ij2negfjyfazlht%26l10n%3dru%26cts%3d1530390442593%26mc%3d4.5338690583 1
+colorectal+surgeon+in+coimbatore 1
+femal+pails+operation+video 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 35
+coimbatore 12
+gateway 11
+clinic 10
+in 3
+hospital 3
+phone 2
+tamil 2
+https 2
+number 2
+video 2
+treatment 1
+desic 1
+opresh 1
+colorectal 1
+surgeon 1
+pails 1
+way 1
+gate 1
+fishula 1
+clinics- 1
+femal 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1835.s3uh5lnnbae3xuces46cmhxk7exd1g06nwfactzqi-haqduw7zbmxl0m6v9lwloy.ab1f3824e9f09d21f261f3d025dee7161efcd6ed%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0yom24rr5dkidnijpu2tfuvc%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxb3pfoghobkdhwmv2dnb2wnbqnnmzndzezfitvvbod00xyjffemtzeuzvc2p5dm9hwdbmsjdvyk9kzl9nvgtovu4yyxrprwt0ue5fm0g4shhjnm04sda%26b64e%3d2%26sign%3d5fd71d1adaad7a5b96b3ed5eff861553%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqyp93xfrtkba0kirozftceie3h_e1m4j9sxxovtobtbv0ohduifueuusnwjtwngcsb-n7d7rgsntqb9dduntcly792qjwybvl6tsjbe8h02c51ah3qxrtqmihlmbwiijqe7zmsarzt3i%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcvlviuok4qienee2myiwlli1hftjocaz1m9lkdl5vgujq1ec4hxma588c-tvfia0lrb8fox9ij2negfjyfazlht%26l10n%3dru%26cts%3d1530390442593%26mc%3d4.5338690583 1
+campus 1
+nadu 1
+docter 1
+mld8 1
+kc 1
+//yandex.ru/clck/jsredir%3ffrom%3dyandex.ru%253bsearch%253bweb%253b%253b%26text%3d%26etext%3d1824.hqptvjd6kgnqct4yh_bhabrfi0ws9vkd6y4lb8zjrqpeiubgr-l3jbbdwjgo7wvm.b175e0d44c8759bbbc0e0331fa249e18b5646724%26uuid%3d%26state%3d_blhiln4sxnivvl0w45ksic66ucig23qh8irg98qeixmeppkguc0ykcjkrjchpdsttwxtkjwgra%26data%3dulnrnmk5wktyejr0ewjfyk1ldmtxbxk3mnvfs1pkbud1c1qznvlpc0qzzg5tcxjpshnkaky0u2c4mu1unhzkqjjauhrzng9tyjnrbmrzmwnvqzldemndcm1uumrclxettllrzfbxatzxwle%26b64e%3d2%26sign%3d9c3590d1da160960cd55be93b481fd48%26keyno%3d0%26cst%3daiuy0dbwfj7ixge4wdyjqxbyqp9t5vf6qcd1bbuut-blg0rf_dp7voa70pidyx8bhcchjwdojbm4wdmiea8xbwxvogsjiihyxnyx-q_6ncq1u4udux641zp9jwofv33fsxe02tqfghfd1vomos7m3kseu3p9aetc%26ref%3dorjy4mgprjk5bodnw0uvlrrd71vzw9kp5uqozpmtkcw5ri5mztnseif2xrf6dvdhjkeqlqb7nse5smw6_al_kl4g4alvbtp63eunda-420rdm_vz-fg5sy0refiwn_ah%26l10n%3dru%26cts%3d1529457593110%26mc%3d5.43080989146 1
+fissure 1
+operation 1
+gbk 1
+piles 1
+gem 1
+speech 1
+womenypg 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+204 1 0
+404 703 1519812
+302 74 0
+206 365 21077330
+301 1 1147
+403 165 187935
+400 3 714
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 243
+/Social-Service.html 1 -
+/https://www.nlm.nih.gov/medlineplus/diabetestype1.html 3 -
+/https://twitter.com/gatewayclinics 3 -
+/images/gallb2.png 2 -
+/images/nn6.jpg 1 -
+/user/register/ 2 -
+/tel:0422%202542244 2 -
+/images/img15.jpg 2 -
+/aboutus.php 3 -
+/images/gallb1.png 1 -
+/templates/system/css/system.css 6 -
+/gallery2/mb12.jpg 2 -
+/data/uploads/tax.jpg 4 -
+/images/img3.jpg 1 -
+/images/nn10.jpg 1 -
+/gallery/gb19.jpg 2 -
+/images/cancerb2.png 1 -
+/.staffs 1 -
+/images/img1.jpg 2 -
+/test/wp-admin/ 6 -
+//wordpress/wp-admin/install.php 1 -
+/components/com_jdownloads/jdownloads.js 1 -
+/gallery2/mb2.jpg 2 -
+/Gastric-Bypass-Surgery.html 2 -
+/images/img21.jpg 2 -
+/%27%27 1 -
+/gallery/gb2.jpg 2 -
+/images/img4.jpg 2 -
+/gallery/gb10.jpg 2 -
+/images/nn8.jpg 1 -
+/administrator/index.php 7 http://gatewayclinics.com/administrator/index.php
+/gallery/gb14.jpg 2 -
+/images/img38.jpg 2 -
+/images/img24.jpg 2 -
+/data/uploads/innerbanner1.jpg 3 -
+/gallery2/mb3.jpg 1 -
+/data/uploads/Patta.jpg 4 -
+/wp/ 2 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/data/uploads/anitha.jpg 50 http://gatewayclinics.com/gateway-team.html
+/images/herniab.png 2 -
+/admin.php 1 -
+/images/img29.jpg 2 -
+/medical.html 2 -
+/index.php 2 -
+/slideatlas.php 1 -
+/gallery/gb5.jpg 2 -
+/images/cancerb5.jpg 1 -
+/control/ 1 -
+/data/uploads/img9.jpg 16 http://gatewayclinics.com/endoscopy.html
+/https://www.nlm.nih.gov/medlineplus/analcancer.html 3 -
+/images/img39.jpg 1 -
+/commondet.php 5 -
+/panel/ 1 -
+/chennai.php 2 -
+/video-gallery.php 1 -
+/images/inguinalb1.png 1 -
+/user/register 1 -
+/piles.php 4 -
+/images/img32.jpg 1 -
+/blog/wp-includes/wlwmanifest.xml 3 -
+/wp-content/themes/brainstorm/style.css 1 http://www.gatewayclinics.com/wp-content/themes/brainstorm/style.css
+/about_mgmt.php 1 -
+/gallery/p1.jpg 3 -
+/home.php 4 -
+/Anal-Fistula.html 1 -
+/Admin/ 1 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/oldfile/data/uploads/newsletter.pdf 1 -
+/images/appendixb3.png 2 -
+/images/img43.jpg 2 -
+/vxyycommon/js/upload/check.php 1 -
+/images/img22.jpg 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/Sleeve-Gastrectomy.html 2 -
+/sistema/ 1 -
+/infrastructure.php 1 -
+/images/img13.jpg 2 -
+/adm/ 1 -
+/images/cancerb4.png 2 -
+/images/img7.jpg 1 -
+/doctors_page.php 4 -
+/wp-content/plugins/showbiz/js/admin.js 1 -
+/data/uploads/patents-letter-to-the-chairman/letter.pdf 19 -
+/https://www.nlm.nih.gov/medlineplus/pancreaticcancer.html 3 -
+/404.html 3 -
+/Weight%20Loss.html 2 -
+/Hernia-Ipom.html 2 -
+/images/inguinalb3.png 2 -
+/gallery/gb9.jpg 2 -
+/gallery/gb8.jpg 1 -
+/gallery/gb18.jpg 2 -
+/piwik/piwik.js 1 http://www.gatewayclinics.com/index.php
+/Admin.php 1 -
+/gallery2/mb4.jpg 1 -
+/blog/robots.txt 3 -
+//blog/wp-admin/install.php 1 -
+/about.php 5 -
+/login.php 1 -
+/images/cancerb7.jpg 2 -
+/administration/ 1 -
+/blog/administrator/index.php 1 -
+/webadmin/ 1 -
+/images/img6.jpg 2 -
+/gallery.php 1 -
+/contactus.php 1 -
+/wp-admin/ 7 -
+/wp-includes/wlwmanifest.xml 3 -
+/images/nn12.jpg 1 -
+/anal_fis.php 1 -
+/https://www.nlm.nih.gov/medlineplus/cysticfibrosis.html 3 -
+/admin/login.php 6 -
+/intranet/ 1 -
+/images/img23.jpg 2 -
+/eladm.php 1 -
+/gallery/gb15.jpg 1 -
+/images/nn14.jpg 1 -
+/mailto:info%40gatewayclinics.com 1 http://gatewayclinics.com/mailto:info%40gatewayclinics.com
+/images/herniab3.png 1 -
+/index.aspx 3 -
+/Piles.html 4 -
+/images/inguinalb.png 1 -
+/gallery2/mb6.jpg 1 -
+/images/nn7.jpg 1 -
+/training.php 1 -
+/ads.txt 36 -
+/images/appendixb.png 2 -
+/images/img35.jpg 1 -
+/appendix.php 2 -
+/images/gallb3.png 2 -
+/images/nn11.jpg 1 -
+/gallery/gb4.jpg 2 -
+//wp/wp-admin/install.php 1 -
+/images/img42.jpg 1 -
+/images/nn5.jpg 1 -
+/joomla/robots.txt 1 -
+/blog/wp-admin/ 7 -
+/old/wp-admin/ 7 -
+/gallery/gb13.jpg 1 -
+/https://in.pinterest.com/gatewayclinics 3 -
+/consult-now 6 -
+/images/img2.jpg 2 -
+/blog/ 2 -
+/images/img30.jpg 1 -
+/pdf/The_Obesity_Epidemic.pdf 2 -
+/data/uploads/fencing.jpg 4 -
+/video.php 3 -
+/images/img9.jpg 2 -
+/gallery2/mb9.jpg 2 -
+/images/herniab1.png 2 -
+/gallery/gb16.jpg 2 -
+/images/cancerb6.jpg 1 -
+/gallery/gb11.jpg 2 -
+/gallery2/mb10.jpg 1 -
+/gallery2/mb5.jpg 2 -
+/Weight-Loss-By-Surgery 6 -
+/contact.php 6 -
+/news.php 1 -
+/https://www.nlm.nih.gov/medlineplus/pancreatitis.html 3 -
+/images/pilesb1.jpg 2 -
+/CHANGELOG.txt 1 -
+/piwik.php 7 -
+/images/cancerb1.png 2 -
+/images/img14.jpg 1 -
+/https://www.facebook.com/gatewayclinics.coimbatore 7 -
+/cms/ 1 -
+/pdf/Pain_in_the_Mid_Abdomain.pdf 1 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/images/img37.jpg 2 -
+/administrador/ 1 -
+/images/gallb.png 2 -
+/images/img18.jpg 2 -
+/images/appendixb2.png 1 -
+/https://plus.google.com/107394388861722250197 3 -
+/images/hyterectob3.png 1 -
+/adminer.php 1 -
+/gallery2/mb13.jpg 2 -
+/xmlrpc.php 5 -
+/data/uploads/Plan-approval.jpg 3 -
+/data/uploads/Legal.jpg 4 -
+/cancer.php 5 -
+/core/CHANGELOG.txt 1 -
+/images/img11.jpg 2 -
+/apple-touch-icon.png 4 -
+/wordpress/ 2 -
+/Slide-Atlas.html 2 -
+/data/uploads/arrow.png 6 -
+/wp/wp-admin/ 7 -
+/services.php 3 -
+/images/img12.jpg 1 -
+/ercp.php 5 -
+/wordpress/wp-admin/ 7 -
+/images/hyterectob1.png 2 -
+/gallery/gb6.jpg 1 -
+/old/wp-admin/setup-config.php 1 -
+/images/img40.jpg 1 -
+/backend/ 1 -
+/joomla/administrator/index.php 1 -
+/images/img31.jpg 2 -
+/images/img34.jpg 1 -
+/gallery/gb7.jpg 2 -
+/images/appendixb1.png 2 -
+/bypass_surgery.php 1 -
+/manager/ 1 -
+/admin/images/cal_date_over.gif 6 -
+/hysterectomy.php 1 -
+/colonoscopy.php 1 -
+/index.html/ 3 -
+/Facilities.html 2 -
+/images/img41.jpg 1 -
+/images/img8.jpg 2 -
+/upload.php 1 -
+/data/uploads/preparing-documents.jpg 3 -
+/https://www.nlm.nih.gov/medlineplus/analdisorders.html 3 -
+/about-management.html 1 -
+/aboutdet.php 2 -
+/https://www.nlm.nih.gov/medlineplus/diabetestype2.html 3 -
+/gallery2/mb11.jpg 2 -
+/gallery2/mb7.jpg 2 -
+/login/ 1 -
+/gallbladder.php 1 -
+/Piles-Treatment 6 -
+/images/img27.jpg 2 -
+/Inguinal-Hernia.html 1 -
+/wp-login.php 67 -
+/news.html 2 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/gallery2/mb8.jpg 2 -
+/theme/Bootstrap3/images/screenshot.png 3 http://gatewayclinics.com/admin/theme.php
+/images/img33.jpg 1 -
+/images/img44.jpg 2 -
+/images/img20.jpg 2 -
+/images/hyterectob2.png 2 -
+/wp-content/plugins/revslider/js/settings.js 1 -
+/images/hyterectob.png 2 -
+/rjmqcommon/js/upload/check.php 1 -
+/gallery/gb12.jpg 2 -
+/gallery/gb3.jpg 1 -
+/gallery/gb17.jpg 2 -
+/Consult-Now 6 -
+/celioscope/Railway_Schedule.php 1 -
+/images/img25.jpg 1 -
+/herniaipom.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2632
+49.205.45.231 1920 6464 336168458 20180629054106
+49.205.34.73 596 2535 92055185 20180620040817
+88.99.27.172 128 128 4085300 20180607170112
+49.205.56.109 78 758 67039285 20180611061539
+49.205.59.177 68 949 78124910 20180606224152
+115.221.12.7 60 60 528109 20180609100456
+49.205.48.75 56 728 52465747 20180615022128
+157.50.241.225 47 204 96614259 20180603232344
+49.205.60.68 42 637 40819378 20180623064305
+185.180.198.41 34 34 303959 20180611180646
+2409:4072:6013:7d08:4395:e9af:d2d9:81d4 33 198 69471548 20180606233033
+2401:4900:261c:4008:0:54:1a8b:7501 31 465 7643654 20180622102042
+192.42.116.18 31 31 1203902 20180605062058
+49.205.39.92 31 328 28835677 20180626023507
+137.97.99.128 30 244 10461871 20180619224948
+223.228.166.177 30 222 13136219 20180623013447
+84.117.9.125 30 318 19551787 20180616091636
+117.196.249.4 26 315 37017113 20180606054506
+171.78.184.87 25 394 12088306 20180627235136
+223.181.227.170 25 230 38104809 20180604115619
+49.205.46.128 25 194 14812521 20180630040515
+46.161.9.3 25 25 2203608 20180628095433
+66.102.6.235 23 96 2883600 20180630004945
+157.50.63.206 21 86 6126176 20180601122300
+157.51.182.124 20 126 7133288 20180616035748
+106.208.189.67 4 25 496449 20180627034022
+31.11.77.236 0 1 109087 
+157.50.76.110 2 2 10560 20180609082959
+92.36.133.220 1 1 33217 20180605171602
+88.254.118.88 0 1 24233 
+71.195.196.150 0 1 109087 
+173.24.250.39 0 1 25980 
+73.219.243.171 0 1 37939 
+210.212.194.97 0 1 109087 
+193.173.87.80 0 1 25980 
+130.105.185.151 0 1 26565 
+95.152.71.93 0 1 26565 
+198.16.128.58 0 1 109087 
+204.12.152.252 0 1 17834 
+69.120.7.210 0 1 109087 
+46.182.109.170 0 1 88715 
+157.50.57.121 1 1 43 20180611034742
+117.197.187.80 4 55 5769705 20180621083326
+2405:204:724f:7a50:9ea4:c7bb:40cc:59b5 1 1 43 20180612052510
+205.144.215.145 0 1 33927 
+120.16.42.199 0 1 33927 
+162.206.142.126 0 1 33927 
+39.60.157.106 1 1 33217 20180619111348
+139.5.177.72 0 1 109087 
+176.254.66.155 0 1 26565 
+88.212.37.206 0 1 69996 
+50.75.219.162 0 1 181378 
+94.13.155.170 0 1 109087 
+216.71.39.190 0 1 76056 
+223.24.177.35 0 1 211374 
+73.86.192.109 0 1 25980 
+5.69.183.80 0 1 26565 
+2405:204:7349:de66::1cc4:b8a5 14 89 4024752 20180626235745
+103.194.242.174 1 1 8658 20180605080236
+50.249.104.201 8 89 1954560 20180613112157
+173.212.226.28 1 1 34991 20180630214629
+24.114.61.31 0 1 37939 
+24.241.232.222 0 1 109087 
+112.133.245.130 16 204 6604058 20180605100447
+76.176.167.57 0 1 109087 
+52.41.211.72 2 2 17316 20180616010151
+182.76.28.54 4 154 900959 20180629231500
+78.239.51.139 0 2 48466 
+52.21.167.203 1 1 8658 20180616002448
+122.55.102.94 1 1 33217 20180611143024
+149.202.86.188 2 2 48692 20180627045527
+47.33.103.191 0 1 109087 
+14.139.194.12 0 1 24233 
+186.43.219.8 0 1 109087 
+188.232.162.112 0 1 15708 
+157.51.193.50 6 216 1440956 20180608022535
+145.255.21.130 2 2 20996 20180615045951
+115.164.215.105 1 1 33217 20180613015130
+115.254.60.34 10 76 7075560 20180622062208
+86.118.90.66 0 1 155952 
+35.132.216.37 0 1 109087 
+59.149.145.44 1 1 33217 20180617100013
+145.107.79.188 0 1 78660 
+159.180.119.147 0 1 109087 
+93.48.242.192 0 1 109087 
+106.208.172.221 5 25 345735 20180604082719
+107.77.83.112 0 1 26565 
+78.16.229.243 0 1 109087 
+54.165.90.203 2 2 66434 20180617100908
+24.131.213.67 0 1 109087 
+106.51.49.44 1 20 923655 20180613104457
+2.222.43.128 0 1 109087 
+124.104.255.20 0 1 22109 
+149.202.72.198 1 1 8658 20180618114027
+73.20.160.235 0 1 67361 
+129.126.77.114 0 1 109087 
+151.228.93.159 0 1 24233 
+75.27.140.153 0 1 26565 
+103.215.243.34 1 1 33217 20180607073031
+223.228.133.226 5 22 383974 20180629040730
+223.182.252.61 8 156 1004558 20180607222616
+122.54.26.21 0 1 109087 
+82.211.167.90 0 1 109087 
+14.215.176.147 0 7 25127 
+110.141.194.110 0 1 24233 
+49.205.42.95 8 109 9717788 20180625080033
+223.179.243.97 0 2 65045 
+220.233.101.249 0 1 37939 
+166.137.90.98 0 1 26776 
+42.111.128.4 11 308 7268159 20180621225237
+12.87.166.34 0 1 11379 
+120.92.11.170 0 1 5782 
+46.14.131.93 0 1 61726 
+98.121.217.238 0 2 97229 
+140.254.70.166 0 1 33927 
+153.156.162.214 0 1 15494 
+90.240.250.17 0 1 304326 
+129.113.106.152 0 1 24233 
+122.178.150.74 0 1 81700 
+70.136.25.211 0 1 109087 
+27.59.78.224 6 151 890239 20180620085331
+54.87.247.54 3 3 99651 20180625120007
+27.60.239.227 0 2 372674 
+172.58.111.65 0 1 109087 
+74.130.69.128 0 1 11379 
+46.118.155.165 2 2 66434 20180618114918
+81.105.109.72 0 1 76056 
+120.154.16.254 13 212 9107941 20180630073709
+49.205.62.27 8 110 11075336 20180612225627
+93.56.166.254 0 1 26565 
+157.51.117.53 4 149 883541 20180609213837
+24.114.90.69 0 1 33927 
+106.209.190.122 4 23 347408 20180605110128
+24.59.185.164 0 1 109087 
+68.104.7.36 0 1 109087 
+67.195.161.227 0 1 109087 
+175.158.226.44 3 42 5418403 20180604172058
+77.242.29.154 0 1 67361 
+66.87.148.185 0 1 109087 
+2405:204:744c:71af::2328:80ad 4 4 101821 20180616050114
+166.170.14.85 0 1 109087 
+2405:204:724e:cff5::1410:b8b0 0 1 8607 
+68.39.191.90 0 1 109087 
+10.158.105.25 4 55 5769705 20180621055030
+58.170.131.230 0 1 109087 
+106.198.31.82 4 55 5769705 20180624102256
+117.193.207.12 6 172 3333009 20180609142537
+96.55.41.44 0 1 109087 
+60.227.110.113 4 24 349162 20180630205303
+2409:4072:91a:93a0:: 2 66 7069700 20180625094331
+46.161.9.56 12 12 1055556 20180627003808
+180.181.143.83 0 1 134027 
+111.119.238.249 0 1 37939 
+2606:a000:481e:fb00:cdbd:676b:b819:5dd7 4 153 899205 20180629230140
+2405:205:5006:4898:3cda:2f17:b9f:b58f 3 23 345436 20180623032352
+106.66.155.196 5 31 453436 20180616001402
+71.197.8.23 0 1 25980 
+223.227.111.0 1 7 95038 20180611101108
+172.58.99.196 0 1 109087 
+213.205.192.238 0 1 76305 
+103.78.159.49 0 1 69996 
+222.155.245.215 0 1 109087 
+71.230.101.205 0 1 109087 
+104.220.129.118 0 1 109087 
+80.92.252.175 0 1 37939 
+112.196.67.70 0 1 63859 
+46.105.124.55 1 1 33217 20180618111048
+23.113.165.93 0 1 82945 
+122.164.108.2 0 2 169685 
+172.58.200.106 0 1 24233 
+106.71.215.46 0 1 24233 
+94.254.174.59 0 1 109087 
+50.232.32.204 0 1 21904 
+187.168.233.247 0 1 109087 
+71.105.37.107 0 1 25980 
+73.46.171.218 0 1 33927 
+95.76.16.77 0 1 109087 
+185.241.89.10 2 2 16325 20180602002007
+213.205.240.182 0 1 82945 
+108.172.65.246 0 1 109087 
+123.125.143.6 0 5 28196 
+204.79.180.13 3 7 62526 20180611050932
+68.57.133.216 0 1 24233 
+71.40.137.250 0 1 25980 
+107.77.104.63 0 1 5783 
+14.207.225.184 2 55 557985 20180605225124
+23.240.254.41 0 1 109087 
+109.115.162.132 0 1 26855 
+137.97.119.174 0 1 69996 
+72.207.31.201 0 1 33927 
+178.137.83.231 6 6 199302 20180619063542
+202.179.189.194 0 1 109087 
+73.187.92.92 0 1 109087 
+69.58.178.56 3 3 94554 20180610204527
+67.195.177.195 0 1 109087 
+86.168.57.57 0 1 109087 
+77.18.55.118 0 1 109087 
+103.103.236.176 0 1 10882 
+157.51.123.152 6 57 5923145 20180627025641
+199.241.134.56 0 3 1154478 
+96.230.191.19 0 1 24233 
+209.171.88.220 0 1 109087 
+157.51.133.68 1 1 43 20180619121635
+223.237.170.205 1 19 199968 20180627085217
+106.198.29.94 1 1 43 20180622061122
+103.242.191.22 0 3 650226 
+112.110.94.250 5 51 4916345 20180606224952
+61.19.120.2 0 1 17834 
+10.103.1.30 0 1 109087 
+157.51.247.45 1 1 43 20180610081158
+74.141.226.253 0 1 109087 
+173.28.22.93 4 25 603782 20180625190129
+172.218.20.193 0 1 109087 
+220.68.172.6 0 1 24220 
+157.50.58.34 1 1 43 20180607043154
+157.50.62.23 6 65 5886458 20180605084910
+70.235.249.76 0 1 26565 
+223.181.245.208 2 2 6678 20180609215237
+174.222.136.15 0 1 24233 
+208.123.155.143 0 1 109087 
+49.148.62.45 0 1 186337 
+24.144.160.34 0 1 71774 
+171.66.208.145 0 1 109764 
+184.100.49.52 0 3 44991 
+117.218.226.144 14 208 6409311 20180610074953
+173.61.112.184 0 1 33927 
+68.43.234.246 0 1 33927 
+187.179.70.218 0 1 109087 
+64.233.173.48 0 3 1442481 
+172.100.167.132 0 1 109087 
+82.0.165.40 0 1 109087 
+107.188.241.154 0 1 33927 
+216.208.196.178 0 1 37939 
+112.210.202.109 0 1 109087 
+95.91.247.165 0 1 109087 
+110.172.170.200 1 22 1436566 20180601231729
+82.69.27.41 0 1 109087 
+2.122.55.182 0 1 82945 
+117.247.156.97 0 1 32646 
+24.157.114.153 0 1 69996 
+166.137.248.35 0 1 76305 
+71.238.141.103 0 1 33927 
+188.102.111.5 0 1 25068 
+152.133.8.2 0 1 25980 
+70.243.68.62 0 1 33927 
+202.30.26.235 0 1 24233 
+118.148.103.181 0 1 109087 
+178.148.68.212 0 1 109087 
+83.219.53.178 0 1 109087 
+47.154.26.125 0 1 69996 
+171.48.33.192 0 1 373204 
+106.66.149.1 4 55 5769694 20180618154835
+2.126.20.171 4 24 349162 20180604050508
+90.139.58.35 0 1 109087 
+223.181.211.158 5 55 5767994 20180628004048
+114.143.173.244 1 50 5673732 20180612021755
+155.105.81.31 0 1 109087 
+212.175.99.79 0 1 24233 
+173.169.29.115 0 2 218174 
+106.198.12.17 5 56 5769748 20180612115128
+197.221.252.17 0 1 384826 
+148.75.64.11 0 1 109764 
+83.110.239.233 0 1 82945 
+68.185.177.254 0 1 24233 
+72.143.232.1 0 1 82945 
+45.125.70.200 4 150 885338 20180627010621
+124.253.4.216 0 1 24233 
+157.49.58.228 0 1 1754 
+10.190.9.107 0 1 223338 
+76.103.9.62 0 1 26855 
+137.97.143.253 4 24 349162 20180626024317
+47.106.123.128 4 53 5767127 20180615134935
+69.130.136.68 0 1 24233 
+103.194.242.228 6 183 4004000 20180628025633
+182.232.13.64 4 25 496449 20180612101355
+172.58.62.210 0 1 26855 
+217.121.3.165 0 1 26855 
+157.51.203.241 2 56 392273 20180608025151
+66.249.84.78 4 40 549967 20180622004648
+73.155.187.95 0 1 109087 
+176.74.156.67 0 1 207867 
+94.253.184.151 0 1 24233 
+172.56.4.203 0 1 33927 
+24.13.37.44 0 1 69996 
+209.234.142.252 0 1 63139 
+154.123.60.191 0 1 57403 
+118.100.166.242 0 1 109087 
+84.63.249.166 0 1 109087 
+183.82.18.183 0 1 104952 
+157.51.81.240 2 20 212701 20180604122227
+137.97.164.207 7 61 5890636 20180614034247
+136.61.143.226 0 1 26565 
+174.20.100.130 0 1 109087 
+172.58.184.155 0 1 76305 
+77.106.134.0 0 1 24233 
+166.182.81.112 0 1 24233 
+212.201.78.221 0 1 82945 
+98.0.58.97 0 1 109087 
+157.39.253.154 0 1 82945 
+116.68.104.238 4 55 5769705 20180622074314
+223.181.245.242 1 1 43 20180628004712
+106.206.69.236 0 1 110592 
+86.145.94.43 0 1 109087 
+75.129.168.152 0 1 109087 
+184.58.74.188 0 1 24233 
+164.143.240.34 0 1 109087 
+49.205.107.200 7 33 430087 20180607145729
+94.192.253.192 0 1 109087 
+79.70.108.119 4 143 1180231 20180630181522
+174.255.192.96 0 1 37939 
+157.51.206.115 3 23 1585796 20180629061110
+184.56.192.92 4 54 5767951 20180615081414
+107.11.18.245 0 2 100276 
+58.84.22.223 0 1 59304 
+95.245.197.30 0 1 7423 
+71.230.244.255 0 1 109087 
+223.181.225.189 5 6 98340 20180608085753
+76.110.151.153 0 1 109087 
+76.67.228.71 4 24 494652 20180612204139
+191.112.149.63 1 1 33217 20180606163021
+73.217.49.153 0 1 104952 
+103.245.88.234 0 1 109087 
+144.121.102.245 0 2 100276 
+58.228.248.187 0 1 296193 
+175.223.14.216 0 1 63139 
+223.228.59.7 0 1 186337 
+157.50.232.43 0 1 530186 
+178.245.50.79 0 1 24233 
+79.106.37.82 1 1 33217 20180614143910
+184.56.177.242 0 1 24233 
+95.181.179.219 1 1 8658 20180609185117
+172.58.225.192 0 1 26855 
+89.160.139.73 1 1 33217 20180621194645
+100.4.70.90 0 1 63859 
+99.225.136.211 0 1 109087 
+2.216.161.99 0 1 109087 
+67.87.121.49 0 1 109087 
+205.178.61.193 0 1 109087 
+75.86.78.17 0 1 76056 
+67.195.177.85 0 1 109087 
+68.44.59.164 0 1 109087 
+69.179.74.131 0 1 211374 
+41.6.99.215 0 1 22109 
+118.243.216.183 0 2 443240 
+122.52.16.198 0 1 109087 
+2405:204:7448:de4c:2870:2f2d:2f74:fd5d 1 1 43 20180619203126
+213.149.61.231 0 1 109087 
+68.73.116.117 0 1 33927 
+64.229.208.142 0 1 109087 
+77.172.95.37 0 1 22774 
+194.13.105.28 6 98 1339769 20180607042357
+157.51.121.103 2 27 340587 20180629085929
+189.125.73.6 0 1 109087 
+5.104.227.25 0 1 25068 
+103.219.247.114 6 56 5775559 20180618004417
+182.72.162.3 6 152 892016 20180619235122
+54.174.171.62 0 1 93107 
+212.66.164.12 0 1 384826 
+86.182.219.62 0 1 109087 
+184.181.122.142 0 1 109087 
+223.182.254.186 10 51 1563720 20180611112215
+49.33.98.196 1 15 148803 20180625235412
+131.253.25.90 1 9 84889 20180601161747
+93.120.208.153 3 3 81909 20180604022739
+125.161.86.111 0 1 69996 
+122.178.93.117 1 2 10412 20180628100552
+106.198.111.0 1 6 87648 20180610003633
+223.237.228.79 4 24 349200 20180622101804
+130.105.8.111 0 1 109087 
+131.137.245.208 0 1 37939 
+67.195.177.122 0 1 109087 
+106.51.234.153 0 1 5632 
+24.173.41.2 0 1 33927 
+31.27.169.154 0 1 25980 
+24.114.62.214 0 1 109087 
+176.198.200.166 0 1 24233 
+70.55.100.103 0 1 109087 
+192.0.208.41 0 1 109087 
+40.113.225.195 12 12 429863 20180610014530
+45.116.232.51 0 1 26565 
+223.182.240.180 4 150 885338 20180621043818
+92.239.61.200 0 1 21904 
+49.150.92.73 0 1 109087 
+108.44.164.22 0 1 109087 
+95.10.5.254 0 1 22774 
+41.13.0.244 0 1 31118 
+49.205.108.19 6 42 1888434 20180605035606
+123.3.225.189 0 1 109087 
+73.185.71.28 0 1 109087 
+82.131.94.3 0 1 33927 
+193.68.184.120 0 1 109087 
+119.94.168.188 0 1 26855 
+49.205.105.188 6 156 907637 20180629074305
+203.229.137.1 0 1 76305 
+211.199.172.2 0 2 84391 
+70.89.176.37 0 1 109087 
+166.137.252.18 0 4 112547 
+81.110.70.84 0 1 109087 
+66.249.83.14 10 70 1027270 20180622064626
+148.66.209.20 0 1 109087 
+41.21.179.110 0 1 50680 
+90.200.226.50 0 1 109087 
+190.18.70.205 0 1 207867 
+106.198.113.208 2 2 65495 20180613132534
+49.205.58.189 17 87 7538013 20180606005311
+142.68.134.203 0 1 26565 
+34.230.61.210 1 2 50593 20180627020137
+103.232.154.48 0 1 69996 
+191.119.62.183 0 1 26855 
+68.200.16.10 0 1 427172 
+209.149.113.3 0 1 26565 
+192.152.200.150 0 1 11379 
+118.140.234.154 0 1 17834 
+188.60.138.213 0 1 26565 
+115.110.229.158 0 2 209904 
+99.240.21.120 0 1 109087 
+117.144.245.12 1 56 527899 20180607122559
+120.92.11.191 0 1 1591 
+88.98.208.147 0 1 109087 
+128.177.10.216 1 1 33217 20180619134604
+73.2.130.120 0 1 296193 
+157.51.255.199 7 121 11856176 20180613053653
+42.111.159.111 1 1 43 20180608013847
+81.106.166.14 0 1 109087 
+218.212.91.183 0 1 109087 
+184.54.197.152 0 1 26855 
+87.6.4.90 0 1 109087 
+128.1.116.7 0 1 33927 
+122.181.151.34 0 1 57403 
+82.41.246.3 0 4 252998 
+68.116.245.109 0 2 65045 
+223.182.240.29 6 27 505403 20180626000917
+87.246.78.116 0 1 109087 
+117.193.48.63 4 149 883584 20180604094454
+111.223.152.170 1 1 33217 20180607014921
+1.9.21.43 0 1 43800 
+101.177.86.211 0 1 109087 
+80.1.180.7 0 1 109087 
+88.201.6.112 0 1 30053 
+185.104.223.71 0 1 67361 
+216.105.250.14 0 1 207867 
+134.95.7.247 0 1 384826 
+90.215.250.68 0 1 25068 
+104.144.204.110 2 2 15293 20180622213744
+76.230.94.170 0 1 33927 
+157.50.31.223 0 13 1505102 
+195.142.78.2 0 1 109087 
+172.193.122.2 0 1 109087 
+2405:204:a300:898c:f07b:19fa:a521:1090 4 144 1181998 20180616093342
+66.186.71.249 0 1 109087 
+120.154.95.72 0 1 33927 
+106.78.70.16 0 1 82945 
+52.200.221.20 1 1 33217 20180618033209
+99.203.4.203 0 1 82945 
+223.182.197.26 6 32 462511 20180630093747
+99.231.231.157 7 28 514314 20180613205321
+192.119.160.132 0 1 69996 
+206.45.30.99 0 1 37939 
+2405:204:70c5:af56::434:d8b1 9 323 2552459 20180612225659
+90.34.36.229 0 1 37939 
+172.58.56.74 0 2 124135 
+61.7.138.122 0 1 134027 
+103.52.12.127 0 1 109087 
+64.178.245.192 0 1 109087 
+124.104.236.0 0 1 109087 
+121.190.233.121 0 1 109087 
+5.169.165.204 0 1 25927 
+203.107.236.102 0 1 33927 
+105.227.7.174 0 1 82945 
+157.50.119.92 0 1 63144 
+190.124.90.92 0 2 52835 
+223.181.204.126 4 24 349162 20180627010450
+107.77.169.2 0 1 109087 
+10.91.3.40 8 37 685338 20180612043438
+23.236.27.140 0 1 62538 
+204.79.180.16 0 7 50075 
+68.47.85.241 0 1 76305 
+206.45.51.65 0 1 24233 
+106.206.19.156 4 144 1181985 20180622111731
+58.26.32.62 0 1 76305 
+148.106.154.38 0 1 24233 
+122.178.144.225 1 28 4524023 20180601024845
+5.67.214.138 0 1 76305 
+185.58.164.41 0 1 109087 
+35.162.70.167 3 3 25974 20180619010210
+117.226.128.172 0 1 5783 
+103.72.103.12 4 150 885338 20180624142045
+2405:204:221e:36cd::255d:8ac 3 25 379987 20180625235408
+73.149.173.129 0 1 21881 
+49.205.148.47 8 72 6039229 20180622000648
+117.197.204.151 0 1 250090 
+99.241.178.209 0 1 109087 
+202.129.197.5 1 15 125414 20180615092904
+174.49.251.217 0 1 37939 
+83.111.151.82 1 1 33217 20180602082934
+94.187.50.186 0 2 362756 
+90.218.63.144 0 1 109087 
+47.30.218.50 0 1 384826 
+129.59.122.165 0 1 109087 
+82.45.176.48 0 1 43818 
+198.134.28.18 0 1 37939 
+194.224.168.10 0 1 64145 
+214.2.208.246 0 1 63139 
+99.203.26.100 0 1 109087 
+10.60.148.25 0 1 24233 
+216.8.241.114 0 1 109087 
+77.141.1.80 0 1 24233 
+157.51.95.43 2 20 258028 20180614062919
+78.19.46.91 5 98 1378722 20180619145318
+106.203.81.212 13 186 6700308 20180605071725
+94.128.74.203 0 1 37939 
+106.198.14.161 5 25 349243 20180625120542
+84.212.156.251 0 1 109087 
+2405:204:d309:59b0:3090:c4c5:bb6e:a678 4 150 885338 20180615070118
+2402:3a80:d23:358f::10ce:c078 0 1 24233 
+79.113.219.128 0 1 76305 
+84.192.201.51 0 1 33927 
+68.199.4.103 0 1 33927 
+24.38.0.98 0 1 109087 
+210.186.70.209 0 1 33927 
+157.44.208.175 2 3 12072 20180629095107
+85.66.123.154 0 1 57403 
+106.203.6.99 4 4 95450 20180626005133
+103.220.208.1 0 1 250090 
+96.239.108.61 0 1 109087 
+94.197.121.224 4 23 347408 20180630160848
+162.156.56.124 0 1 58748 
+108.239.10.12 4 66 777814 20180625185827
+152.7.193.191 0 1 33927 
+2402:8100:203e:8973:4182:8259:e4d5:2d62 0 1 69996 
+203.214.70.145 4 25 496449 20180617193552
+204.79.180.22 2 2 19190 20180611002201
+188.26.18.100 0 1 109087 
+73.14.167.113 0 1 109087 
+62.205.79.123 1 1 33217 20180610140255
+67.149.74.250 4 31 438648 20180613190401
+162.208.100.14 0 1 37939 
+172.58.155.252 0 1 26565 
+86.199.179.142 1 1 33217 20180605213816
+166.137.126.26 0 1 24233 
+2409:4072:618f:7fec:c3a3:d150:edc2:f07a 7 218 15722991 20180623065211
+104.12.253.85 0 1 21881 
+23.226.173.231 0 1 109087 
+184.13.68.32 0 1 33927 
+157.50.68.4 6 9 179430 20180611011028
+49.205.50.32 9 62 5821360 20180613235712
+117.221.209.135 1 16 167680 20180630094228
+70.77.253.55 0 1 109087 
+2405:204:724b:84e5:4a35:9e42:64cf:86b8 4 150 885338 20180619110950
+151.177.50.91 0 1 109087 
+120.92.11.159 0 1 1342 
+70.31.64.5 0 1 63859 
+67.195.177.130 0 1 17834 
+188.71.205.224 0 1 109087 
+68.145.252.69 0 1 109087 
+66.66.76.162 0 1 67361 
+116.87.224.67 0 1 82945 
+45.112.177.74 0 1 109087 
+106.51.49.217 1 15 125414 20180623082534
+182.177.36.130 4 19 337199 20180625060121
+75.27.165.21 0 1 33927 
+66.30.208.66 0 1 33927 
+220.235.155.235 0 2 496933 
+37.39.118.52 1 1 33217 20180621103312
+63.143.114.109 0 1 109087 
+5.46.231.6 0 1 24233 
+112.202.162.156 0 1 109087 
+174.207.17.190 0 1 109087 
+210.18.131.179 1 1 33217 20180602014635
+203.206.169.250 0 1 69996 
+70.121.38.56 0 1 33927 
+187.224.80.21 0 1 57403 
+49.205.109.75 11 74 6062470 20180607073054
+164.58.29.226 0 1 109087 
+24.0.100.45 0 1 33927 
+172.20.141.12 0 1 134027 
+223.181.233.58 6 57 5769013 20180605092814
+68.189.148.167 0 1 109087 
+223.182.203.69 9 39 2183054 20180610221429
+185.95.205.100 0 1 37939 
+2409:4072:901:592b::2917:30b1 8 24 1049727 20180613000514
+120.89.104.222 2 2 10560 20180614030715
+163.152.151.7 0 1 207867 
+158.140.163.12 0 1 37939 
+79.45.159.228 8 100 1375143 20180602155822
+157.50.224.249 4 24 349162 20180607064632
+2.235.25.118 0 1 24233 
+178.124.197.194 1 1 8658 20180608040009
+103.205.152.154 12 209 6655495 20180629002431
+95.159.202.10 0 1 69996 
+2409:4072:99:68f1:b9dc:d702:e971:d289 4 150 885338 20180619121630
+100.4.219.58 0 1 33927 
+166.137.244.28 0 1 24233 
+117.208.183.243 6 148 1253828 20180628074416
+5.122.170.92 0 1 247323 
+116.12.241.218 0 1 24233 
+67.195.161.57 0 1 109087 
+117.200.227.243 0 1 76305 
+174.212.12.251 0 1 109087 
+109.13.69.70 0 1 63859 
+85.76.2.37 0 1 101265 
+118.21.162.54 0 1 134027 
+94.128.154.17 6 32 446145 20180619162239
+173.252.92.210 0 8 1051507 
+78.129.43.247 0 1 384826 
+119.193.70.133 0 1 25980 
+98.192.96.60 0 1 26565 
+24.63.176.171 0 1 76305 
+34.201.108.18 1 1 36306 20180625084314
+131.111.185.77 0 1 37939 
+24.182.225.30 0 1 181378 
+49.206.114.179 1 13 376204 20180606141948
+157.51.221.237 1 1 43 20180612225408
+122.171.85.166 4 55 5769705 20180606020510
+42.111.147.55 1 1 8658 20180622031341
+68.145.230.86 1 1 33217 20180604234513
+169.149.241.87 4 23 347365 20180606115714
+103.28.87.65 0 2 49301 
+201.219.236.175 0 1 26855 
+101.187.166.151 0 1 109087 
+204.79.180.6 1 8 41829 20180601163231
+66.171.132.70 0 1 109087 
+89.155.80.208 1 1 33217 20180604045501
+176.250.203.147 0 1 109087 
+103.74.111.64 0 1 109087 
+27.62.104.0 2 213 1664782 20180617030821
+91.164.8.131 0 1 7423 
+173.71.209.213 0 1 109087 
+90.199.147.59 0 1 69996 
+208.84.185.240 0 1 37939 
+217.165.244.24 1 1 33217 20180615142909
+75.24.52.190 0 1 37939 
+68.104.32.60 0 1 22109 
+10.132.94.183 0 2 65045 
+115.248.198.106 0 1 82945 
+219.91.239.225 0 1 69996 
+172.58.139.36 1 8 69333 20180624231028
+199.46.196.151 0 1 33927 
+27.62.29.3 1 16 131196 20180607224517
+78.233.138.35 0 1 7423 
+89.238.139.59 0 1 109087 
+174.93.2.236 0 1 24233 
+67.187.67.101 0 1 109087 
+174.115.32.85 0 1 82945 
+120.61.13.87 1 1 33217 20180616013717
+49.204.137.32 9 72 6041391 20180629005608
+174.63.250.250 0 1 211374 
+134.214.214.229 0 1 7423 
+166.137.118.80 0 1 24233 
+106.202.222.23 0 1 33927 
+203.81.71.70 0 1 21853 
+157.51.179.219 4 31 438648 20180629032407
+68.105.86.62 0 1 21904 
+107.204.168.211 7 33 460091 20180612142450
+2.87.177.68 4 30 412451 20180616174932
+98.144.14.126 0 1 109087 
+73.57.226.221 0 1 37939 
+149.254.248.89 0 1 69996 
+47.33.26.139 0 1 109087 
+73.240.158.20 0 1 33927 
+50.98.50.252 0 1 109087 
+109.154.175.91 0 1 37939 
+185.54.45.10 0 1 21881 
+223.182.214.219 4 21 271814 20180627075849
+117.104.224.221 0 1 63859 
+46.119.126.184 5 5 166085 20180623215342
+105.108.15.124 0 1 7423 
+54.243.53.148 2 2 14967 20180626231023
+66.249.93.46 0 1 181378 
+24.145.29.61 0 1 109087 
+24.114.29.198 0 1 109087 
+66.87.135.215 0 1 26855 
+193.35.235.117 0 1 24233 
+14.215.176.141 1 4 44411 20180623100823
+124.6.12.52 0 1 25980 
+81.38.63.161 0 1 109087 
+103.221.72.122 0 1 82945 
+192.99.100.93 0 1 69996 
+106.66.152.104 0 1 109087 
+157.51.176.112 3 22 325207 20180611053207
+93.44.107.92 0 1 24233 
+192.151.85.120 0 1 76305 
+74.50.214.42 0 1 7423 
+82.15.81.170 0 1 109087 
+193.163.223.58 0 1 25980 
+86.15.130.234 0 1 109087 
+72.139.65.202 0 1 384826 
+37.40.24.94 0 1 1754 
+103.78.164.195 1 1 33217 20180601012855
+181.188.72.17 0 1 109087 
+50.96.164.28 0 2 392752 
+111.65.35.110 0 1 37939 
+222.127.105.74 0 2 56701 
+174.117.41.238 0 1 82945 
+122.178.97.3 6 152 891973 20180612035133
+122.178.103.175 0 1 253513 
+59.94.225.35 0 1 384826 
+69.1.16.135 0 1 109087 
+223.182.214.40 6 38 4957119 20180616042645
+2405:205:612a:d8b8:fc3f:2e7:: 1 13 1159216 20180612023824
+80.110.116.168 0 4 95556 
+24.15.245.18 0 1 5632 
+217.216.210.200 4 25 387778 20180607165358
+117.200.114.141 5 55 5777539 20180620032506
+27.5.87.50 0 1 109087 
+2.55.140.205 0 1 109087 
+67.170.158.250 0 1 109087 
+147.126.167.2 0 1 69996 
+157.50.40.186 4 22 273568 20180624074525
+58.167.53.125 0 1 25068 
+24.45.79.42 0 1 37939 
+173.95.139.102 0 1 82945 
+120.92.11.176 0 1 3371 
+14.136.245.195 0 1 22774 
+204.169.134.100 0 1 109087 
+89.23.252.214 0 1 109087 
+128.177.10.252 1 1 33217 20180622180658
+99.203.10.239 0 1 109087 
+49.206.209.75 0 1 71313 
+70.170.112.18 0 1 21881 
+24.38.101.130 0 1 30053 
+50.206.13.13 0 1 37939 
+85.150.210.15 0 1 76305 
+106.198.25.242 4 4 101821 20180618004510
+94.8.130.75 0 1 109764 
+68.225.220.104 0 1 25980 
+105.184.0.184 4 149 883584 20180610161109
+172.88.28.187 0 1 21904 
+182.64.11.182 0 1 81126 
+192.243.53.51 1 1 8658 20180629162017
+106.208.184.0 6 57 5825153 20180619232400
+123.125.143.24 0 3 17971 
+186.87.88.210 0 1 57403 
+178.128.167.155 0 1 109087 
+108.36.230.20 0 1 82945 
+157.51.196.145 4 55 5769705 20180624114204
+81.135.63.236 0 1 37939 
+154.243.58.165 0 1 15400 
+123.136.115.130 0 1 15268 
+165.214.11.85 0 1 63139 
+110.70.52.203 0 1 76056 
+134.249.54.27 10 10 323529 20180612030307
+174.255.193.68 0 1 26565 
+2.96.107.69 0 1 211374 
+2405:204:70cf:1b16:9c37:fedf:1f25:8d97 4 22 273568 20180611003430
+80.99.173.172 0 1 33927 
+90.212.26.62 0 1 33927 
+47.11.167.251 4 150 885338 20180620032823
+157.51.177.223 7 27 355921 20180610140639
+189.216.121.151 0 1 57403 
+197.35.145.71 7 41 1453312 20180630110217
+99.250.124.78 0 1 109087 
+174.217.17.11 0 1 109087 
+47.8.244.184 0 1 22774 
+93.208.188.74 0 1 24233 
+18.216.186.5 5 22 309514 20180626033542
+174.57.45.217 0 3 327261 
+42.109.147.23 0 1 43818 
+213.205.194.102 0 1 82945 
+72.140.29.95 0 1 33927 
+18.237.210.222 8 8 63557 20180619185046
+142.174.242.193 0 1 109087 
+106.198.3.118 4 135 740952 20180622055400
+185.234.217.149 1 1 8658 20180626214248
+174.206.9.181 0 1 109087 
+178.95.203.21 0 1 26855 
+223.38.63.125 0 1 58685 
+66.249.88.140 8 54 925452 20180622085540
+2409:4072:d:b4b8::1702:d8a1 4 161 2724162 20180627235406
+103.221.72.97 0 1 82945 
+42.108.190.233 0 1 27743 
+220.158.143.20 1 3 766647 20180626145316
+49.196.7.211 0 1 30053 
+47.15.51.210 0 1 109087 
+10.59.244.123 0 1 43818 
+93.136.53.219 0 1 26565 
+199.38.59.66 0 1 109087 
+106.76.197.114 0 1 24233 
+39.57.205.12 0 1 25980 
+2409:4072:6108:e46b::8a:f0a1 10 158 95682560 20180610073615
+203.5.105.76 0 1 76305 
+45.220.0.15 1 18 218914 20180621061147
+108.82.166.92 0 1 26565 
+89.21.64.50 0 1 186337 
+76.64.37.224 0 1 109087 
+99.203.142.5 0 1 76305 
+177.234.9.22 0 1 109087 
+98.215.71.202 0 2 218174 
+203.144.162.190 0 1 199318 
+82.79.241.76 0 1 384826 
+174.196.137.72 0 1 109087 
+41.32.120.83 1 1 33217 20180628114343
+2405:204:73c8:52ca:8ac3:bda0:ecd7:82fa 1 15 1138780 20180603230635
+172.58.224.129 0 1 296193 
+45.123.0.149 0 1 109087 
+157.51.109.61 8 154 899714 20180605134255
+24.98.84.175 0 1 67361 
+117.213.133.141 1 15 125414 20180606073740
+108.190.173.93 0 1 109087 
+128.134.207.83 0 1 109087 
+100.12.224.181 0 1 25980 
+84.213.44.94 0 1 26565 
+27.62.144.133 5 6 169333 20180622224827
+162.224.180.5 0 1 25980 
+42.109.131.165 5 25 349243 20180603233521
+1.132.107.64 0 1 109087 
+116.73.148.139 0 1 109087 
+107.130.0.150 0 3 89773 
+70.180.58.194 0 1 109087 
+86.3.162.125 0 2 218174 
+106.51.110.135 0 2 313234 
+103.253.2.175 0 1 37960 
+79.164.131.111 3 22 235759 20180619213919
+162.129.251.102 0 1 109087 
+177.95.156.77 0 1 69996 
+183.82.251.226 1 15 125414 20180615020916
+103.40.151.90 0 5 95672 
+176.26.230.82 0 1 109087 
+223.182.200.219 6 57 5836621 20180620230754
+49.205.61.131 4 150 885338 20180622075638
+173.160.90.149 0 1 17834 
+37.17.139.126 0 1 26855 
+107.77.90.76 0 1 24233 
+157.50.60.143 6 60 5890593 20180601081321
+178.153.193.93 11 183 34038384 20180629092327
+73.208.143.232 0 1 109087 
+24.154.41.191 0 1 109087 
+123.125.143.139 1 1 8658 20180630053641
+106.198.1.199 4 54 5767951 20180621033706
+165.229.210.7 0 1 25927 
+49.205.54.174 2 30 250828 20180611045501
+24.115.147.53 0 1 17834 
+195.191.127.253 0 1 33927 
+221.144.86.228 0 1 76056 
+49.205.37.167 4 55 5769705 20180623110626
+172.17.5.220 0 1 24233 
+122.3.41.158 0 1 109087 
+179.35.13.152 0 1 82945 
+111.93.184.90 0 1 33927 
+131.253.25.74 1 1 8911 20180601114043
+13.59.89.225 5 22 309514 20180609211430
+36.81.7.246 0 1 109087 
+203.236.104.45 1 1 33217 20180621230900
+67.22.193.51 0 1 186337 
+92.253.54.33 0 1 37939 
+82.43.4.83 0 1 76305 
+90.198.74.90 0 1 109087 
+64.125.67.66 0 1 24233 
+2405:204:213:1beb:1d9a:702e:f6fb:62cc 0 1 33927 
+49.205.152.56 0 1 253513 
+131.253.25.89 2 10 118561 20180601161730
+69.136.143.125 0 1 17834 
+198.166.61.184 0 1 109087 
+67.11.233.248 0 1 109087 
+151.228.55.15 0 1 109087 
+103.43.145.101 0 1 24233 
+74.108.229.86 0 1 71313 
+129.176.151.14 0 1 26565 
+2409:4072:916:fe17::2811:20b1 12 162 101057368 20180613072301
+113.23.217.2 0 1 33927 
+64.222.173.126 0 1 76305 
+37.104.184.181 0 1 69996 
+117.200.125.21 0 1 186337 
+165.20.108.40 0 1 69996 
+211.46.237.228 0 1 26565 
+109.177.216.98 5 145 1182028 20180606144829
+68.193.169.231 0 1 109087 
+188.232.125.119 0 2 76168 
+172.58.185.109 0 1 37939 
+41.13.82.94 2 52 5654957 20180609145411
+138.197.202.197 2 2 32395 20180630093750
+148.75.99.170 0 1 109087 
+176.54.49.151 0 1 109087 
+47.217.143.166 0 1 109087 
+37.201.4.186 0 1 25980 
+201.172.3.235 0 1 109087 
+74.99.77.230 0 1 109087 
+212.251.226.76 0 1 66608 
+2409:4071:2317:18aa:83dd:7116:58f9:d424 4 150 885338 20180626025645
+223.182.194.46 0 1 46164 
+69.141.60.56 0 1 24220 
+174.44.197.187 0 1 37939 
+107.77.104.109 0 1 26855 
+184.15.196.228 0 1 109087 
+98.89.9.50 0 2 35668 
+31.85.146.163 0 1 76305 
+85.100.40.239 0 1 63139 
+99.162.151.94 0 1 37939 
+104.35.224.160 0 1 109087 
+223.181.216.32 7 8 41433 20180629235714
+223.182.206.185 15 94 6851010 20180626101142
+110.54.231.178 0 1 109087 
+223.181.195.204 9 77 5043310 20180620011126
+72.51.88.147 0 1 109087 
+184.54.100.48 0 1 26855 
+217.23.9.132 4 46 528907 20180603112126
+193.198.99.33 0 1 33927 
+122.178.175.164 1 19 508189 20180611024503
+51.171.146.88 0 1 109087 
+78.135.52.30 0 1 24233 
+45.119.47.21 0 1 64897 
+213.205.198.131 0 1 134027 
+2405:204:73ce:29e5:e97d:a087:224:1905 1 19 199968 20180629234658
+103.60.71.254 0 1 25980 
+213.205.240.200 0 1 109087 
+75.113.195.31 0 1 109087 
+93.136.121.204 0 1 109087 
+168.215.91.130 0 1 16060 
+106.206.10.167 1 47 5651697 20180602005309
+204.110.16.10 0 1 25980 
+177.79.5.167 0 1 24233 
+68.119.242.33 0 1 26565 
+5.162.119.206 19 284 210247006 20180630114639
+69.141.197.107 0 1 109087 
+166.170.14.122 0 1 82945 
+218.248.24.166 13 131 6725102 20180627010048
+211.213.7.120 0 1 190899 
+75.118.230.203 0 1 76305 
+174.226.137.66 0 1 25980 
+2409:4071:200a:212e:98bb:7aae:cd8f:16ae 3 22 334562 20180629152527
+157.50.81.229 0 1 24233 
+76.30.240.210 0 1 109087 
+173.252.92.208 0 18 1324941 
+152.16.191.106 0 2 23508 
+103.217.120.154 0 1 63859 
+115.112.135.98 1 15 125414 20180628011148
+98.101.203.10 0 1 17834 
+182.93.90.51 0 1 24233 
+183.82.109.131 4 33 442146 20180620055938
+49.205.37.180 7 208 1419140 20180625063820
+223.227.57.33 5 40 3812264 20180608091019
+2409:4072:609c:7c6c:90ef:13a5:b427:c767 12 226 6695711 20180610092718
+107.77.92.29 4 27 349911 20180616030702
+80.110.116.222 0 1 26855 
+196.20.200.6 7 159 958144 20180627142241
+157.51.159.49 1 1 43 20180612015148
+145.121.91.78 0 1 109087 
+67.86.96.155 0 1 109087 
+157.51.255.106 2 3 34187 20180629085933
+166.137.143.24 0 1 76305 
+72.175.34.193 0 1 17834 
+46.191.241.181 1 1 10479 20180630080741
+51.6.215.18 0 1 24233 
+122.178.164.188 4 22 273568 20180601095331
+49.36.1.21 0 1 384826 
+58.71.125.2 0 1 211374 
+157.50.212.230 1 1 43 20180617144949
+191.101.213.172 1 1 8658 20180621062103
+1.129.111.38 0 1 109087 
+108.180.47.218 0 1 109087 
+5.31.143.38 4 55 5769705 20180629040741
+46.12.201.110 5 145 1563576 20180620142952
+204.79.180.3 0 3 44564 
+14.215.176.144 0 2 60777 
+66.249.93.44 0 1 181378 
+76.233.28.246 0 1 71313 
+178.134.62.218 0 1 24233 
+108.240.32.33 0 1 109087 
+176.167.125.122 0 1 24233 
+67.40.174.204 0 1 109087 
+196.195.219.155 0 1 109087 
+10.83.203.53 0 1 76305 
+89.45.61.172 0 1 69996 
+206.173.106.22 0 1 17834 
+73.177.104.249 0 1 109087 
+73.60.176.226 0 1 24233 
+69.254.109.87 0 1 33927 
+178.87.252.84 8 202 1295229 20180623133516
+90.210.130.168 0 1 109087 
+75.11.233.254 0 1 63139 
+195.176.96.235 0 1 109087 
+212.29.150.10 1 1 33217 20180618184948
+14.215.176.142 1 1 8658 20180623100821
+10.64.71.55 0 1 67361 
+118.200.206.213 0 1 109764 
+134.148.99.124 0 1 24233 
+2401:4900:26d8:fadd:5b88:3690:6040:fe05 0 2 58655 
+174.223.145.6 0 1 26855 
+90.204.90.172 0 2 36901 
+191.97.97.199 0 1 26855 
+179.157.132.137 0 1 109087 
+41.146.83.216 0 1 69996 
+107.213.221.184 0 1 109087 
+70.50.113.194 0 1 247323 
+203.115.113.74 0 1 384826 
+173.252.123.187 2 11 2293199 20180620132223
+47.39.38.102 0 1 109087 
+217.165.122.176 0 1 60984 
+86.131.215.8 0 1 82945 
+112.134.235.231 0 1 37939 
+106.208.235.23 14 247 6883636 20180612211245
+50.126.152.160 0 1 82945 
+146.185.223.173 1 1 36306 20180611204017
+96.5.110.28 0 1 37939 
+75.107.35.29 0 1 252276 
+152.16.191.61 0 1 26855 
+88.207.240.209 0 1 37939 
+46.39.35.209 1 1 33217 20180612153519
+2402:3a80:427:426d:23ae:d869:53da:cf0d 4 55 5769705 20180608013841
+86.147.132.119 0 1 33927 
+99.224.114.122 0 1 37939 
+132.216.234.178 0 1 26565 
+24.32.44.126 0 1 109087 
+166.137.143.89 0 1 25980 
+64.251.55.232 0 1 33927 
+117.209.174.83 7 91 11076699 20180622055418
+123.242.178.9 0 1 81700 
+189.33.241.72 0 1 24233 
+73.13.147.213 0 2 52835 
+100.35.101.145 0 1 24233 
+81.99.113.161 0 1 25068 
+219.65.75.210 0 1 109087 
+67.164.102.51 0 1 82945 
+68.78.44.17 0 1 33927 
+122.178.91.113 4 30 453393 20180627112709
+113.210.119.60 0 1 24233 
+27.34.104.250 0 1 109087 
+67.195.177.80 0 1 109087 
+82.41.149.158 0 1 296193 
+139.222.216.168 0 1 7423 
+82.16.175.169 0 1 109087 
+95.10.182.91 1 1 33217 20180621211316
+157.41.182.50 0 2 107890 
+82.196.97.136 0 1 109087 
+192.67.188.27 0 1 25980 
+157.51.142.35 1 1 43 20180607055456
+74.102.14.200 0 1 109087 
+24.229.206.28 0 1 24233 
+198.20.69.98 1 2 34971 20180603080420
+177.209.96.32 0 1 109087 
+202.142.54.3 0 1 33927 
+137.97.118.0 10 192 6421867 20180629230452
+42.111.154.34 1 1 43 20180604111830
+76.117.124.249 0 1 211374 
+146.115.60.135 0 1 24233 
+67.49.16.227 0 1 211374 
+131.253.25.80 0 9 83321 
+120.89.104.183 5 25 349243 20180614023832
+180.242.132.77 0 1 25980 
+223.228.166.185 5 150 883627 20180614082348
+116.50.170.106 1 15 125414 20180627214113
+77.79.41.227 0 1 578908 
+2405:204:740b:2c4b::853:a0a4 5 38 3176360 20180620215542
+82.200.166.10 1 1 33217 20180613074953
+81.82.144.227 0 1 37939 
+49.205.57.217 1 15 125414 20180625012339
+112.5.248.243 2 3 32613 20180603074141
+23.24.129.202 0 1 33927 
+49.197.183.239 0 1 24233 
+47.247.197.5 0 1 186337 
+182.156.240.230 1 15 125414 20180612072855
+2405:204:730d:60ce::11c5:40ac 4 150 885338 20180617144944
+24.34.208.189 0 1 17834 
+172.58.175.99 0 1 24233 
+71.202.33.22 0 1 109087 
+64.246.165.210 1 1 8658 20180615201241
+203.63.161.188 0 1 24233 
+68.237.131.185 0 1 71313 
+186.137.131.199 0 1 109087 
+2409:4072:618f:7fec:bc86:d7fd:fff5:61e1 2 2 13049 20180625052953
+65.220.92.60 0 1 69051 
+24.0.204.112 0 1 26565 
+89.233.139.83 0 1 26565 
+46.118.117.97 7 7 215686 20180624094322
+172.58.100.64 0 1 26855 
+76.16.29.76 0 1 37939 
+211.252.200.1 0 1 7423 
+77.49.91.54 0 1 24233 
+223.181.218.53 2 21 1429980 20180610003328
+212.95.7.99 0 1 109087 
+82.135.155.201 0 1 7355552 
+220.130.135.121 0 1 69996 
+89.2.60.165 0 1 33927 
+87.14.208.45 0 1 109087 
+98.253.1.140 0 1 109087 
+119.95.78.46 0 1 58400 
+75.159.239.204 0 1 109087 
+41.115.35.120 0 1 37939 
+104.230.241.127 0 1 82945 
+223.182.223.66 1 22 1440954 20180603220517
+80.82.215.17 1 1 33217 20180609131530
+70.252.12.48 0 1 109087 
+95.218.222.183 0 1 25980 
+172.20.108.166 0 1 37939 
+157.51.172.251 4 149 883541 20180601025535
+172.37.108.53 0 6 293989 
+190.161.221.119 0 1 109087 
+5.162.206.187 0 1 25455 
+81.96.234.125 0 1 26565 
+5.62.137.37 0 1 24233 
+121.213.26.35 0 1 43818 
+173.67.251.59 0 1 109087 
+2.220.22.186 0 1 109087 
+61.218.207.210 0 1 211374 
+122.178.37.225 1 2 10412 20180627063442
+145.86.248.14 0 1 63139 
+128.189.135.63 0 1 109087 
+112.209.160.16 0 1 37939 
+122.161.217.245 0 1 21853 
+2.222.84.141 0 1 33927 
+205.141.235.254 0 1 33927 
+45.120.212.57 0 1 54400 
+80.191.221.22 0 1 109087 
+152.16.191.132 0 1 109087 
+204.79.180.19 0 2 8938 
+204.79.180.11 1 3 42690 20180606003209
+174.210.11.208 0 1 252276 
+223.182.223.0 1 37 4028133 20180618033009
+165.118.1.51 0 1 37939 
+122.180.25.202 7 41 2633714 20180614044604
+14.193.227.252 0 1 69996 
+122.178.13.156 13 196 6980187 20180626070132
+71.232.69.109 0 1 109087 
+41.100.89.218 0 1 109087 
+31.223.131.252 0 1 181378 
+192.228.192.43 0 1 384826 
+171.61.206.107 0 1 82945 
+152.226.249.23 4 53 5741682 20180626224904
+46.188.147.44 0 1 109087 
+223.181.195.0 1 31 3045656 20180620005338
+123.242.248.130 4 55 5769705 20180613060935
+2405:204:7185:160e:d9f0:ef3e:d35:ec5c 3 4 8475 20180603000638
+98.217.85.101 0 1 109087 
+184.22.86.209 0 1 26565 
+73.205.65.186 0 1 67361 
+87.13.207.219 0 1 7423 
+49.248.140.157 0 1 67361 
+86.84.173.17 0 1 109087 
+125.130.216.23 0 1 25980 
+223.181.192.206 6 57 5923145 20180621231724
+170.178.245.182 0 1 24233 
+72.16.81.2 0 2 58160 
+71.50.205.153 0 1 190899 
+122.3.253.114 0 1 16060 
+49.207.81.205 4 150 885338 20180607003911
+189.76.130.2 1 1 33217 20180603124515
+184.175.159.194 0 1 109087 
+120.188.95.69 0 1 26855 
+73.244.27.135 0 1 109087 
+178.40.250.164 0 1 33927 
+122.165.217.35 1 15 125414 20180626011849
+2405:204:310f:c724::5f9:98a4 0 14 116756 
+94.187.88.248 0 1 109087 
+122.171.96.253 1 48 5652663 20180608031139
+131.100.38.140 0 1 63859 
+83.154.180.96 0 1 109087 
+68.113.207.9 0 2 152112 
+24.184.97.112 0 1 109087 
+187.170.215.46 0 1 57403 
+157.50.117.116 4 30 453393 20180612022907
+204.79.180.15 1 4 15385 20180601093257
+131.253.25.73 2 18 109790 20180601125843
+92.81.130.74 0 1 109087 
+181.164.243.132 0 1 109087 
+83.120.57.200 0 1 25980 
+100.4.80.207 0 1 82945 
+174.219.131.191 0 1 71313 
+13.57.220.0 7 7 60606 20180619105554
+174.225.5.219 0 1 109087 
+146.185.132.93 0 1 109087 
+140.128.138.51 0 1 25980 
+104.48.233.157 0 1 26855 
+144.76.182.48 4 4 34632 20180607125536
+117.246.189.0 1 9 140284 20180618225511
+49.34.32.85 0 1 26855 
+184.186.11.39 0 1 247323 
+106.207.240.89 0 1 186337 
+213.249.208.130 0 1 16060 
+189.203.187.67 0 1 26855 
+5.125.49.84 0 1 69996 
+108.197.24.189 0 1 109087 
+99.203.155.174 0 1 26855 
+73.209.206.46 0 1 109087 
+85.255.234.245 0 1 109087 
+178.62.208.24 1 19 508189 20180603204607
+175.126.120.27 0 2 139444 
+123.136.107.54 0 1 109087 
+122.173.233.207 0 1 82945 
+107.77.165.9 0 1 109087 
+2409:4072:6113:84::e25:20ac 4 55 5769705 20180614004800
+188.140.136.129 0 1 1754 
+106.198.45.103 0 1 24233 
+124.13.29.136 0 1 19791 
+157.50.36.219 8 95 7136449 20180617101716
+117.98.181.88 6 57 5776383 20180613091436
+46.175.243.230 0 1 211374 
+157.50.101.115 4 41 5652949 20180618233933
+106.203.37.30 4 15 304376 20180614030812
+157.51.225.43 1 1 43 20180623065146
+37.47.205.242 0 1 37939 
+78.17.151.149 0 1 69996 
+204.79.180.10 0 5 52371 
+162.223.168.131 0 1 69996 
+202.136.74.43 0 1 33927 
+79.97.179.235 0 1 109087 
+85.17.25.41 3 3 81909 20180625221756
+192.8.190.10 1 21 1098863 20180601073455
+46.161.9.9 2 2 178948 20180630012657
+107.77.109.34 0 1 21904 
+130.193.240.252 0 1 25068 
+75.110.119.4 0 1 26565 
+49.205.58.113 6 6 114789 20180620132315
+115.248.36.118 1 15 125414 20180621233002
+10.143.172.191 0 1 26855 
+192.168.1.134 0 1 186337 
+156.212.218.38 0 2 134722 
+117.98.188.71 1 48 5652663 20180605083357
+157.50.94.176 12 76 6088613 20180618065150
+108.206.76.125 0 1 109087 
+168.187.59.26 0 1 24233 
+117.98.170.250 9 64 5311647 20180621021510
+116.102.191.170 0 1 81700 
+82.143.102.82 0 1 0 
+213.1.7.60 0 1 24233 
+99.203.28.139 0 1 109087 
+172.58.96.138 0 1 109087 
+50.59.62.5 0 1 109087 
+49.33.9.0 0 24 223037 
+51.15.249.65 0 1 76305 
+64.84.107.225 0 1 33927 
+172.98.129.74 0 1 25980 
+66.249.84.76 3 25 341807 20180622062832
+171.78.163.9 6 65 5949640 20180627013131
+73.95.135.52 0 1 24233 
+181.41.113.164 4 144 1181985 20180605235250
+220.235.32.38 0 1 63859 
+64.231.44.52 0 1 37939 
+143.51.146.65 0 1 26565 
+2409:4072:919:7903:: 1 47 5324949 20180603005219
+2.121.99.210 0 1 26565 
+88.99.63.132 1 1 8658 20180617163357
+184.58.161.120 0 2 447582 
+42.111.146.64 6 57 5923145 20180610081301
+164.215.1.61 0 1 109087 
+163.53.26.50 1 8 69397 20180628115419
+207.222.161.27 0 1 5783 
+122.165.93.38 0 1 530186 
+82.25.127.33 0 1 109087 
+135.0.177.118 0 1 82945 
+172.24.76.133 1 15 125414 20180614051954
+165.84.230.107 0 1 82945 
+157.51.128.216 1 1 43 20180606234237
+82.42.140.88 0 1 24233 
+157.51.120.226 4 29 451639 20180607091000
+105.234.164.12 1 7 8658 20180617080149
+5.196.54.215 1 1 9075 20180625071654
+90.95.4.219 1 1 33217 20180623031509
+117.216.75.203 1 1 33217 20180615125804
+141.44.197.66 0 1 37939 
+182.76.74.86 3 50 1174483 20180621010646
+157.49.60.195 4 28 351665 20180615041820
+87.2.132.70 0 1 57403 
+27.97.75.210 0 1 5783 
+41.225.150.46 0 1 82945 
+94.8.134.159 0 1 109087 
+69.243.129.138 0 1 37939 
+117.209.170.80 6 86 11167461 20180617222239
+31.2.140.242 0 1 37939 
+66.87.149.72 0 1 82945 
+123.125.143.152 0 3 18279 
+106.208.243.0 1 5 31969 20180623174952
+24.89.210.166 0 1 109087 
+204.79.180.12 0 5 14036 
+185.30.88.63 0 1 82945 
+157.50.93.37 1 1 43 20180625081128
+95.103.91.126 0 1 82945 
+34.220.30.46 1 1 33217 20180612231014
+193.169.252.46 6 6 146076 20180618013835
+200.44.219.11 0 1 109087 
+89.136.32.21 0 1 101265 
+24.187.102.76 0 1 109087 
+182.76.139.58 5 26 287010 20180619234042
+157.49.119.206 2 2 23363 20180629152528
+157.50.126.53 7 180 6684843 20180613170331
+157.51.163.232 1 1 43 20180603064238
+124.40.247.86 0 3 99664 
+203.82.79.236 0 1 5588 
+88.230.173.176 0 1 24233 
+151.52.28.220 0 2 46480 
+49.150.6.236 0 1 109087 
+23.241.170.133 0 1 37939 
+2409:4070:2204:4f08:1cf7:c616:2a09:565b 4 144 1181985 20180629094949
+166.170.14.82 0 1 37939 
+179.29.21.13 0 2 139444 
+190.104.21.65 0 1 134027 
+192.43.68.92 0 1 33927 
+106.223.182.18 0 1 25980 
+172.20.19.103 0 1 37939 
+70.94.55.145 0 1 24233 
+171.6.235.12 0 1 186337 
+182.71.251.213 1 15 125414 20180621011000
+204.79.180.23 0 2 34006 
+141.136.255.154 0 1 109087 
+27.59.65.240 4 144 1181985 20180629162927
+157.51.105.35 4 41 19828663 20180622001253
+82.100.157.74 0 1 26855 
+91.93.112.30 1 1 33217 20180614045940
+129.215.162.230 0 1 25980 
+78.129.2.254 0 1 109087 
+105.49.191.69 0 1 109087 
+172.58.41.148 0 1 67361 
+190.207.32.212 0 1 296193 
+202.129.196.71 1 23 2088630 20180613061756
+104.180.10.82 0 1 100740 
+94.200.8.198 5 27 37778825 20180604034239
+202.150.4.5 0 1 10882 
+24.209.209.7 4 66 825355 20180616165940
+86.153.153.142 0 1 247323 
+107.13.162.75 0 1 21881 
+202.95.98.176 7 101 6265054 20180628091418
+106.210.44.210 10 190 65932587 20180629094636
+112.216.57.122 0 1 76305 
+112.79.133.173 0 1 30053 
+207.224.194.59 0 1 24233 
+204.79.180.1 0 1 9790 
+117.200.126.22 0 1 186337 
+67.195.177.234 0 1 109087 
+195.22.127.140 1 1 50218 20180619130257
+73.155.2.211 0 1 109087 
+188.240.208.26 4 4 132868 20180627040025
+175.97.6.175 6 57 5776383 20180616030744
+66.249.83.12 16 77 1760268 20180623055450
+81.245.166.246 0 1 37939 
+172.78.28.251 0 1 76056 
+184.155.118.8 0 1 76056 
+131.253.25.70 0 8 81509 
+47.216.48.25 0 1 24233 
+106.198.111.254 1 15 118510 20180609123112
+46.118.113.218 11 11 348554 20180623171345
+66.102.6.237 16 116 5013681 20180622113152
+223.182.192.56 2 2 13049 20180605114529
+99.72.94.230 0 1 109087 
+118.179.203.186 0 1 384826 
+66.251.227.51 0 1 24220 
+2.121.76.76 0 1 24233 
+103.103.66.6 13 50 675301 20180630090126
+120.92.11.92 1 1 8658 20180615104714
+212.252.98.198 0 1 24233 
+2401:4900:2606:a79d:e79d:fe26:40af:3655 4 150 885338 20180616050747
+92.13.88.162 0 1 25980 
+37.204.169.179 1 52 5680417 20180630162907
+61.2.56.52 1 1 33217 20180615005855
+37.245.152.184 4 24 349162 20180621123308
+104.10.209.171 0 1 24233 
+187.57.247.59 0 1 33927 
+174.217.27.90 0 1 109087 
+90.209.71.51 0 1 109087 
+177.252.250.188 0 1 76056 
+79.66.255.173 0 1 109087 
+173.244.48.126 0 1 33927 
+58.147.170.82 0 1 33927 
+157.37.251.78 4 22 274078 20180624125912
+194.78.226.77 0 1 109087 
+202.134.179.161 0 1 67361 
+74.12.30.175 0 1 109087 
+92.234.146.19 0 1 109087 
+176.33.230.113 0 1 24233 
+211.109.6.252 0 2 67854 
+27.62.104.168 8 303 4678483 20180617030828
+115.254.76.34 1 29 3468896 20180620013005
+106.51.49.138 1 48 5652663 20180601075009
+49.205.36.224 4 55 5769705 20180609035826
+179.62.122.2 0 1 26855 
+50.91.137.195 0 1 11329 
+118.101.141.156 0 1 25068 
+73.119.130.142 0 1 26565 
+159.203.42.143 1 1 164 20180622224827
+49.178.38.210 0 1 69996 
+124.123.73.35 0 2 758030 
+2402:3a80:42a:90d5:fe75:ed9e:114b:a3e8 4 5 101048 20180623015708
+147.213.125.119 0 1 109087 
+49.205.49.154 4 55 5769705 20180625060520
+104.58.176.85 0 1 24233 
+2409:4072:618a:9f66:5013:8c4e:d40f:8a4f 6 6 106174 20180630004659
+196.52.84.19 1 1 9066 20180602111650
+2405:204:71cd:d038:a9f2:e63:4eb0:56c7 6 59 5847437 20180627033152
+103.87.52.157 0 1 384826 
+94.43.190.158 0 1 25980 
+67.48.134.32 0 1 109087 
+125.17.175.20 0 1 94208 
+198.53.11.170 0 1 109087 
+203.18.200.11 0 1 17834 
+49.205.38.48 9 62 5867590 20180619032452
+217.14.91.34 1 1 33217 20180606052015
+132.183.13.3 0 5 169978 
+179.185.26.124 1 1 33217 20180624073734
+125.162.147.156 0 1 69996 
+186.136.27.78 1 1 33217 20180601032531
+24.162.174.243 0 1 109087 
+66.249.88.138 14 72 1083962 20180622085543
+103.233.67.145 1 1 33217 20180613042525
+208.77.152.87 0 1 37939 
+138.197.26.255 1 1 2591 20180621044228
+77.136.83.96 0 1 37939 
+92.47.118.213 0 1 69996 
+24.116.77.236 0 1 109087 
+223.181.253.74 3 38 5087948 20180620020827
+49.34.124.158 0 1 5588 
+42.107.238.246 0 1 76011 
+66.116.23.144 0 1 109087 
+62.201.242.1 0 1 21853 
+213.246.217.213 0 1 37939 
+172.218.42.197 0 1 109087 
+85.255.236.166 0 1 109087 
+134.148.110.255 0 1 24233 
+173.33.236.64 0 1 109087 
+212.252.210.66 0 1 24233 
+182.65.124.163 1 2 10412 20180603013856
+50.249.191.57 0 1 82945 
+173.236.9.35 1 1 8658 20180604155335
+202.61.120.58 0 1 62615 
+27.62.154.235 4 55 5769705 20180621235817
+47.189.179.198 0 1 33927 
+70.188.212.216 0 1 33927 
+42.110.148.64 0 1 186337 
+195.10.99.98 0 1 26565 
+157.51.140.12 8 59 5842129 20180628042811
+173.73.157.22 0 1 109087 
+70.24.171.140 0 1 17834 
+173.252.123.180 1 13 1450484 20180620132222
+58.179.54.93 0 1 37939 
+88.138.254.70 0 1 109087 
+195.211.158.194 0 1 82913 
+77.49.159.123 1 1 33217 20180626185031
+141.226.217.133 0 2 218174 
+41.42.170.179 0 1 24233 
+86.148.143.224 0 1 109087 
+68.97.58.60 0 1 18776 
+61.222.127.163 0 1 109087 
+68.42.93.43 0 1 24233 
+94.2.19.12 0 1 252276 
+142.177.130.121 0 2 218174 
+75.162.228.168 0 1 109087 
+67.195.177.186 0 1 109087 
+162.243.69.215 2 2 72994 20180612113711
+1.121.138.35 4 25 496449 20180622064935
+124.83.127.22 0 1 76305 
+185.84.70.71 0 1 24233 
+178.168.57.186 0 1 24233 
+185.82.217.19 1 1 8658 20180624164441
+73.243.208.216 4 31 438648 20180610112106
+70.91.46.53 0 1 33927 
+69.112.75.246 0 1 57403 
+157.51.141.8 5 35 2768120 20180604003759
+166.137.118.93 0 1 37939 
+180.232.98.114 0 1 109087 
+24.113.222.217 0 1 109087 
+157.51.209.178 2 4 136461 20180604122228
+201.205.129.237 0 1 7423 
+69.41.203.142 0 1 82945 
+220.83.87.245 0 1 62538 
+99.113.251.232 3 38 4995777 20180608201259
+47.31.79.22 3 14 3793635 20180618231946
+177.198.34.36 0 1 24233 
+103.242.97.200 4 65 778682 20180615104716
+64.150.137.106 0 1 109087 
+80.116.105.28 0 1 109087 
+42.201.177.163 0 1 67361 
+75.166.12.97 0 1 24233 
+182.69.46.171 1 1 33217 20180618120032
+86.150.252.2 0 1 109087 
+2405:204:7243:302::3e8:f0a5 4 149 883584 20180627010145
+49.15.133.0 1 13 159899 20180615103736
+84.198.248.68 0 1 17834 
+94.197.120.210 0 1 32646 
+2405:204:961e:9216:: 1 24 1100238 20180612120155
+81.111.43.253 0 1 69996 
+199.116.157.217 0 2 235607 
+70.132.180.133 0 1 57403 
+51.37.42.56 0 1 24233 
+103.225.221.42 1 1 33217 20180602224800
+86.13.251.180 0 1 82945 
+152.76.1.244 0 1 69996 
+174.207.9.113 0 1 26565 
+73.0.61.150 0 1 109087 
+75.180.48.134 0 1 33927 
+34.219.17.206 1 1 8658 20180607005601
+2402:3a80:40b:78f4:0:47:2e61:4401 8 255 94415467 20180604112047
+104.15.112.86 0 1 26565 
+31.48.38.54 0 1 109087 
+64.233.173.44 0 3 1235527 
+52.53.201.78 5 5 43290 20180629234005
+5.123.20.170 5 98 1409560 20180629074738
+157.51.202.193 7 125 24050009 20180622001130
+45.21.100.178 0 1 109087 
+178.255.168.24 0 1 109087 
+73.50.6.91 0 1 109087 
+107.77.241.2 0 1 109087 
+216.218.222.14 1 1 33217 20180605062057
+218.215.29.242 0 1 109087 
+223.182.43.20 0 1 354708 
+175.158.201.21 0 1 109087 
+114.23.152.193 0 1 109087 
+223.181.207.145 6 184 6386399 20180608111651
+176.31.64.186 2 2 18141 20180617013157
+42.111.129.232 5 150 896590 20180606233625
+188.146.102.41 0 1 24233 
+185.3.147.134 4 24 349162 20180619063907
+221.167.13.39 0 1 134027 
+99.145.125.136 0 1 17834 
+70.51.4.172 0 1 37939 
+49.205.46.169 19 132 10499352 20180625042156
+73.22.59.192 0 1 109087 
+172.58.96.59 0 4 112547 
+86.152.14.137 0 1 76305 
+90.218.127.55 0 1 26565 
+213.205.240.177 0 1 109087 
+73.70.172.135 0 1 24233 
+173.252.92.212 1 8 1326077 20180605035627
+85.0.69.220 0 1 26855 
+103.255.4.252 0 1 15400 
+122.165.161.147 4 150 885338 20180612113718
+198.53.18.124 0 1 17834 
+202.69.15.98 0 1 24233 
+47.186.8.32 0 1 296193 
+204.195.6.84 0 1 24233 
+76.64.76.230 0 1 109087 
+71.231.72.91 0 1 109087 
+218.214.27.244 0 1 24233 
+187.240.87.209 0 1 26855 
+46.246.247.70 0 1 82945 
+139.71.144.9 0 2 218174 
+174.113.239.162 0 1 67361 
+103.84.186.240 1 1 33217 20180630080345
+108.53.83.45 0 1 37939 
+46.101.38.123 0 1 69996 
+158.181.46.184 0 1 384826 
+102.250.225.150 2 21 235170 20180630084837
+162.198.64.187 0 1 109087 
+103.27.118.238 0 1 109087 
+104.40.84.61 1 1 8658 20180613192741
+174.113.4.95 0 1 82945 
+178.233.41.54 0 1 82945 
+99.254.240.94 0 1 82945 
+101.226.86.155 1 11 424525 20180607122551
+157.51.82.126 1 1 43 20180610070501
+172.56.22.99 0 1 37939 
+49.149.22.232 0 1 109087 
+88.201.52.13 0 1 134027 
+23.30.27.18 0 1 17834 
+106.212.153.72 0 1 82945 
+190.149.82.17 0 1 26855 
+106.76.34.71 1 1 43 20180616010224
+96.18.80.146 0 1 18776 
+223.182.13.22 0 1 109087 
+157.51.211.250 2 42 399874 20180626001432
+18.232.71.188 0 3 51597 
+5.155.87.94 0 1 109087 
+190.130.76.73 0 1 296193 
+194.225.213.76 0 1 25980 
+47.190.129.13 0 1 37939 
+91.222.118.138 1 1 33217 20180602040057
+103.216.215.225 7 71 5716129 20180602025611
+201.199.247.159 0 1 207867 
+106.208.211.45 3 33 4310268 20180630065103
+122.161.219.84 0 1 33927 
+157.51.83.176 0 10 712540 
+43.250.242.231 0 1 26855 
+223.181.209.160 4 24 349200 20180610054420
+175.157.195.221 0 1 109087 
+91.148.27.141 0 1 7423 
+204.79.180.8 1 5 52809 20180611050901
+103.230.235.18 0 1 82913 
+165.214.11.69 0 1 76305 
+223.181.246.98 4 24 349200 20180619154151
+27.252.40.102 0 1 109087 
+167.60.188.157 0 1 26565 
+2405:204:7340:6f04:c610:437b:aaa2:3c37 10 64 5897357 20180628225439
+172.58.185.172 0 2 34278 
+72.73.243.67 0 1 109087 
+117.239.128.177 0 1 22774 
+67.195.177.232 0 1 109087 
+178.165.129.237 0 1 25980 
+201.219.236.217 0 1 26855 
+67.212.118.124 0 1 24233 
+99.48.4.88 0 3 301796 
+185.69.145.142 0 1 109087 
+177.183.238.74 0 1 24233 
+175.158.196.152 0 1 76305 
+73.188.0.110 5 42 771844 20180613031756
+183.83.253.162 0 1 76305 
+93.138.255.11 0 1 109087 
+76.176.145.215 0 1 37939 
+123.125.143.155 0 3 18518 
+115.90.41.139 0 1 109087 
+1.6.9.50 4 154 900959 20180627053247
+94.177.233.249 2 2 66434 20180615035407
+85.244.92.164 0 1 109087 
+24.181.66.25 0 3 89773 
+50.100.181.79 0 1 109087 
+194.103.185.10 0 1 211374 
+190.237.108.83 4 66 777814 20180608171919
+49.204.129.196 10 160 1310693 20180628010723
+199.43.174.81 0 1 15114 
+73.33.193.124 0 1 33927 
+1.6.111.241 0 1 109087 
+74.90.192.56 0 1 109087 
+187.58.38.14 0 1 109087 
+104.56.93.24 0 1 7423 
+72.200.250.187 0 1 109087 
+111.199.81.129 0 1 71313 
+103.66.79.99 1 6 49292 20180611000645
+216.74.107.28 1 1 8658 20180614015616
+157.50.70.29 0 2 118407 
+101.188.55.115 0 1 109087 
+117.98.160.147 5 55 5768924 20180613024113
+99.100.33.73 0 1 37939 
+200.208.159.2 0 1 17834 
+54.145.159.122 1 1 33217 20180624153224
+67.195.177.225 0 1 109087 
+166.137.90.17 0 1 76305 
+204.79.180.2 0 4 32319 
+194.61.162.162 0 1 30053 
+10.76.190.136 0 1 134027 
+14.195.233.6 4 24 349162 20180628133453
+68.190.160.236 0 1 76305 
+5.104.227.164 0 1 25068 
+47.187.134.153 0 1 37939 
+223.181.203.26 4 61 6026540 20180607035953
+73.250.73.119 0 1 16060 
+200.55.189.126 0 1 57403 
+68.203.37.205 0 1 63859 
+138.245.1.1 0 1 109087 
+24.141.209.84 0 1 37939 
+46.117.24.32 0 1 109087 
+223.181.223.97 4 28 351665 20180605034454
+103.41.24.18 0 1 67361 
+113.210.109.14 6 146 1201475 20180623220221
+5.188.62.117 2 2 66434 20180623162010
+108.16.60.173 0 1 37939 
+94.216.3.18 0 1 30053 
+138.68.191.93 7 99 1428775 20180615045140
+103.51.217.50 0 1 82945 
+66.87.119.81 0 1 26855 
+162.225.161.134 0 1 58748 
+45.31.31.50 0 1 109087 
+64.18.79.214 0 1 82945 
+73.47.76.225 0 1 26565 
+172.241.112.79 0 1 109087 
+202.28.177.49 0 1 76305 
+10.129.46.196 0 1 211374 
+10.3.153.230 0 1 109087 
+66.26.142.20 0 1 109087 
+220.158.143.21 12 183 4128905 20180626150302
+193.201.212.157 0 1 21853 
+42.106.27.8 6 151 896633 20180618104314
+157.51.158.184 4 27 420410 20180617065244
+66.75.33.108 0 1 33927 
+36.82.100.88 1 1 33217 20180628200628
+1.128.107.54 6 64 5885634 20180625200909
+42.111.147.50 3 30 379408 20180603134348
+24.89.157.43 0 1 25980 
+72.231.228.42 0 1 24233 
+178.221.102.33 0 1 109087 
+172.58.68.133 0 1 25980 
+124.13.205.94 0 1 33927 
+183.82.38.118 7 152 909639 20180625170036
+103.217.241.64 6 28 363268 20180612225803
+103.39.128.145 0 2 34624 
+85.112.78.30 0 1 134027 
+117.1.134.181 0 1 43818 
+82.18.208.35 0 1 109087 
+5.38.138.16 0 2 50213 
+73.157.131.96 0 1 109087 
+107.201.188.93 0 1 17834 
+67.166.49.205 0 1 21904 
+110.172.132.131 8 128 7008757 20180603215248
+47.38.176.32 0 1 109087 
+157.50.10.143 4 22 273568 20180617000602
+67.48.145.193 0 2 54286 
+156.208.227.173 0 1 109087 
+66.18.52.144 0 1 109087 
+41.0.228.146 0 1 109087 
+51.15.64.39 1 1 8658 20180621100318
+157.32.23.142 1 14 273960 20180603210728
+175.142.119.205 0 1 84960 
+31.211.255.176 0 1 109087 
+41.223.17.241 4 30 412451 20180611055524
+178.153.35.61 0 1 22774 
+110.54.208.103 0 1 109087 
+162.207.85.143 0 1 211374 
+163.172.4.153 6 6 51948 20180624180806
+61.218.59.236 0 1 109087 
+72.53.125.174 0 1 17834 
+49.204.141.179 0 1 63859 
+85.255.236.73 0 1 24233 
+184.174.173.196 0 1 25980 
+50.58.197.251 0 1 109087 
+186.70.68.191 0 1 26565 
+117.242.85.210 6 179 6684800 20180620080001
+100.35.58.251 0 1 33927 
+119.74.233.129 0 1 109087 
+134.249.48.174 5 5 115586 20180619223002
+67.172.165.152 0 1 33927 
+103.210.43.143 0 3 82635 
+47.30.227.109 6 55 5920567 20180615065732
+75.182.6.117 0 1 26855 
+76.23.51.220 0 1 109087 
+122.174.251.54 0 1 37939 
+194.167.111.61 0 1 109087 
+130.193.229.96 0 1 109764 
+81.149.40.183 0 2 98629 
+73.148.115.176 0 1 109087 
+92.53.45.55 0 1 109087 
+156.196.2.245 0 1 33927 
+180.183.219.38 3 23 329983 20180622082400
+117.246.200.54 1 20 300821 20180607122452
+117.209.170.0 1 8 69429 20180617222229
+69.161.93.13 0 1 109087 
+174.236.134.143 0 1 109087 
+2405:204:710a:cfc:2aa1:994e:f7e4:1e83 1 1 43 20180612230947
+27.97.201.50 8 21 1058829 20180606225019
+189.222.148.206 0 1 26855 
+193.251.162.51 0 1 190899 
+173.252.123.184 1 8 254433 20180620132220
+72.193.45.108 0 1 69996 
+187.154.114.188 1 1 33217 20180603102312
+99.245.43.239 0 2 218174 
+73.96.123.148 0 1 109087 
+179.235.131.154 0 1 207867 
+173.252.92.211 1 7 790628 20180605035627
+186.208.223.16 1 1 33217 20180606145956
+70.54.63.239 0 1 109087 
+176.240.173.34 0 1 24233 
+69.195.26.200 0 1 24233 
+174.217.1.18 0 1 109087 
+42.109.137.0 2 44 4634553 20180625021610
+67.160.68.118 0 1 26855 
+149.200.236.231 0 1 104952 
+99.153.247.223 0 1 33927 
+77.139.69.51 0 2 447582 
+106.203.1.231 1 1 43 20180629002754
+83.41.20.29 0 1 24233 
+157.51.86.124 1 19 1999142 20180608022221
+182.64.42.113 0 1 82945 
+99.233.242.186 0 1 109087 
+83.100.234.110 0 1 82945 
+2405:205:612a:d8b8:fc3f:2e7:d732:a54e 4 13 310265 20180612024923
+10.160.216.51 0 1 109087 
+80.169.235.78 0 1 109087 
+90.218.60.14 0 1 71313 
+89.12.169.154 0 1 24233 
+67.189.109.170 0 3 160447 
+159.89.172.54 2 2 0 20180621223539
+98.117.240.119 0 1 109087 
+5.188.136.72 4 4 34632 20180628230701
+81.155.150.252 0 1 109087 
+47.203.254.186 0 1 63859 
+157.50.72.167 3 98 667449 20180623083246
+190.119.230.196 0 1 57403 
+10.104.32.10 0 1 57403 
+76.93.149.41 0 1 26565 
+99.224.72.181 0 1 82945 
+96.224.5.211 0 1 109087 
+81.92.54.9 0 1 17834 
+2.50.23.38 1 15 125414 20180626064522
+109.77.203.136 0 1 109087 
+42.106.12.254 0 1 33927 
+140.128.153.200 0 2 49301 
+106.198.112.0 1 29 1107574 20180604121957
+88.235.49.209 0 1 21881 
+96.244.227.37 0 1 244657 
+70.15.161.137 0 1 109087 
+106.203.57.184 1 1 43 20180605141708
+189.243.113.236 0 1 57403 
+162.157.180.100 0 1 109087 
+185.90.56.20 1 1 33217 20180624221417
+104.237.86.184 0 1 109087 
+66.191.230.36 0 1 25455 
+68.150.60.185 0 1 109087 
+205.175.118.124 0 1 37939 
+94.4.190.151 0 1 109087 
+188.140.160.203 0 1 1754 
+76.102.130.33 0 1 109087 
+157.51.176.83 1 1 43 20180613000402
+139.59.113.200 4 31 448579 20180623202806
+204.79.180.5 0 5 27918 
+190.255.92.223 0 1 26855 
+197.234.246.27 0 1 6599 
+14.139.187.130 6 231 25889294 20180624235407
+157.51.193.8 2 2 9156 20180608073237
+117.213.129.198 4 29 451639 20180613074202
+54.145.58.119 3 20 309514 20180611172331
+189.160.169.132 0 1 24233 
+71.213.188.45 0 1 109087 
+155.70.23.45 0 1 109087 
+135.26.3.123 0 1 109087 
+5.67.42.7 0 1 109087 
+196.14.188.83 0 1 109087 
+71.212.193.193 0 1 24233 
+103.255.6.68 0 1 17834 
+117.213.109.248 0 1 37365213 
+86.139.149.79 0 1 33927 
+122.178.35.70 4 24 349200 20180609084157
+223.181.221.46 5 54 5719571 20180607020944
+68.32.27.29 0 1 24233 
+94.9.232.141 0 1 304326 
+183.88.44.205 0 1 25980 
+73.128.88.6 0 1 26565 
+107.77.253.1 0 1 26855 
+173.71.208.190 0 1 21881 
+39.60.234.144 1 1 33217 20180610180727
+72.190.178.87 0 1 109087 
+114.204.96.164 0 1 109087 
+125.16.141.94 1 15 125414 20180625005124
+49.205.53.116 4 34 2657071 20180622031351
+73.67.8.67 0 1 109087 
+41.110.183.41 0 1 7423 
+122.178.12.186 7 152 833844 20180629113650
+78.10.132.227 0 1 109087 
+116.68.195.238 0 1 33594 
+106.193.251.66 2 2 86 20180606072652
+31.53.0.158 0 1 109087 
+10.1.58.157 0 1 211374 
+176.55.150.254 0 1 7423 
+173.227.230.194 0 1 25980 
+191.125.21.217 0 1 26855 
+98.27.25.112 0 1 109087 
+71.235.219.129 0 2 65045 
+92.99.80.163 7 28 446674 20180626132848
+83.30.81.211 1 1 33217 20180619134458
+196.141.66.50 0 1 7423 
+47.222.105.75 0 1 109087 
+198.103.195.30 0 1 109087 
+166.137.126.46 0 1 109087 
+173.198.23.250 0 1 109087 
+71.10.145.233 0 1 109087 
+99.250.84.135 0 1 82945 
+108.190.200.207 0 1 109087 
+159.0.158.184 0 1 37939 
+96.50.56.251 0 1 17834 
+69.36.48.203 0 1 109087 
+199.119.233.194 0 1 109087 
+1.136.104.73 0 1 109087 
+101.78.229.7 0 1 30053 
+223.182.207.90 1 1 43 20180627232958
+174.0.59.131 0 1 82945 
+90.16.32.113 1 1 33217 20180602064126
+212.227.203.191 0 1 109087 
+207.189.0.4 7 58 5900237 20180626013638
+68.188.142.185 0 1 109087 
+162.247.202.146 0 1 109087 
+186.67.71.126 0 2 139444 
+42.109.145.151 18 218 11885391 20180611011148
+104.235.61.171 0 1 109087 
+174.89.122.67 0 1 109087 
+72.92.38.175 0 1 25068 
+187.44.119.22 0 2 218174 
+10.116.1.215 0 1 69996 
+176.56.224.115 4 54 5767951 20180617234023
+190.166.236.220 0 1 134027 
+47.187.108.211 0 1 109087 
+24.190.91.86 0 1 109087 
+157.50.113.212 4 31 448579 20180630012145
+46.38.130.225 0 1 76305 
+27.62.81.222 0 1 289531 
+173.252.92.213 1 1 63483 20180605035627
+122.178.151.115 10 63 5858772 20180610115349
+36.81.27.131 0 1 109087 
+81.158.207.127 0 1 26855 
+157.51.206.54 2 17 1225787 20180608022221
+2409:4072:91a:93a0::ba8:f8a4 10 157 1000846 20180625083552
+75.143.50.116 0 1 109087 
+174.215.1.136 1 15 236718 20180607212344
+67.195.177.103 0 1 109087 
+158.46.167.64 1 1 8658 20180628031905
+67.79.142.2 0 1 33927 
+78.162.157.15 0 1 109087 
+107.178.40.242 5 5 166085 20180630092514
+172.58.29.249 0 1 33927 
+110.23.254.150 0 1 109087 
+211.253.219.194 0 2 100276 
+73.216.34.84 4 66 787508 20180629224229
+2409:4072:914:ff53:5c61:ac83:22a3:cab6 1 1 43 20180604034943
+130.206.76.22 0 1 109087 
+81.57.179.32 0 1 24233 
+204.79.180.0 0 2 6816 
+67.195.177.88 0 1 109087 
+179.52.49.164 0 1 26855 
+184.151.178.40 0 1 26565 
+199.0.203.152 0 1 109087 
+106.203.42.89 4 4 6721 20180616084210
+123.63.254.194 6 49 4922068 20180613024659
+162.119.128.144 0 1 33927 
+73.167.41.120 0 1 67361 
+174.236.146.14 0 1 109087 
+108.168.78.36 0 1 109087 
+176.252.24.100 0 1 109087 
+188.222.226.85 0 1 109087 
+103.253.170.230 0 1 207867 
+5.120.83.158 0 1 25980 
+75.80.149.134 0 1 24233 
+216.150.191.2 0 1 109087 
+116.66.154.47 4 27 337480 20180605091507
+108.225.242.39 0 1 82945 
+106.51.49.131 6 71 5919945 20180611083412
+192.166.113.80 0 1 24233 
+24.192.99.12 0 1 37939 
+186.150.150.190 0 1 25927 
+90.194.247.116 0 1 37939 
+184.90.136.146 12 241 6825760 20180616233803
+2405:204:720e:8746:: 1 11 106929 20180616125955
+216.208.56.111 0 1 22109 
+177.177.174.142 0 1 24233 
+10.145.172.45 0 1 25980 
+75.24.212.163 0 1 109087 
+120.92.11.231 0 1 9469 
+108.26.242.152 0 1 24233 
+83.53.46.154 0 1 207867 
+40.134.131.76 0 1 109087 
+117.213.131.23 4 149 883584 20180605095905
+172.58.25.210 0 1 26565 
+49.146.5.138 0 2 218174 
+172.58.4.110 0 1 33927 
+71.149.150.34 0 1 33927 
+112.79.146.39 0 1 109764 
+167.177.39.8 0 1 25980 
+117.222.148.176 0 1 5783 
+181.115.141.35 0 1 26855 
+122.171.85.149 4 16 230644 20180606020833
+117.202.245.79 2 2 8384 20180607080832
+43.226.4.172 0 1 109087 
+106.78.91.0 0 1 63139 
+85.105.143.134 0 1 24233 
+66.82.144.29 2 2 175926 20180622080916
+162.135.0.58 1 29 4878731 20180627120755
+73.9.17.47 0 1 25068 
+108.212.125.188 0 1 109087 
+112.215.235.171 0 1 384826 
+178.137.165.32 2 2 66434 20180613204021
+98.15.66.216 0 1 69996 
+62.235.3.110 0 1 37939 
+77.166.106.237 0 1 37939 
+194.176.105.166 0 1 5783 
+174.69.197.7 0 1 109087 
+94.128.91.157 0 1 71774 
+76.102.38.13 0 1 109087 
+27.0.178.173 0 2 144865 
+1.40.58.55 0 1 24233 
+141.40.252.6 0 1 109087 
+106.208.235.168 4 23 347403 20180622201714
+91.232.101.14 0 1 109087 
+43.252.249.19 0 1 384826 
+176.217.146.25 0 1 109087 
+41.242.89.134 0 1 33927 
+67.170.227.166 0 1 109087 
+42.111.147.136 5 56 5769748 20180621105416
+174.81.187.153 0 1 26565 
+66.142.195.205 0 2 105300 
+74.57.236.55 0 1 33927 
+42.111.138.96 0 1 186337 
+122.178.166.177 1 15 125414 20180619011902
+190.113.208.175 0 1 43818 
+52.176.94.150 4 4 146600 20180610215100
+188.223.200.175 0 1 109087 
+10.6.35.187 0 1 109087 
+192.197.54.136 0 1 109764 
+73.18.181.190 0 1 33927 
+99.247.20.129 0 1 33927 
+24.194.171.230 0 1 109087 
+81.198.129.249 0 1 109087 
+123.193.61.167 0 1 69996 
+109.166.137.148 0 1 24233 
+169.149.192.36 0 1 14938 
+47.29.123.107 3 36 4052170 20180623143201
+2405:204:710d:ac07:1459:144e:9855:124f 6 185 6388153 20180610050444
+66.249.83.16 13 66 1218181 20180623055450
+125.69.104.226 0 2 394958 
+195.24.62.2 0 2 392752 
+106.198.22.172 4 132 698539 20180626002706
+2405:204:728e:38a:f54:7a29:3eaf:b9 4 55 5769705 20180611001335
+204.79.180.21 0 1 2095 
+107.130.108.9 0 1 109087 
+58.96.84.148 0 1 37939 
+223.228.60.205 0 1 14168 
+10.38.208.127 0 1 109087 
+37.114.143.169 0 1 32646 
+42.109.62.158 4 24 349162 20180610035051
+47.11.154.60 0 1 33927 
+71.53.82.105 0 1 26565 
+41.114.47.122 18 480 9736883 20180607144001
+174.97.119.220 0 1 24233 
+68.146.210.198 0 1 26565 
+76.20.98.89 0 1 109087 
+186.51.176.46 0 2 219528 
+88.231.134.245 0 1 24233 
+103.213.192.154 4 150 885338 20180607022244
+174.236.151.25 0 2 58160 
+41.78.73.25 4 65 778603 20180620082721
+193.61.243.161 0 1 109087 
+157.50.38.184 6 184 3926684 20180612113347
+80.189.159.64 0 1 69996 
+159.203.81.93 1 1 10479 20180609084154
+1.23.185.154 6 57 5796233 20180629072746
+43.230.45.46 0 1 82945 
+172.58.217.204 0 1 109087 
+73.237.156.118 0 1 109087 
+35.230.159.204 3 3 99651 20180608173309
+123.125.143.20 1 3 50907 20180630053645
+64.229.39.237 0 1 109087 
+2409:4070:209a:8487:d42c:4f11:971e:afef 0 1 76305 
+199.180.97.237 0 1 109087 
+80.189.72.157 0 1 109087 
+182.65.91.71 8 101 996040 20180628085819
+88.97.4.47 0 1 109087 
+27.5.109.181 4 150 885338 20180616052055
+5.112.245.88 0 1 109764 
+49.33.30.163 0 1 384826 
+106.198.32.118 1 26 324160 20180624090648
+88.100.201.212 1 1 33217 20180625132157
+159.224.194.185 0 1 25068 
+107.214.73.169 0 1 109087 
+95.102.185.90 0 1 24233 
+42.109.130.0 1 34 3167010 20180604050628
+63.209.178.11 0 1 37939 
+200.180.182.48 0 1 33927 
+5.48.38.78 0 1 17834 
+172.75.33.119 4 23 347408 20180626214251
+47.31.139.24 0 1 211374 
+223.181.232.73 1 1 43 20180628063158
+82.19.31.83 0 1 296193 
+101.127.86.122 4 23 342868 20180625125305
+176.227.97.128 0 1 24233 
+2402:3a80:41f:f582:e9f2:a263:5c40:6be4 7 61 5890636 20180628030323
+99.203.23.231 0 1 109087 
+112.198.147.137 0 1 109087 
+103.207.0.29 4 53 5616024 20180627101443
+174.195.137.56 0 1 33927 
+2.219.170.47 0 1 109087 
+107.77.85.28 0 1 33927 
+8.42.76.134 0 1 109087 
+131.95.1.138 0 1 109087 
+94.15.78.12 0 1 63859 
+96.9.70.200 0 1 109087 
+209.52.88.198 0 1 63139 
+61.2.64.24 2 23 1180359 20180607054025
+210.107.187.21 0 1 109087 
+103.255.5.52 0 1 113400 
+2405:204:73cf:3e7a::1938:70ac 2 18 51726097 20180611034731
+193.169.252.38 2 2 48692 20180625031549
+198.178.12.2 4 66 777814 20180614124744
+88.12.166.9 0 1 82945 
+45.24.207.4 0 1 186337 
+72.143.236.46 0 1 58748 
+49.33.105.67 0 1 384826 
+50.73.195.190 0 1 37939 
+66.249.88.142 12 61 1476511 20180622075502
+122.178.177.0 1 33 3624052 20180605113433
+94.123.201.242 0 1 24233 
+5.107.50.79 0 1 69996 
+157.51.182.22 1 1 43 20180627235412
+110.150.33.203 0 1 109087 
+157.48.76.250 1 1 8911 20180604082914
+172.58.23.164 0 1 25455 
+204.85.253.247 0 4 204740 
+112.133.245.131 11 62 5675647 20180610083706
+133.39.20.13 0 1 10882 
+12.233.32.13 0 1 109087 
+106.76.241.223 0 1 24233 
+76.121.176.90 0 1 26565 
+157.32.105.128 3 52 506476 20180603210729
+47.55.11.199 0 1 109087 
+18.144.43.229 3 20 244846 20180618085516
+204.79.180.9 1 8 80501 20180611002229
+210.18.150.47 4 150 885338 20180623111826
+157.50.27.200 4 23 347365 20180619105358
+45.224.204.101 0 1 25980 
+107.218.158.198 0 1 207867 
+74.62.185.1 0 1 109087 
+110.32.130.173 0 1 21881 
+122.174.151.3 0 1 33594 
+47.210.140.191 0 1 109087 
+5.115.247.93 0 1 24233 
+71.230.28.123 0 1 109087 
+50.53.28.204 0 1 82945 
+96.88.36.251 0 1 30053 
+76.180.44.191 0 1 17834 
+174.255.197.62 0 1 109087 
+120.28.50.66 0 1 30053 
+116.73.164.253 0 1 109087 
+5.41.194.240 0 1 109087 
+73.195.118.129 0 1 109087 
+173.252.123.181 1 1 41280 20180620132222
+172.192.74.27 6 62 5852726 20180616224956
+204.79.180.18 1 8 18561 20180609010257
+49.205.44.211 8 110 10638668 20180621044019
+77.97.17.188 0 1 17834 
+162.238.51.157 0 1 109087 
+178.197.234.31 0 1 24233 
+223.184.74.0 1 8 126365 20180618120426
+42.106.26.80 1 1 43 20180618230408
+196.125.170.77 0 1 109087 
+223.182.250.191 4 54 5767951 20180623144302
+145.255.21.190 1 1 10479 20180615124008
+184.91.93.220 0 1 109087 
+108.209.118.37 0 1 109087 
+68.7.124.247 0 1 109087 
+103.215.224.52 0 1 109087 
+174.68.85.68 0 1 67361 
+151.230.244.119 0 1 26565 
+172.58.23.161 0 1 33927 
+51.253.99.150 4 55 5769705 20180621081102
+157.51.70.11 1 1 43 20180619203133
+118.200.230.138 0 1 0 
+80.12.38.18 0 1 7423 
+46.217.134.208 0 1 26565 
+42.104.87.37 9 189 5254774 20180606090802
+165.227.210.83 1 1 33217 20180601122942
+41.79.66.233 0 1 33927 
+47.156.115.197 0 1 63859 
+204.107.242.20 0 1 25980 
+2.247.243.34 0 1 69996 
+75.127.189.130 0 1 247323 
+157.51.170.58 1 1 43 20180602055333
+105.226.93.199 0 1 82945 
+151.135.227.5 0 1 24233 
+172.16.0.70 0 1 24233 
+73.76.141.126 0 2 218174 
+157.119.186.178 1 1 33217 20180605121756
+145.108.55.252 0 1 109087 
+186.27.152.120 0 1 19791 
+104.157.131.2 0 1 109087 
+70.77.2.251 0 1 109087 
+61.19.201.18 0 1 211374 
+193.239.57.34 0 1 109087 
+202.28.214.130 0 1 109087 
+172.56.23.33 0 1 37939 
+75.22.117.131 0 1 82945 
+49.207.51.54 0 1 26565 
+174.222.5.79 0 1 109087 
+100.8.169.226 0 1 109087 
+198.58.28.73 0 1 25980 
+157.51.92.22 1 25 162431 20180626001422
+94.100.10.230 0 1 17834 
+46.99.61.39 0 1 24233 
+45.17.239.226 0 1 63859 
+209.226.181.51 0 1 109087 
+86.98.87.214 0 2 392752 
+106.203.0.0 1 10 2523143 20180614021205
+10.145.172.89 0 1 25980 
+74.140.19.161 0 1 26565 
+89.64.63.107 0 1 109087 
+49.15.193.234 0 1 30053 
+75.191.251.71 0 1 109087 
+197.156.70.126 4 83 1005605 20180605021529
+172.56.37.123 0 1 109087 
+120.188.79.4 0 1 211374 
+24.21.44.145 0 1 37939 
+71.227.220.10 0 1 190899 
+86.165.197.84 0 1 109087 
+222.127.94.12 0 1 26565 
+37.0.86.54 0 1 37939 
+157.50.95.41 3 52 5767084 20180622043954
+73.184.10.232 0 1 109087 
+2402:3a80:464:27ca:8082:8a32:7746:2f6a 9 79 7118410 20180629225831
+85.255.235.181 0 1 109087 
+41.13.212.166 0 1 33927 
+66.102.6.239 14 110 2931185 20180630004938
+99.101.216.234 0 1 109087 
+190.236.197.173 0 1 25980 
+58.237.191.158 0 1 24233 
+187.32.245.73 0 1 17834 
+91.137.72.107 0 1 109087 
+223.228.151.192 2 129 13049 20180614034221
+184.94.240.92 2 3 425688 20180623044442
+157.51.111.184 4 150 885338 20180611212744
+104.249.224.209 8 68 6003078 20180621082805
+68.199.9.66 0 2 41695 
+2405:204:71cd:d038:50a1:5e0d:c8d3:8383 1 1 43 20180627102224
+147.147.187.45 4 65 753581 20180613125758
+10.9.88.116 0 1 24233 
+73.12.111.224 0 1 211374 
+73.56.15.4 0 1 37939 
+116.50.224.6 0 1 109087 
+194.176.105.152 0 1 247323 
+43.245.8.1 7 27 359765 20180618100505
+103.194.242.226 4 55 5769705 20180623010825
+2.247.251.53 0 1 24233 
+104.238.169.24 1 1 9075 20180617013221
+182.156.225.91 4 77 5283040 20180629013044
+117.204.19.34 14 70 6030550 20180613105938
+27.62.169.237 1 1 8658 20180622222523
+81.213.179.70 0 1 24233 
+79.145.180.223 0 1 69996 
+2405:204:73cf:e44a:1acc:d49:9075:cadd 4 136 752422 20180611060856
+106.76.45.0 2 27 4845451 20180601094203
+117.241.48.133 0 1 61726 
+2402:3a80:406:4a02:33cc:f73d:c0a1:a205 8 32 369977 20180604010629
+37.40.3.149 0 1 1754 
+2405:204:734d:931d:9a27:bbbe:5256:b83 6 99 530434 20180613012231
+173.234.58.87 1 1 33217 20180630023018
+49.33.62.41 2 26 438337 20180608123619
+185.2.244.5 0 1 109087 
+87.18.78.245 1 1 33217 20180621161734
+198.143.133.157 1 1 8658 20180607141036
+103.211.53.96 0 1 26565 
+42.111.157.30 1 1 43 20180623015714
+162.247.37.219 0 1 25980 
+103.249.233.23 0 1 384826 
+174.85.28.166 0 1 109087 
+73.25.170.247 0 1 109087 
+195.220.106.83 0 1 7423 
+49.205.39.21 8 107 11333492 20180613043436
+27.59.58.151 0 1 57403 
+119.56.64.184 0 1 69996 
+113.203.190.15 0 1 22774 
+42.111.129.156 0 1 69996 
+82.3.131.146 0 1 109087 
+78.185.51.183 0 1 162861 
+67.195.161.138 0 1 109087 
+178.232.216.15 0 1 109087 
+82.30.98.159 0 1 109087 
+77.253.240.166 0 1 207867 
+121.242.175.237 1 19 508189 20180601032411
+174.80.205.203 0 1 43818 
+184.90.44.239 0 1 33927 
+77.97.178.143 0 1 82945 
+157.51.174.47 4 56 6124413 20180621232601
+188.27.188.247 1 1 33217 20180612051925
+85.255.235.185 0 1 109087 
+107.139.165.0 0 1 21881 
+49.205.59.198 1 20 736797 20180607023105
+76.69.150.40 0 1 109087 
+70.179.21.193 0 1 25980 
+206.169.133.5 0 1 25980 
+103.231.161.73 0 1 109087 
+212.88.230.30 0 1 21881 
+107.77.104.110 0 1 296193 
+183.82.133.205 0 1 43818 
+157.50.81.134 4 24 349162 20180609081941
+112.133.245.129 9 28 979141 20180607011116
+157.50.38.99 5 163 3399698 20180618111320
+134.249.52.34 18 18 597906 20180614173928
+100.37.26.56 0 1 109087 
+173.77.240.243 0 1 82945 
+203.192.218.199 0 2 127718 
+103.5.112.64 4 30 453393 20180601092519
+189.226.175.243 0 1 82945 
+149.13.248.214 0 1 37939 
+146.199.189.175 0 1 5783 
+196.20.228.159 0 1 16060 
+216.165.95.149 0 1 26565 
+172.14.63.104 0 1 296193 
+80.13.111.172 1 1 33217 20180621162655
+97.81.6.75 0 1 109087 
+75.76.212.99 0 1 109087 
+210.16.85.58 0 3 156905 
+86.130.165.62 0 1 109087 
+174.226.6.211 0 2 58160 
+173.252.123.186 1 10 1098504 20180620132222
+173.23.14.115 0 1 82945 
+82.4.118.48 0 1 17376 
+157.50.195.218 1 1 43 20180613081149
+128.0.73.7 0 1 25980 
+107.77.241.3 0 1 21853 
+192.168.10.44 0 1 63139 
+162.119.13.23 0 1 21904 
+174.225.9.153 0 1 109087 
+51.36.213.75 1 1 33217 20180621053409
+174.103.78.240 0 1 67361 
+208.54.37.197 0 2 46480 
+174.116.251.214 0 1 109087 
+223.182.240.183 4 24 349162 20180610111151
+188.133.120.35 0 1 26565 
+52.90.178.84 1 1 103154 20180623231759
+166.137.252.34 0 1 109087 
+157.32.16.58 3 23 338683 20180610125041
+119.56.92.168 0 1 109087 
+162.156.129.86 0 1 109087 
+92.40.248.106 0 1 69996 
+180.117.231.6 1 1 8658 20180601080212
+24.69.54.134 0 1 109087 
+71.12.245.151 0 1 33927 
+194.230.155.119 0 1 7423 
+103.79.248.5 1 1 33217 20180622063939
+106.105.181.110 0 1 235373 
+66.87.149.243 0 1 37939 
+94.128.87.207 0 1 24233 
+103.44.96.134 1 15 125414 20180607085442
+46.251.124.44 0 2 55121 
+217.69.6.187 3 3 18153 20180607015134
+49.145.103.3 0 1 109087 
+172.7.1.99 0 1 109087 
+173.252.123.185 0 4 174585 
+76.77.239.60 0 1 26565 
+173.252.123.183 0 10 523160 
+72.228.29.166 0 1 109087 
+73.102.199.210 0 1 37939 
+24.243.245.237 0 1 69996 
+107.170.96.6 1 2 37387262 20180619234815
+182.75.149.20 4 64 746214 20180627080507
+99.232.45.17 0 1 26565 
+103.102.145.78 0 1 81700 
+47.146.113.177 0 1 17834 
+82.211.158.112 0 1 33927 
+24.35.169.128 0 1 109087 
+147.47.61.197 1 1 33217 20180629161903
+86.158.226.238 0 1 82945 
+71.95.189.250 0 1 37939 
+122.53.139.226 0 1 16060 
+178.137.160.170 7 7 232519 20180617094042
+203.154.79.173 1 1 33217 20180618181225
+41.66.199.38 4 31 411938 20180629152914
+2.123.213.126 0 1 109087 
+157.41.141.59 4 55 5769705 20180603162526
+2409:4072:913:b434::25fe:10a5 5 88 5930514 20180612015143
+208.124.116.109 0 1 109087 
+124.158.21.34 0 1 33927 
+157.51.222.167 1 1 43 20180602223158
+18.144.40.200 18 18 80942 20180618085519
+45.30.40.247 0 1 69996 
+97.90.154.241 0 1 109087 
+106.51.75.223 6 49 5729301 20180604084037
+106.198.117.83 4 54 5767951 20180620092848
+85.240.132.69 0 1 11821 
+122.178.148.44 1 15 125414 20180627015905
+108.198.114.29 0 2 218174 
+191.99.159.189 0 1 71774 
+77.102.199.23 0 1 109087 
+42.111.154.209 4 24 21082 20180602023841
+71.66.247.153 0 1 71313 
+169.255.252.131 0 1 69996 
+173.252.92.214 2 6 993218 20180605035627
+121.162.78.90 0 1 76305 
+58.108.84.129 5 25 349205 20180616105910
+47.18.170.30 0 1 82945 
+94.3.25.229 0 1 109087 
+27.56.212.238 4 149 883584 20180622125419
+123.136.107.145 0 1 109087 
+223.182.207.34 4 22 273568 20180609214942
+99.250.54.128 0 1 67361 
+37.201.214.134 0 1 24233 
+49.205.150.176 17 252 60429241 20180606024336
+99.244.98.125 0 1 109087 
+95.25.78.143 2 2 48692 20180620091418
+103.19.255.174 0 1 109087 
+105.100.8.221 0 1 7423 
+185.95.207.23 0 1 76305 
+122.178.150.146 1 15 125414 20180620094709
+107.210.250.59 0 1 21881 
+4.7.30.66 0 1 76305 
+80.93.187.145 1 1 8658 20180619091029
+49.205.49.18 8 110 10641830 20180613004127
+24.167.150.217 0 1 109087 
+70.29.58.64 1 1 33217 20180628150116
+186.72.141.206 0 1 71774 
+23.112.43.213 0 1 109087 
+174.50.205.65 0 1 24233 
+103.103.214.147 0 1 5783 
+37.124.158.234 5 29 398521 20180611111009
+184.54.190.191 0 1 11379 
+172.78.12.95 0 1 109087 
+76.68.116.223 0 1 37939 
+183.82.250.57 1 15 125414 20180615074712
+109.62.69.16 0 1 109087 
+172.56.22.70 0 1 69051 
+157.48.122.39 0 1 12179 
+202.1.175.144 0 1 109087 
+70.79.138.185 1 1 33217 20180611054536
+204.79.180.17 0 4 78840 
+71.234.127.69 0 1 82945 
+24.62.130.141 0 1 37939 
+69.244.152.233 0 1 109087 
+122.178.39.35 8 71 6044858 20180619025240
+69.244.10.85 0 1 82945 
+172.89.5.252 0 1 296193 
+206.74.130.21 0 1 109087 
+198.7.58.98 2 5 24807 20180628205809
+14.215.176.145 1 4 80691 20180623100823
+179.7.58.181 0 1 26855 
+49.14.71.244 0 1 24233 
+67.86.221.49 0 1 239715 
+14.139.56.250 14 89 7391269 20180605043818
+107.152.86.163 0 1 82945 
+99.237.83.193 0 1 17834 
+43.225.165.14 1 1 8658 20180601150243
+206.222.113.34 0 1 24233 
+69.17.160.61 0 1 109087 
+49.205.56.66 4 55 5769705 20180625051553
+68.15.34.145 0 1 33927 
+182.76.233.101 8 38 566204 20180606080358
+24.144.15.159 0 1 24233 
+107.72.164.124 0 2 53710 
+18.144.11.101 1 1 33217 20180618085513
+150.107.205.254 0 2 52971 
+76.101.243.28 0 1 211374 
+103.18.0.50 0 1 109087 
+172.58.96.40 0 1 63859 
+27.34.16.202 0 1 21853 
+157.32.105.116 1 1 10479 20180610125031
+120.92.11.189 0 1 36865 
+177.247.101.88 0 1 26855 
+121.167.109.149 0 1 24233 
+173.224.251.132 0 1 109087 
+173.190.246.82 0 1 216824 
+123.136.115.233 0 1 82945 
+165.120.201.217 0 1 82945 
+86.125.187.185 0 1 25980 
+122.180.158.121 0 1 82945 
+2405:204:7185:160e:a1fe:5d1c:8881:cd3 1 1 43 20180607055435
+49.205.48.223 4 54 4772189 20180624225119
+47.205.128.139 0 1 76056 
+66.249.84.80 10 37 1095819 20180622062833
+84.219.218.250 0 1 109087 
+74.113.181.83 0 1 82945 
+122.149.163.160 0 1 17834 
+162.234.106.21 0 1 223338 
+24.5.50.179 0 2 43808 
+86.20.205.241 0 1 109087 
+184.20.9.87 0 1 109087 
+157.50.98.158 4 24 349162 20180622125914
+106.51.38.199 0 1 82913 
+72.221.79.130 0 1 17834 
+66.195.31.190 0 1 109087 
+112.133.217.54 0 1 87985 
+59.120.98.131 0 1 62538 
+69.246.34.24 0 1 24220 
+49.205.48.69 4 55 5769705 20180611073111
+69.201.190.17 0 1 71313 
+67.195.177.161 0 1 109087 
+99.245.150.212 0 1 109087 
+71.17.180.81 0 1 109087 
+89.240.209.74 0 1 109087 
+188.222.166.157 0 1 109087 
+2409:4072:995:e9bc:8790:d9e6:bc40:baca 4 55 5769705 20180611030724
+5.189.200.248 1 1 33217 20180629153659
+61.226.118.88 0 1 109087 
+103.72.216.146 0 1 384826 
+206.180.165.147 1 1 8658 20180618183803
+166.137.244.120 4 24 413734 20180626201009
+5.12.165.233 0 1 76305 
+122.255.112.65 0 1 109087 
+50.26.190.11 0 1 76305 
+172.56.22.118 0 1 109087 
+106.208.229.97 15 310 7834368 20180608060314
+1.132.110.89 0 1 384826 
+175.198.61.168 0 1 37939 
+109.162.66.73 3 3 99651 20180605115343
+74.44.211.74 0 1 76056 
+31.223.41.197 0 1 24233 
+115.186.185.62 0 1 26565 
+112.200.193.230 1 1 33217 20180603054704
+89.198.80.55 0 1 296193 
+122.178.110.175 7 153 892059 20180604064839
+157.50.16.84 4 28 351665 20180607025730
+157.50.33.70 4 151 1135428 20180617105630
+174.88.140.142 0 1 33927 
+172.16.120.32 4 23 347446 20180606065743
+2405:204:7349:de66:: 3 36 1798293 20180626235843
+173.202.114.217 0 1 33927 
+154.160.23.195 0 1 82945 
+39.40.248.165 0 1 56681 
+103.211.62.134 0 1 191891 
+2.89.187.149 0 1 109087 
+67.250.17.33 0 1 26565 
+182.183.238.138 2 19 190070 20180605124330
+173.18.173.138 0 1 17834 
+114.33.201.123 0 1 21853 
+174.238.23.117 0 1 82945 
+194.176.105.133 0 1 109087 
+223.181.243.170 5 154 912331 20180630064922
+2401:4900:261c:4008:0:54:: 2 50 5316888 20180622102259
+86.148.250.89 0 1 82945 
+97.84.242.235 0 1 26565 
+118.200.151.118 0 1 26776 
+47.11.163.106 0 21 3308789 
+86.45.199.11 0 1 296193 
+66.190.77.106 0 1 109087 
+42.111.159.3 20 210 54516421 20180626140512
+157.51.159.167 0 1 384826 
+157.41.212.45 0 1 56681 
+106.51.26.109 0 1 530186 
+49.205.139.114 8 68 5975368 20180605031746
+104.194.24.169 0 1 21881 
+59.101.81.169 0 1 69051 
+103.106.237.100 0 1 415466 
+111.65.58.183 0 1 109087 
+51.15.86.162 2 2 17316 20180628021035
+173.25.140.45 0 2 46480 
+38.100.21.63 11 11 381235 20180608205722
+70.48.253.58 0 1 109087 
+2405:204:7185:160e:527c:a845:4ade:edef 1 1 43 20180606234231
+99.203.31.143 0 1 12179 
+67.195.161.81 0 1 25068 
+178.137.163.137 12 12 371653 20180614182210
+106.220.47.51 0 1 384826 
+173.26.177.146 0 1 109087 
+157.51.150.167 2 3 10455 20180602230719
+66.87.176.236 0 1 26565 
+10.7.192.48 0 1 33927 
+96.63.200.229 0 1 82913 
+223.39.190.96 0 1 25980 
+24.209.224.3 0 1 109087 
+94.119.96.2 0 1 109087 
+204.79.180.14 0 1 670 
+14.215.176.143 0 2 25182 
+103.42.175.219 0 1 109087 
+162.119.240.107 4 66 701656 20180629124343
+109.77.12.81 0 1 82945 
+157.50.112.98 0 2 102845 
+98.14.70.48 0 1 109087 
+157.51.171.199 4 150 885338 20180606102901
+59.97.82.131 0 1 109087 
+106.198.33.211 1 1 13006 20180625232011
+175.142.180.207 0 1 21881 
+183.82.250.20 7 27 355883 20180612054203
+99.195.134.164 4 23 347446 20180613204905
+106.198.33.206 5 6 169333 20180601063539
+107.77.106.119 0 1 109087 
+52.59.102.42 1 1 8658 20180630080020
+174.224.10.122 0 1 109087 
+117.7.169.234 0 1 37939 
+115.89.123.121 2 2 17316 20180623143715
+13.68.130.188 1 1 0 20180613220824
+185.100.168.136 0 1 109087 
+67.195.177.203 0 1 109087 
+172.58.120.116 0 1 109087 
+45.77.20.30 1 1 33217 20180612020850
+172.58.96.97 0 1 63859 
+45.126.47.129 0 1 109087 
+90.207.32.120 0 1 109087 
+49.146.34.232 5 43 2780118 20180619053933
+86.38.4.2 0 1 82945 
+43.245.46.152 0 1 109087 
+65.189.22.73 0 1 109087 
+77.250.183.80 0 1 26565 
+119.159.151.212 0 1 76305 
+115.178.209.68 0 1 26855 
+181.222.77.67 0 1 109087 
+182.48.229.30 0 1 33927 
+107.128.228.47 4 65 827883 20180618200716
+185.69.144.188 0 1 33927 
+41.104.185.37 0 2 447582 
+162.224.138.55 0 1 33927 
+112.134.215.153 0 1 109087 
+185.16.31.252 0 1 86140 
+177.85.205.10 1 1 33217 20180617133046
+182.232.29.104 0 1 109087 
+174.105.205.179 0 1 82945 
+192.0.86.185 0 1 109087 
+129.78.56.207 0 1 33927 
+24.114.49.84 0 1 82945 
+82.25.111.65 0 1 82945 
+101.226.79.244 1 10 265535 20180616032342
+204.79.180.20 0 8 77082 
+31.215.205.242 0 1 56681 
+159.203.196.79 4 4 37222 20180623111809
+94.97.88.98 0 1 76305 
+38.121.52.44 0 1 37939 
+23.101.169.3 7 62 481988 20180627031320
+112.215.45.170 6 72 839375 20180615042532
+99.198.138.224 0 1 24233 
+64.4.82.196 0 1 37939 
+62.193.115.194 0 1 109087 
+204.79.180.7 0 3 13459 
+117.196.251.196 5 27 37764236 20180609220600
+203.223.190.112 1 15 125414 20180626081118
+5.116.18.29 9 65 5932944 20180603112102
+76.29.128.101 0 1 76056 
+45.245.15.150 0 1 82945 
+42.108.224.203 5 64 696428 20180616122539
+173.252.92.209 1 9 345178 20180605035626
+174.62.207.117 0 1 63139 
+123.125.143.12 1 2 102317 20180630053645
+77.239.5.79 0 1 109087 
+217.44.12.56 0 1 109087 
+192.168.0.25 0 1 239715 
+174.102.150.241 0 1 211374 
+203.187.240.230 0 1 82945 
+62.195.168.175 0 1 21881 
+172.58.201.99 0 1 24233 
+59.17.51.1 0 1 22109 
+131.253.25.88 1 1 8911 20180601101702
+106.203.2.238 7 186 6388196 20180610030052
+204.156.172.98 0 1 43818 
+47.197.98.128 0 1 26565 
+2405:204:7100:3713::18cf:88a0 4 22 273568 20180602223152
+204.79.180.4 0 3 15994 
+157.37.241.245 0 1 384826 
+174.60.227.41 0 1 26565 
+188.140.137.226 0 1 1754 
+47.247.214.91 0 1 25980 
+154.20.176.135 0 1 26565 
+157.50.54.223 10 191 6489444 20180611001325
+49.159.88.115 0 1 109087 
+104.6.41.217 0 1 109087 
+67.154.189.4 0 1 76305 
+92.232.190.45 0 1 82945 
+96.43.182.17 0 1 211374 
+159.83.115.9 0 1 33927 
+67.195.177.71 0 3 236008 
+107.184.227.235 0 1 69996 
+108.224.107.50 0 1 33927 
+182.64.159.123 0 1 69051 
+118.92.136.205 0 1 49232 
+183.82.22.43 0 1 71774 
+86.29.157.75 0 1 33927 
+157.51.217.18 4 41 489610 20180614062921
+109.110.68.249 0 2 84680 
+52.34.24.33 1 1 8658 20180618015717
+188.29.165.220 0 1 64897 
+76.190.232.162 0 1 109087 
+47.15.38.177 0 1 24233 
+24.111.234.109 0 1 82945 
+223.181.208.65 8 154 905065 20180625035251
+200.95.170.219 0 1 26855 
+223.31.55.254 1 15 125414 20180630063324
+190.17.28.223 0 1 109087 
+188.232.141.98 0 3 107100 
+5.81.148.175 0 5 185236 
+95.90.219.125 0 1 76305 
+97.46.193.128 0 1 26855 
+2.98.184.222 0 1 109087 
+144.132.188.73 0 1 109087 
+49.150.92.70 0 1 109087 
+114.136.76.255 0 1 211374 
+39.42.131.231 1 1 33217 20180626085317
+49.32.159.29 0 1 186337 
+43.230.172.54 0 1 129600 
+157.51.78.42 0 1 530186 
+105.4.7.192 0 1 24233 
+131.253.25.87 1 16 123828 20180601114058
+45.29.173.50 0 1 69996 
+10.14.23.78 0 1 109087 
+157.51.214.24 8 59 5778492 20180625023023
+111.93.200.46 0 1 61726 
+212.235.26.221 0 1 109087 
+67.195.177.82 0 2 218174 
+69.201.70.206 0 1 33927 
+2.177.58.199 0 1 15972 
+157.50.29.253 0 2 36499374 
+183.171.92.207 0 1 17834 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180601 68 704 37190468 29
+20180602 53 449 28557779 22
+20180603 123 964 144634948 28
+20180604 124 1539 216706973 32
+20180605 196 2096 103971479 43
+20180606 218 2154 306629583 35
+20180607 264 2043 59338639 42
+20180608 94 1309 60101034 23
+20180609 90 770 71508955 21
+20180610 166 1664 155205477 33
+20180611 161 1635 242681562 34
+20180612 123 1798 63316973 34
+20180613 160 1722 203584724 35
+20180614 73 827 36673106 25
+20180615 125 1524 71299833 29
+20180616 126 1691 57161039 33
+20180617 73 1328 49982725 26
+20180618 623 2254 68336009 34
+20180619 151 1500 62567233 37
+20180620 90 1340 67779772 26
+20180621 160 1658 93204775 59
+20180622 238 2575 130569603 75
+20180623 138 1798 83685519 37
+20180624 47 902 55724612 18
+20180625 119 1401 70501863 32
+20180626 201 2207 186966355 33
+20180627 807 3874 145913273 35
+20180628 1149 4372 171071402 26
+20180629 306 3225 295458219 39
+20180630 126 1361 253661860 30
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 16
+5mn-15mn 41
+0s-30s 774
+30s-2mn 73
+2mn-5mn 56
+30mn-1h 27
+15mn-30mn 18
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/plugins/i18n_gallery/browser/pic.php 1538 7862636 0 1
+/stats/piwik.php 1176 50259 73 526
+/ 771 11192926 520 292
+/theme/Bootstrap3/font-awesome/fonts/fontawesome-webfont.woff 524 32006606 30 31
+/theme/Bootstrap3/fonts/glyphicons-halflings-regular.woff 518 11966030 17 28
+/chairmans-page.html 174 5485634 93 21
+/admin/upload.php 140 2546183 0 0
+/contact-us.html 112 1072925 25 14
+/press-release.html 111 3214488 0 1
+/admin/uploadify-check-exists.php 86 1806 0 0
+/admin/upload-uploadify.php 82 259 0 0
+/anal-fissure-fistula.html 82 963779 68 17
+/admin/pages.php 74 334555 0 0
+/theme/Bootstrap3/font-awesome/fonts/fontawesome-webfont.ttf 64 3867138 1 14
+/admin/inc/thumb.php 61 97842 0 0
+/theme/Bootstrap3/fonts/glyphicons-halflings-regular.ttf 58 2071294 2 6
+/colorectal-cancer.html 57 555754 43 11
+/admin/template/js/uploadify/uploadify.swf 56 716072 0 0
+/training.html 56 1346118 19 8
+/admin/load.php 52 588878 0 0
+/gateway-team.html 49 563709 14 2
+/photo-gallery.html 47 666661 2 3
+/about.html 41 448521 6 2
+/endoscopy.html 41 539588 28 5
+/hernia-surgery.html 31 415071 1 0
+/day-care-laparoscopy.html 18 190041 7 1
+/admin/backups.php 5 28316 0 0
+/facilities-infrastructure.html 21 220741 3 2
+/appendix.html 25 313390 0 0
+/services.html 8 142124 0 1
+/cancer.html 11 190028 2 0
+/admin/ 10 12437 3 1
+/theme/Bootstrap3/font-awesome/fonts/fontawesome-webfont.eot 7 392042 0 0
+/about-us.html 11 166004 0 1
+/piles-hemorrhoids.html 20 209894 4 0
+/admin/image.php 3 12463 0 0
+/medical-tourism.html 13 168092 2 0
+/ercp.html 8 88901 5 0
+/newsletter.html 7 100026 0 0
+/admin/edit.php 17 111039 0 0
+/hysterectomy.html 19 303867 7 2
+/admin/template/style.php 7 66259 0 1
+/gallery.html 5 74946 0 0
+/plugins/i18n_gallery/browser/imagebrowser.php 23 362064 0 0
+/theme/Bootstrap3/fonts/glyphicons-halflings-regular.eot 7 142345 0 1
+/colonoscopy.html 5 81533 0 0
+/social-services.html 8 140740 0 0
+/admin/backup-edit.php 3 9363 0 0
+/weight-loss-surgery.html 9 135933 3 0
+/admin/plugins.php 2 6632 0 0
+/gallbladder.html 25 278409 11 1
+/master-health-checkup.html 11 126654 4 2
+/admin/theme.php 3 8025 0 0
+/php/ajaxrequest.php 1 185 0 1
+/admin/inc/ajax.php 19 42750 0 0
+/video-gallery.html 19 183225 2 0
+/sitemap.xml 1 837 0 1
+/index.php 8 145008 6 6
+/hepatopancreaticobiliary.html 13 281240 4 1
+/admin/index.php 19 21372 0 1
+END_SIDER

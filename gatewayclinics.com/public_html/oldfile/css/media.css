@@ -1,0 +1,62 @@
+/* LARGE SCREENS */
+@media screen and (min-width: 1025px) {
+
+.container-fluid
+{
+	width:1020px;
+	position:relative;
+	margin:auto;	
+}
+.login-bg
+{
+	background:url(../images/login-bg.jpg) no-repeat left top;
+}
+}
+
+/* MEDIUM SCREENS */
+@media screen and (min-width: 650px) and (max-width: 1024px) {
+.best-products .add-btn
+{
+	font-size:10px;
+}
+.container-fluid
+{
+	position:relative;
+}
+.discount-coupn
+{
+	background-size: 100% auto;
+    font-size: 18px;
+    top: -4px;
+    width: 121px;
+}
+.animenu > ul > li > a
+{
+	 padding: 0 1em 1.5em;
+	 font-size: 12px;
+}
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width: 649px) {
+.animenu, .top-animenu
+{
+	width:100%;
+}
+.newsletter input[type="text"]
+{
+	width:90%;
+	margin:0 5px;
+}
+.newsletter input[type="submit"]
+{
+	top:-1px;
+	right:10px;
+}
+.discount-coupn
+{
+	position:relative;
+	margin:auto;
+}
+
+}

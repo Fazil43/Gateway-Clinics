@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><title>Items</title><pageurl>product1</pageurl><detailspage>product1</detailspage><resultspage><![CDATA[		  		  		  		  		  		  
+			&lt;style&gt;
+				.m_pic {
+					width:160px;
+					float:left;
+					border:1px solid white;
+					padding:1px;margin-top:0px;
+				}
+				.thatable tr td h2 {
+					margin:5px;
+					font-size:15px;
+					margin-toP:6px;
+					margin-top:0px;
+					padding-top:0px;
+				}
+				.thetable {
+					margin-bottom:30px;
+				}
+				.thetable td h2{
+					font-size:17px;
+				}
+			&lt;/style&gt;
+			&lt;table width=&quot;100%&quot; class=&quot;thetable&quot;&gt;
+				&lt;tr&gt;
+					&lt;td class=&quot;resize_img&quot; width=&quot;175&quot; valign=&quot;top&quot;&gt;
+						&lt;div&gt;&lt;img src=&quot;&lt;?php echo $SITEURL; ?&gt;data/uploads/items/&lt;?php echo $data-&gt;image1; ?&gt;&quot; class=&quot;m_pic&quot;/&gt;&lt;/div&gt;
+					&lt;/td&gt;
+					&lt;td valign=&quot;top&quot;&gt;
+						&lt;h2 style=&quot;&quot;&gt;&lt;?php echo $data-&gt;title; ?&gt; - &lt;span class=&quot;title_development&quot;&gt;&lt;?php echo $data-&gt;category; ?&gt;&lt;/span&gt; - &lt;a href=&quot;&lt;?php echo $url; ?&gt;&quot; style=&quot;font-size:13px;&quot;&gt;View Details&lt;/a&gt;&lt;/h2&gt;
+						&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;
+							 
+						&lt;/p&gt;
+						&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;
+							&lt;?php echo $content; ?&gt;.. &lt;a href=&quot;&lt;?php echo $url; ?&gt;&quot;&gt;Read more&lt;/a&gt;
+						&lt;/p&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/table&gt;
+					 		 		 		 		 		 ]]></resultspage></item><categories><category>labtops</category><category>gallery</category></categories></channel>

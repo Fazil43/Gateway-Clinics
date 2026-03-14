@@ -1,0 +1,7 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex awstats.pl
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.gastroupdates.gatewayclinics.com$ [NC]
+RewriteRule ^(.*)$ http://gastroupdates.gatewayclinics.com/awstats/$1 [R=301,L]

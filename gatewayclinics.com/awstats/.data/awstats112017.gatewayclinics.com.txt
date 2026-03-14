@@ -1,0 +1,693 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201711 will be lost/reset.
+# Last config file used to build this data file was /home/gatewayclinics/tmp/awstats/awstats.gatewayclinics.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2704                
+POS_VISITOR 10326               
+POS_DAY 17802               
+POS_DOMAIN 3520                
+POS_LOGIN 4357                
+POS_ROBOT 4512                
+POS_WORMS 4990                
+POS_EMAILSENDER 5121                
+POS_EMAILRECEIVER 5264                
+POS_SESSION 17917               
+POS_SIDER 18105               
+POS_FILETYPES 5399                
+POS_DOWNLOADS 5688                
+POS_OS 5965                
+POS_BROWSER 6223                
+POS_SCREENSIZE 7322                
+POS_UNKNOWNREFERER 7396                
+POS_UNKNOWNREFERERBROWSER 7589                
+POS_ORIGIN 7945                
+POS_SEREFERRALS 8086                
+POS_PAGEREFS 8244                
+POS_SEARCHWORDS 8514                
+POS_KEYWORDS 8686                
+POS_MISC 2368                
+POS_ERRORS 8767                
+POS_CLUSTER 4213                
+POS_SIDER_404 8871                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171201000327 716 179747 15724021784664
+FirstTime 20171129030352
+LastTime 20171130235400
+LastUpdate 20171201190713 716 0 715 0 0
+TotalVisits 61                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 254                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 37 158 88039646 10 24 5959098
+1 13 38 500998 4 10 83411
+2 3 14 201378 4 7 253693
+3 11 104 1111917 104 112 1905042
+4 12 77 1226858 9 16 840986
+5 18 152 2523237 2 15 1368478
+6 14 91 1402838 6 10 572128
+7 0 5 738404 5 22 143050
+8 16 135 12846964 4 18 661477
+9 11 108 2368391 3 11 100794
+10 3 13 573876 4 16 101888
+11 9 40 1371405 12 52 440188
+12 6 79 4883808 193 223 2666438
+13 0 14 1352698 6 20 72948
+14 0 15 825983 11 26 11094591
+15 9 88 7287925 2 16 136467
+16 1 7 635199 3 27 134956
+17 4 34 1332527 6 12 328772
+18 0 8 820945 4 14 5604882
+19 0 10 767495 3 17 10956681
+20 1 18 1336284 9 22 803759
+21 29 210 9204956 6 14 172383
+22 11 39 739921 60 70 1083068
+23 44 307 11557149 7 53 2939342
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 44
+in 134 824 69277532
+us 60 423 61157050
+ip 11 76 3143258
+be 9 76 6511395
+kr 9 93 1528769
+ca 8 53 3810476
+zz 5 25 429624
+qa 5 34 481902
+pl 4 27 761803
+sg 4 69 912534
+nl 1 2 117941
+th 1 1 33647
+mu 1 1 33647
+it 0 3 301119
+nz 0 1 33927
+dk 0 1 37939
+ge 0 1 26855
+is 0 1 207867
+ky 0 1 31118
+au 0 3 256113
+ch 0 1 109087
+kw 0 1 69996
+hk 0 1 66283
+ke 0 1 73424
+az 0 1 109087
+ro 0 1 24233
+jp 0 3 164178
+fi 0 1 109087
+se 0 2 126921
+sa 0 1 33927
+tw 0 2 218174
+gb 0 12 899132
+bd 0 2 194519
+pk 0 1 71774
+bt 0 1 26565
+de 0 2 55808
+mx 0 2 166490
+ie 0 5 462913
+my 0 1 109087
+ua 0 1 21904
+ir 0 3 141735
+fr 0 1 109087
+br 0 1 69996
+es 0 2 126921
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 586 32624499 20171130233928 58
+[\s_+:,\.\;\/\\-]bot 52 168649 20171129231043 0
+bingpreview 22 11399339 20171130080940 0
+googlebot\-image 20 3508 20171130235445 0
+googlebot 19 140061 20171130224737 3
+spider 18 964726 20171130171113 1
+robot 7 55967 20171130182528 2
+crawl 1 33647 20171130005623 0
+unknown 1 31 20171130124137 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff 56 2229704 0 0
+php 90 6289 0 0
+html 91 918033 0 0
+jpg 771 61691537 0 0
+Unknown 2 46773 0 0
+eot 4 76341 0 0
+js 329 3480993 0 0
+png 201 5018430 0 0
+pdf 7 77375928 0 0
+gif 12 32889 0 0
+ttf 9 539960 0 0
+css 192 1237967 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/data/uploads/mch-page-2.pdf 5 0 53176332
+/data/uploads/about-page.pdf 4 0 38460508
+/data/uploads/mch-page-1.pdf 2 0 16085200
+/data/uploads/Laparoscopic%20Hernia%20surgery%20Information%20Booklet%20for%20Patients.pdf 1 9 2319596
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+unix 3 0
+linuxandroid 690 110
+macosx4 1 1
+win8.1 36 4
+winnt 216 23
+linux 3 1
+winphone 1 0
+win7 378 51
+macosx 128 15
+ios_ipad 171 35
+winlong 44 6
+win8 1 0
+winxp 5 0
+ios_iphone 87 6
+Unknown 9 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 54
+chrome49.0.2623.75 2 1
+msie9.0 57 6
+firefox50.0 22 4
+chrome30.0.0.0 1 0
+firefox32.0 1 0
+chrome38.0.1025.166 32 2
+chrome56.0.2924.87 248 39
+safari11.0.1 4 0
+chrome61.0.3163.100 4 2
+firefox58.0 1 0
+chrome55.0.2883.87 1 0
+safari10.0 100 26
+msie11.0 103 9
+chrome62.0.3202.84 204 26
+safari 6 0
+opera49.0.2725.47 1 0
+chrome59.0.3071.125 33 7
+chrome49.0.2623.112 4 0
+firefox44.0 98 13
+chrome52.0.2743.116 3 0
+firefox33.0 1 1
+chrome55.0.2883.91 1 0
+chrome62.0.3202.97 3 0
+safari9.0 1 0
+chrome61.0.3163.98 2 0
+chrome40.0.2214.89 7 3
+chrome45.0.2454.93 1 0
+chrome46.0.2490.76 1 1
+safari10.1.2 1 0
+chrome60.0.3112.90 1 1
+firefox12.0 3 0
+mozilla 9 0
+chrome43.0.2357.93 24 4
+firefox40.0 28 4
+msie10.0 1 0
+firefox56.0 2 0
+firefox40.1 3 3
+chrome36.0.1985.125 2 2
+Unknown 4 0
+chrome49.0.2623.108 38 17
+firefox52.0 1 0
+safari11.0 130 15
+chrome38.0.2125.102 1 0
+firefox57.0 226 24
+msie8.0 1 0
+safari8.0 2 1
+firefox45.0 1 0
+chrome58.0.3029.110 2 1
+android 28 1
+chrome56.3.7680.2318 1 1
+iphone 18 0
+chrome53.0.2785.146 72 10
+chrome62.0.3202.94 231 28
+safari10.1.1 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_DotBot/1.1;_http://www.opensiteexplorer.org/dotbot,_help@moz.com) 20171129122147
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+com.google.GoogleMobile/39.0.0_iPad/10.3.3_hw/iPad3_6 20171130171058
+com.google.GoogleMobile/39.0.0_iPad/9.3.5_hw/iPad2_1 20171129230707
+com.google.GoogleMobile/28.0.0_iPad/9.3.5_hw/iPad2_4 20171129173917
+com.google.GoogleMobile/39.0.0_iPad/10.3.3_hw/iPad4_4 20171129100451
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28 103
+From1 1 1
+From2 36 174
+From3 4 5
+From4 183 1490
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 36 174
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.celioscope.com 2 2
+http://www.celioscope.com 1 1
+http://celioscope.com 1 1
+http://hemorrhoidinfection.club 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+gatway+coimbatore 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+coimbatore 1
+gatway 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 48 66736
+206 46 2967357
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 33
+/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php 1 http://gatewayclinics.com/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php
+/images/file.pdf 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 1 http://gatewayclinics.com/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php
+/images/img6.jpg 1 -
+/chennai.php 1 -
+/images/herniab3.png 1 -
+/data/uploads/tax.jpg 1 -
+/data/uploads/img9.jpg 1 http://gatewayclinics.com/endoscopy.html
+/images/img15.jpg 1 -
+/about_mgmt.php 1 -
+/images/pilesb1.jpg 1 -
+/manager/ 1 -
+/Social-Service.html 1 -
+/data/uploads/fencing.jpg 2 -
+/images/hyterectob1.png 1 -
+/user/ 1 -
+/herniaipom.php 1 -
+/data/uploads/Legal.jpg 1 -
+/Facilities.html 1 -
+/images/herniab1.png 1 -
+/images/img8.jpg 1 -
+/typo3/ 1 -
+/data/uploads/arrow.png 1 -
+/data/uploads/anitha.jpg 8 http://gatewayclinics.com/gateway-team.html
+/administrator/index.php 1 -
+/images/nn13.jpg 1 -
+/data/uploads/innerbanner1.jpg 1 -
+/data/uploads/Plan-approval.jpg 2 -
+/admin.php 3 -
+/images/img38.jpg 1 -
+/images/nn8.jpg 1 -
+/wp-login.php 4 -
+/gallery/gb3.jpg 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 254
+157.50.21.221 25 89 44432667 20171130010232
+49.139.128.108 22 135 6337462 20171129233131
+103.207.246.15 13 98 1807627 20171130232626
+42.109.45.163 12 66 6548440 20171130214331
+137.110.91.175 10 102 1383744 20171130215756
+220.123.166.60 9 92 1512709 20171130054602
+141.135.49.12 9 74 6423565 20171130154912
+157.50.10.100 9 62 6051993 20171129085359
+59.95.76.91 8 60 6051981 20171130003113
+27.62.90.198 8 28 22370 20171129220959
+115.249.244.130 8 32 365581 20171130012136
+47.15.5.154 7 49 2898260 20171129122106
+2405:204:7309:b75b:9955:de4e:5153:a564 6 32 395435 20171129213922
+117.98.165.202 5 56 22023 20171130034516
+106.76.223.251 5 30 2903875 20171129082558
+27.62.142.176 5 7 37401919 20171130005441
+176.203.148.153 5 34 481902 20171129051247
+27.62.151.171 4 24 310452 20171130093651
+2405:204:73c8:bdfd:d587:f7cf:e06f:1363 4 24 310452 20171130232144
+122.178.191.63 4 28 351873 20171130043249
+106.76.39.189 4 24 310452 20171130043933
+192.168.0.103 4 22 273744 20171129064038
+203.112.130.98 4 31 438864 20171129062623
+103.66.79.78 4 23 347526 20171129030422
+195.150.232.36 4 25 496646 20171129175048
+35.2.220.35 0 1 109087 
+104.190.218.168 0 1 109087 
+140.109.183.21 0 1 109087 
+64.17.89.159 0 1 109087 
+174.228.130.42 0 1 109087 
+204.79.180.4 1 3 20077 20171130110134
+204.79.180.14 0 3 12257 
+86.134.71.182 0 1 33927 
+204.79.180.0 0 2 48128 
+66.96.203.206 0 1 76305 
+96.82.177.14 0 1 43818 
+131.253.25.87 1 1 9321 20171130033941
+122.56.169.203 0 1 33927 
+122.148.245.225 0 1 109087 
+192.40.95.28 2 2 36238 20171130043611
+175.107.8.96 0 1 71774 
+204.79.180.12 0 1 1342 
+187.149.193.111 0 1 109087 
+106.76.223.64 2 3 9721 20171129102428
+98.26.124.57 0 1 109087 
+71.212.236.102 0 1 109087 
+118.185.71.5 1 1 8854 20171129231213
+24.10.129.250 0 1 43818 
+213.205.252.41 0 1 109087 
+92.111.241.124 0 1 109087 
+78.22.121.174 0 1 69996 
+162.119.232.107 0 1 76305 
+186.204.67.197 0 1 69996 
+173.53.97.107 0 1 207867 
+75.131.50.18 0 1 109087 
+69.112.108.187 0 1 109087 
+49.197.207.117 0 1 37939 
+199.125.16.11 0 1 8540 
+172.21.59.42 0 1 37939 
+172.56.40.44 0 1 109087 
+223.182.37.111 1 1 10434 20171130060228
+95.146.105.206 0 1 109087 
+117.249.214.0 1 12 183140 20171130024535
+39.109.135.226 0 1 15928 
+216.74.106.132 1 1 8854 20171130004509
+67.8.162.241 0 1 109087 
+151.67.186.121 0 1 109087 
+73.151.120.15 0 1 109087 
+71.254.169.47 0 1 109087 
+70.215.195.151 0 1 109087 
+94.97.86.51 0 1 33927 
+104.207.204.14 0 1 109087 
+166.137.10.94 0 1 181378 
+208.98.162.205 0 1 239715 
+117.214.8.53 1 1 8854 20171130013630
+10.36.202.170 0 1 109087 
+68.114.83.112 0 1 69051 
+106.203.61.27 2 2 6854 20171129224819
+79.114.104.101 0 1 24233 
+192.99.100.93 0 1 69996 
+68.61.91.68 0 1 109087 
+203.189.252.153 0 2 194519 
+107.77.70.15 0 1 109087 
+163.1.227.251 0 1 109087 
+213.233.147.164 0 1 109087 
+174.90.120.100 0 1 109087 
+10.0.114.0 1 1 8854 20171130162111
+192.0.4.25 0 1 31118 
+74.129.97.85 0 1 109087 
+169.240.114.114 0 1 21881 
+106.77.174.122 1 36 3479950 20171129081736
+106.76.223.192 2 2 8897 20171130001208
+24.193.167.215 0 1 109087 
+24.211.167.37 0 1 82945 
+72.221.56.73 0 1 24220 
+68.109.90.146 0 1 87600 
+71.87.132.132 0 1 109087 
+41.136.163.157 1 1 33647 20171129114441
+204.79.180.7 0 1 743 
+157.50.21.183 1 1 43 20171129213928
+184.94.189.253 0 1 21904 
+99.120.18.187 0 1 109087 
+75.163.94.118 0 1 109087 
+86.138.68.194 0 1 26565 
+35.2.241.206 0 1 109087 
+41.90.128.90 0 1 73424 
+174.54.196.26 0 1 109087 
+204.79.180.16 0 1 966 
+128.179.196.255 0 1 109087 
+52.53.129.36 2 2 17708 20171130060515
+172.115.161.252 0 1 33927 
+94.175.6.61 0 1 109087 
+117.217.169.192 0 1 62538 
+199.66.65.33 0 1 15048 
+54.85.182.120 1 1 10434 20171129200611
+65.50.53.149 0 1 109087 
+104.175.194.7 0 1 109087 
+152.26.198.38 0 1 17834 
+178.165.56.235 0 1 21904 
+37.153.182.162 0 2 69961 
+185.66.184.71 0 1 37939 
+35.2.162.167 0 1 109087 
+204.79.180.6 0 2 2840 
+37.228.251.1 0 1 26565 
+204.79.180.13 1 6 61136 20171130044635
+37.248.158.15 0 1 17834 
+204.79.180.23 0 2 2557 
+2405:204:7304:9f16:: 1 20 2437371 20171130235400
+98.122.99.115 0 1 109087 
+47.197.184.148 0 1 37939 
+216.239.65.139 0 1 109087 
+27.62.104.224 2 2 7758 20171129092820
+174.226.132.99 0 1 26565 
+208.73.76.65 0 1 26565 
+66.87.122.33 0 1 109087 
+82.203.190.32 0 1 109087 
+203.1.252.35 0 1 109087 
+78.13.106.217 0 1 109087 
+49.15.206.232 1 1 8854 20171130220527
+213.205.251.17 0 1 24233 
+93.40.185.132 0 1 82945 
+65.185.152.254 0 1 109087 
+130.208.204.5 0 1 207867 
+66.87.118.84 0 1 15136 
+107.77.97.110 0 1 109087 
+204.79.180.5 0 1 36865 
+174.108.32.148 0 1 186337 
+75.174.112.118 0 1 33927 
+37.135.168.176 0 1 109087 
+99.72.79.2 0 1 109087 
+198.85.56.10 0 1 109087 
+24.186.90.156 0 1 109087 
+185.30.91.252 0 1 109087 
+88.130.58.163 0 1 21881 
+173.238.201.38 0 1 109087 
+206.176.120.67 0 1 37939 
+81.202.98.11 0 1 17834 
+107.77.173.1 0 1 33716 
+70.184.93.153 0 1 109087 
+213.195.56.142 0 1 71774 
+70.61.31.3 0 1 24233 
+125.99.226.230 1 1 8854 20171129082159
+80.170.159.161 0 1 17834 
+71.239.20.169 0 1 109087 
+24.0.72.87 0 1 21904 
+137.191.237.253 0 2 218174 
+172.58.20.13 0 1 109087 
+131.253.25.73 1 8 64528 20171130033948
+27.55.100.73 1 1 33647 20171130110115
+49.35.20.120 0 1 109087 
+24.252.118.215 0 1 26565 
+88.72.110.28 0 1 33927 
+121.169.93.38 0 1 16060 
+123.221.79.131 0 1 37939 
+95.83.250.184 0 1 109087 
+213.205.198.79 0 1 109087 
+193.51.164.2 0 1 109087 
+188.221.105.20 0 1 26565 
+67.217.129.7 0 1 109087 
+67.201.129.199 0 1 33927 
+106.208.135.240 2 2 18238 20171130022001
+24.94.94.51 0 1 109087 
+108.78.237.50 0 1 17834 
+35.2.248.215 0 1 109087 
+174.101.73.214 0 1 33927 
+204.79.180.17 0 5 41422 
+71.175.27.87 0 1 109087 
+108.201.20.51 0 3 32250 
+108.172.184.183 0 1 33716 
+97.104.190.140 0 1 109087 
+98.164.76.59 0 1 109087 
+173.20.76.4 0 1 37939 
+204.79.180.2 0 2 29479 
+193.200.145.253 0 1 24233 
+31.182.215.99 0 1 247323 
+159.203.42.143 1 1 29817 20171129092819
+174.238.32.181 0 1 109087 
+193.10.220.181 0 1 109087 
+133.1.254.34 0 1 109087 
+63.224.250.28 0 1 76305 
+66.87.96.28 0 1 109087 
+70.55.100.23 0 1 109087 
+219.79.77.179 0 1 66283 
+204.79.180.15 0 1 12281 
+73.170.152.33 0 1 109087 
+116.241.4.188 0 1 109087 
+216.60.25.143 0 1 109087 
+74.202.184.5 0 3 233354 
+98.218.220.50 0 1 109087 
+86.187.172.27 0 1 109087 
+119.2.118.130 0 1 26565 
+204.79.180.10 2 3 11296 20171129235339
+68.115.100.215 0 1 109087 
+82.143.102.82 0 1 17834 
+27.63.23.118 3 55 620709 20171129125459
+107.3.39.62 0 1 109087 
+157.242.223.253 0 3 327261 
+157.50.9.101 1 1 43 20171130232151
+204.79.180.22 0 2 8938 
+173.187.146.143 0 1 82945 
+24.142.130.178 0 1 25455 
+216.45.37.108 0 1 109087 
+47.156.124.206 0 1 109087 
+75.82.86.57 0 1 33927 
+45.42.32.12 0 1 26565 
+204.79.180.11 0 1 9790 
+27.62.151.220 0 1 373204 
+204.79.180.3 0 2 7124 
+119.74.59.185 4 68 896606 20171129094857
+131.253.25.92 0 9 81448 
+129.25.36.58 0 1 24951 
+73.220.214.216 0 1 24233 
+69.122.113.29 0 1 109087 
+27.250.1.197 4 24 310452 20171130054333
+24.69.60.13 0 1 109087 
+202.170.48.6 0 1 109087 
+69.207.168.173 0 1 109087 
+47.31.1.31 1 1 33647 20171130110714
+24.216.120.62 0 1 33927 
+94.43.198.64 0 1 26855 
+27.62.228.68 4 32 457111 20171129064004
+188.71.255.14 0 1 69996 
+65.213.211.254 0 1 109087 
+189.148.117.34 0 1 57403 
+150.70.188.170 0 1 17152 
+46.183.144.12 1 1 8854 20171130103044
+204.79.180.18 1 2 8110 20171130044643
+73.93.141.65 0 1 109087 
+96.230.203.140 0 1 109087 
+98.117.89.120 0 1 33927 
+204.79.180.8 0 1 9469 
+170.142.177.220 0 1 24233 
+117.98.186.4 0 4 363578 
+217.44.198.95 0 1 109087 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20171129 105 794 36172622 26
+20171130 147 970 117478180 35
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30s-2mn 6
+5mn-15mn 4
+2mn-5mn 3
+0s-30s 47
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/stats/piwik.php 89 3698 4 35
+/ 31 348853 26 14
+/theme/Bootstrap3/fonts/glyphicons-halflings-regular.woff 28 598400 1 1
+/theme/Bootstrap3/font-awesome/fonts/fontawesome-webfont.woff 28 1631304 0 1
+/chairmans-page.html 9 82071 7 1
+/endoscopy.html 9 93906 5 2
+/contact-us.html 6 40866 4 0
+/gateway-team.html 6 55926 2 1
+/master-health-checkup.html 5 60677 3 1
+/about.html 5 42652 1 1
+/theme/Bootstrap3/font-awesome/fonts/fontawesome-webfont.ttf 5 403240 0 1
+/gallbladder.html 4 37140 3 1
+/theme/Bootstrap3/fonts/glyphicons-halflings-regular.ttf 4 136720 0 0
+/photo-gallery.html 3 26199 0 0
+/medical-tourism.html 2 18574 0 0
+/theme/Bootstrap3/fonts/glyphicons-halflings-regular.eot 2 20335 0 0
+/anal-fissure-fistula.html 2 21280 1 0
+/theme/Bootstrap3/font-awesome/fonts/fontawesome-webfont.eot 2 56006 0 0
+/hernia-surgery.html 2 18560 0 0
+/piles-hemorrhoids.html 1 8312 0 0
+/colorectal-cancer.html 1 9108 1 0
+/video-gallery.html 1 7349 0 0
+/hysterectomy.html 1 9424 1 0
+/index.php/admin 1 33647 0 1
+/admin/index.php 1 2591 1 0
+/training.html 1 19647 1 0
+/weight-loss-surgery.html 1 9746 0 0
+/cpanel 1 13126 0 1
+/facilities-infrastructure.html 1 7743 0 0
+END_SIDER

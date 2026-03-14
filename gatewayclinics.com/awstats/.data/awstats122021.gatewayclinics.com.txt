@@ -1,0 +1,2045 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home/gatewayclinics/tmp/awstats/awstats.gatewayclinics.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2704                
+POS_VISITOR 55367               
+POS_DAY 90484               
+POS_DOMAIN 3587                
+POS_LOGIN 4965                
+POS_ROBOT 5120                
+POS_WORMS 5868                
+POS_EMAILSENDER 5999                
+POS_EMAILRECEIVER 6142                
+POS_SESSION 91335               
+POS_SIDER 91532               
+POS_FILETYPES 6277                
+POS_DOWNLOADS 6384                
+POS_OS 6432                
+POS_BROWSER 6706                
+POS_SCREENSIZE 7917                
+POS_UNKNOWNREFERER 7991                
+POS_UNKNOWNREFERERBROWSER 8368                
+POS_ORIGIN 8557                
+POS_SEREFERRALS 8699                
+POS_PAGEREFS 8864                
+POS_SEARCHWORDS 9137                
+POS_KEYWORDS 9289                
+POS_MISC 2367                
+POS_ERRORS 9348                
+POS_CLUSTER 4821                
+POS_SIDER_404 9471                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101002341 126 24647 12732946148239
+FirstTime 20211201000426
+LastTime 20211231220730
+LastUpdate 20220101070208 126 0 125 0 0
+TotalVisits 992                 
+TotalUnique 891                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 891                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 40 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 60 60 1984995 196 230 459382
+1 56 56 1721930 182 250 353927
+2 73 73 1578638 153 377 570486
+3 46 46 1455175 244 300 362535
+4 44 44 1212411 115 161 183448
+5 60 60 1828493 140 175 622070
+6 60 60 1906026 353 385 6517138
+7 65 65 2059789 124 163 372792
+8 67 67 2215119 89 111 238731
+9 57 57 1767269 164 185 290415
+10 40 40 1220463 109 153 199674
+11 59 59 1740741 114 156 262059
+12 66 66 2004117 144 198 281361
+13 53 53 1534889 139 163 463779
+14 48 48 1489086 82 122 223272
+15 49 49 1624845 149 176 384774
+16 49 49 1518089 81 113 238252
+17 51 51 1458071 107 137 236446
+18 36 36 1126972 162 189 563063
+19 54 54 1712658 125 163 529842
+20 49 49 1492905 119 147 466885
+21 38 38 1186174 184 200 252747
+22 57 57 1779261 127 164 220262
+23 89 89 2557636 154 195 314706
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 82
+ru 242 242 8870981
+us 212 212 5700451
+cn 173 173 4619960
+in 84 84 2351035
+ua 65 65 2293437
+id 39 39 1081059
+gb 37 37 1331749
+fr 34 34 1071477
+th 32 32 881488
+br 30 30 803910
+se 27 27 1047303
+ir 26 26 696722
+ca 25 25 349405
+tw 22 22 709454
+vn 19 19 509143
+de 17 17 649085
+za 15 15 368035
+hk 13 13 348361
+pl 10 10 264229
+ar 10 10 279962
+co 9 9 241173
+ch 8 8 298320
+nl 8 8 298320
+bg 7 7 187579
+it 7 7 182768
+ec 1 1 26797
+nz 2 2 53594
+mm 1 1 26797
+mx 1 1 26797
+gr 3 3 104375
+mu 5 5 133985
+ao 2 2 53594
+al 4 4 107188
+eu 4 4 155156
+pe 4 4 107188
+my 2 2 77578
+zz 4 4 143164
+bd 7 7 187579
+cd 1 1 26797
+sa 1 1 26797
+ye 3 3 80391
+kh 7 7 187579
+mk 1 1 26797
+cz 2 2 53594
+md 7 7 247539
+dk 2 2 53594
+ng 2 2 40805
+by 5 5 181953
+lv 4 4 143164
+mz 2 2 53594
+kz 3 3 116367
+fi 2 2 77578
+vg 3 3 116367
+hu 2 2 53594
+at 4 4 143164
+hr 1 1 26797
+bo 1 1 26797
+cl 5 5 181953
+jp 4 4 107188
+do 1 1 26797
+ro 7 7 247539
+ve 2 2 53594
+sc 2 2 77578
+np 4 4 107188
+rw 1 1 26797
+hn 1 1 26797
+au 5 5 157969
+sg 2 2 53594
+bt 1 1 26797
+ke 2 2 53594
+tr 3 3 80391
+no 1 1 26797
+ph 3 3 80391
+pk 6 6 160782
+rs 2 2 65586
+kr 2 2 53594
+lt 2 2 77578
+mn 1 1 26797
+sy 1 1 26797
+ma 1 1 26797
+cr 2 2 53594
+es 1 1 26797
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+bingbot/ 134 1412258 20211231082510 0
+no_user_agent 126 5985042 20211216063730 0
+Applebot/ 115 1305528 20211231201903 0
+Barkrowler 87 929609 20211230164550 0
+Googlebot/ 51 464310 20211231225042 0
+AhrefsBot/ 23 197583 20211228063703 0
+robot 21 210998 20211225190314 0
+zoominfobot 20 167000 20211225233135 0
+SemrushBot/ 12 133778 20211229200543 0
+bot[\s_+:,\.\;\/\\-] 10 92093 20211228052325 0
+BLEXBot/ 9 88671 20211228124953 0
+YisouSpider 9 81220 20211229093804 0
+facebookexternalhit/ 9 73965 20211227114602 0
+Mail\.RU_Bot/ 4 34246 20211208001307 0
+SeznamBot/ 2 16700 20211229080002 0
+crawl 1 42182 20211205022557 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 1302 40173664 0 0
+Unknown 24 2088 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win10 709 709
+linux 11 11
+win7 329 329
+androidmarshmallow 2 2
+macosx11 8 8
+android10 3 3
+androidpie 1 1
+macosx13 1 1
+win8.1 186 186
+win8 26 26
+androidoreo 1 1
+winxp 2 2
+Unknown 41 41
+android 5 5
+macosx15 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 51
+chrome83.0.4102.0 30 30
+chrome83.0.4103.14 27 27
+chrome75.0.3770.100 18 18
+chrome96.0.4664.110 5 5
+chrome83.0.4103.61 230 230
+chrome90.0.4400.8 15 15
+chrome90.0.4430.86 21 21
+chrome79.0.3945.88 1 1
+chrome83.0.4089.0 26 26
+firefox52.0 8 8
+chrome83.0.4087.0 19 19
+chrome59.0.3071.86 1 1
+chrome90.0.4430.72 191 191
+firefox89.0 1 1
+chrome83.0.4086.0 40 40
+chrome66.0.3359.181 4 4
+chrome83.0.4093.3 57 57
+chrome96.0.4664.45 4 4
+chrome83.0.4099.2 13 13
+chrome93.0.4577.82 1 1
+chrome88.0.4298.0 4 4
+chrome83.0.4103.24 36 36
+chrome76.0.3809.100 1 1
+chrome83.0.4103.34 70 70
+chrome83.0.4098.0 15 15
+chrome83.0.4103.44 22 22
+chrome90.0.4427.0 15 15
+firefox94.0 3 3
+msie6.0 1 1
+chrome90.0.4430.85 178 178
+Unknown 5 5
+chrome77.0.3865.120 14 14
+chrome89.0.4389.90 1 1
+chrome90.0.4430.93 111 111
+chrome83.0.4096.0 16 16
+chrome96.0.4664.104 4 4
+chrome87.0.4280.88 1 1
+chrome81.0.4044.138 2 2
+chrome78.0.3904.97 1 1
+msie11.0 1 1
+chrome49.0.2623.112 1 1
+chrome83.0.4100.3 17 17
+chrome92.0.4515.166 1 1
+chrome94.0.4606.81 4 4
+chrome83.0.4103.0 25 25
+opera69.0.3686.7 23 23
+mozilla 36 36
+chrome69.0.3463.1 1 1
+chrome87.0.4280.67 1 1
+chrome96.0.4664.93 1 1
+chrome71.0.3578.98 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+python-requests/2.25.1 20211203115941
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/) 20211230074534
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20211214021521
+python-requests/2.26.0 20211224122953
+newspaper/0.2.8 20211206015357
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+newspaper/0.2.8 20211206015357
+python-requests/2.26.0 20211224122953
+python-requests/2.25.1 20211203115941
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 114 114
+From1 0 0
+From2 11 11
+From3 3 3
+From4 1198 1198
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 11 11
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://aksonural.ru 1 1
+https://ethnopharmacology.pharmaceuticalconferences.com/media-partner.php 1 1
+https://mcclub.bet 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 691 918738
+302 2831 1913083
+403 418 513722
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 691
+/.well-known/acme-challenge/08FBPI6RJ7OWX8V2ZVQO5JY05MGCO5TQ 1 -
+/.well-known/pki-validation/C15FC4A319523D353D073B87B1D6F796.txt 1 -
+/.well-known/acme-challenge/JL7NDH_LQ1WL76W5QP0M18VRO5P5GRMJ 1 -
+/.well-known/acme-challenge/BGV6KDZ1H4OWOKXLBN-K5IDHQ4ALXSCN 1 -
+/.well-known/acme-challenge/DD_2_D5MO4GSM-LHG0D698K6V0E86N8G 1 -
+/.well-known/acme-challenge/5IFKS4H_LFODR4-AJH6JOABBCA1IZUHE 1 -
+/.well-known/acme-challenge/CDXJ0LAZU0VLSGHYDZMIV7IZS5X2JHSY 1 -
+/.well-known/pki-validation/B13661D34167E00258429E3EDB7AA08A.txt 1 -
+/.well-known/acme-challenge/6LMTQULDMJP5OXHGUJRQF7HV7-8IJ84C 1 -
+/.well-known/acme-challenge/3K5XUNWF73BK62-OQO-83M2BVNC14C73 1 -
+/.well-known/acme-challenge/7CUT3RMGIWGZ0MW83-VE_8OT6-CGR-5- 1 -
+/.well-known/pki-validation/50F441B0D0EA12760BC58BB0E9FC17BC.txt 1 -
+/.well-known/acme-challenge/B_3LZC8GLB5-JTWNENUBTWDCEBZ1R5U8 1 -
+/.well-known/acme-challenge/HF8YWJ9VUEQWG090BAOI5NQ4IPOQX3NX 1 -
+/.well-known/acme-challenge/EDGCN58G8CP_OYH6-3RCOQTS-AZU-29O 1 -
+/.well-known/acme-challenge/EI0C1CQJI5W79F-BU2H9T881JO-QELAH 1 -
+/.well-known/pki-validation/51358DAE899DEC2A31DEBF88CCD93806.txt 1 -
+/.well-known/pki-validation/A21EAD0BFBCFE527946F0B901A9C2CE9.txt 1 -
+/.well-known/acme-challenge/A7LW0CJLXBEF9NRVASC4P4BTZTDXNK37 1 -
+/.well-known/pki-validation/B526E30C84BDE67615C65B5D7CCDC429.txt 1 -
+/.well-known/pki-validation/D271F526D7C888922639C949DDA9C70E.txt 1 -
+/.well-known/acme-challenge/M3F3D_A-OAY6G3E_WZO3P9CVRJVIBTD_ 1 -
+/.well-known/acme-challenge/A25L27UDN89_1IHXAHQEH46KVIUG-HFH 1 -
+/.well-known/acme-challenge/K88E7JJTPGLADD7DPH5IF-TSQ8U7B_5R 1 -
+/.well-known/pki-validation/932698AB5C3BD1B0EA1359C50D5CE22F.txt 1 -
+/.well-known/pki-validation/3DE86C27C4C63197EAF0E235B6A9BF03.txt 1 -
+/.well-known/acme-challenge/MV8TOXWF49OBWA-GRZEKC4D9HWLYE5CQ 1 -
+/.well-known/acme-challenge/L9CERV3Y68F5_LYBX4X69B1KBH-QZ80K 1 -
+/.well-known/pki-validation/89F9C7E7ABDBB60324C13A907BFAA2C8.txt 1 -
+/.well-known/pki-validation/6620EA4FF10DA093E8D49D35475EAFD7.txt 1 -
+/.well-known/acme-challenge/PYZBL7V1TU9D8Y-EWAWIUKM5NFH2_CYO 1 -
+/.well-known/acme-challenge/185S0OP70E8N-F9ZQSRM-N78NVPY1DRC 1 -
+/.well-known/pki-validation/259B2C30625AFF4426852E1B68845FF0.txt 1 -
+/.well-known/acme-challenge/-91CJ_YZO18696PVKOSUFCA1WSNY3HTN 1 -
+/.well-known/acme-challenge/GQA57UNJCKH8MKCIK8G5CUYKNW3ZVT19 1 -
+/.well-known/pki-validation/B3E329B711AC5D83E778AB6DE3099C34.txt 1 -
+/.well-known/acme-challenge/54HECENO-QKCXY2506GH70KXS-_PZMC7 1 -
+/.well-known/pki-validation/7CAF72A55351E54D0CB783B0655193E0.txt 1 -
+/.well-known/acme-challenge/DXK9ZCHHYA11XBAJLH_TS_I9IYA4GP04 1 -
+/.well-known/acme-challenge/F43CTIYC2JXVETAJCRG21DBJU6_VRW1F 1 -
+/.well-known/acme-challenge/FVFPMJS2W45L60WRE0GW-45YO02HWD9D 1 -
+/.well-known/acme-challenge/FI-FA7-31ABUU-UA972IBQ-NVU5D4Q27 1 -
+/.well-known/pki-validation/B0F47CADE701B25D566591AD3C844FAF.txt 1 -
+/.well-known/acme-challenge/82-C_5A230_FGCVWRZ37ZX5DV_QX6UC_ 1 -
+/.well-known/acme-challenge/TU8XKG7QINYGWUEQB4-OJQB1ODA1BWA7 1 -
+/.well-known/acme-challenge/S1_UZWPY_DARHFXEXY0EP-70WP92ZM7N 1 -
+/.well-known/pki-validation/AE26E10767E2080030C8E09C544ACAE4.txt 1 -
+/.well-known/acme-challenge/884_L4GJXU_IAZ3IB-O3SSL_HQNK37KS 1 -
+/.well-known/acme-challenge/HSP8XIYU8GD1FF2T-G8LYTNH4F-16HX8 1 -
+/.well-known/acme-challenge/HYWZIMRY7S1LDNZ2HKWH0-0YXE7VFX4I 1 -
+/.well-known/pki-validation/D10A289C7EB3EFC6ECC2203E64C0DF1A.txt 1 -
+/.well-known/acme-challenge/M36UEAEPYJ-9J_HNY2D5JJ947Y1-MAY5 1 -
+/.well-known/acme-challenge/7172G-_BKVGSS03-AVL5LDDZVZVC-K6C 1 -
+/.well-known/acme-challenge/1K6B-ZRGC1KHQ9THSWEZPSVQ24OU1A3C 1 -
+/.well-known/acme-challenge/3CBE39D8UUMM7QRCEWW2I7QA4SS416IX 1 -
+/.well-known/acme-challenge/GH6_P_6HCYL07PWF4H--IZ6X6L0DXY_T 1 -
+/.well-known/acme-challenge/JR53L-Q-EE2TWNN8CRC3ZNPUDXOLPLOO 1 -
+/.well-known/pki-validation/604468102A388794AFF755257BE6350C.txt 1 -
+/.well-known/pki-validation/E4F67F0AA1DC9A830DF548AC8BB09B06.txt 1 -
+/.well-known/acme-challenge/-OF7L8F33S3VOWMKAL476E14PRN_GT58 1 -
+/.well-known/acme-challenge/5KLPE62TSRDCTSVVWLUIF5_KG-TABCY4 1 -
+/.well-known/acme-challenge/85KLAP6QVGM2IME4T5-3XQ9WASYKFVQU 1 -
+/.well-known/acme-challenge/XJOR5E5UIXGOM8L6EJ1B400QY_WD_GA1 1 -
+/.well-known/acme-challenge/OZY9J9CPDIM022SNQC9V510BWWDBAFZR 1 -
+/.well-known/acme-challenge/INQD9QVMYAUWRZ2W8IOXDIEE2YREH_1M 1 -
+/.well-known/pki-validation/F4082E8F9E0316885DFAB486F494F73D.txt 1 -
+/.well-known/acme-challenge/-4WV5J2D4VUVZHJL-F-_4YHUUE1VD89F 1 -
+/.well-known/acme-challenge/ZD8A_EC0YEQYU7RDJWQ-BQK7_JM_-_Y7 1 -
+/.well-known/acme-challenge/NEB8EET76_XJMM7-0K9O-1890W90O8OC 1 -
+/.well-known/acme-challenge/D9UTQOW5GBV-SFAWW_W4A92R48GVPH3I 1 -
+/.well-known/acme-challenge/HV3DLRAKA5BDLUNNV4Z9QB0X99DTR5NB 1 -
+/.well-known/pki-validation/0040BC3DD3FC32D3B1F7E279692A34F3.txt 1 -
+/.well-known/acme-challenge/HC76EYSK0_PJM5YL1CFTWMVI5PJKTIYA 1 -
+/.well-known/pki-validation/9748D510FE65F63078DECB4B6AF5B1F5.txt 1 -
+/.well-known/pki-validation/1BF61D83ACB1DA35E638F1318E49AD59.txt 1 -
+/.well-known/acme-challenge/I547Q5BP74BC24YPLOUW1T-ZEJ3_3UD_ 1 -
+/.well-known/pki-validation/7FC5AC8424485EF645C5E9E8DCF94EBC.txt 1 -
+/.well-known/acme-challenge/CNSF7NVBPMC6BP8B-107ZOHWHE_SI8LI 1 -
+/.well-known/acme-challenge/B4T68UD1NTD4X2UR1M23GIL7FMUL9KFR 1 -
+/.well-known/acme-challenge/MSX462RCF-MQJENV8O_TAA8WI8YS127H 1 -
+/.well-known/acme-challenge/285Z0X3PPNP036DLYC9_CE3Z25FEIPNI 1 -
+/.well-known/acme-challenge/J0Z4CLY3KJFXLHJ0US5ZR5EZNHB_FS26 1 -
+/.well-known/acme-challenge/T96HK09QVD8NG-2TP3_SB6Q2YHVUY3LD 1 -
+/.well-known/acme-challenge/6KJRW5T99-5HO_9KIRWGBO8ZFJXLOSV3 1 -
+/.well-known/pki-validation/8FD7C70BB569332450E7C462243C9BB4.txt 1 -
+/.well-known/pki-validation/1836AA32A4C998199EE7255D3D175753.txt 1 -
+/.well-known/pki-validation/9626690C7DD7F6C8B8BEEB779912593D.txt 1 -
+/.well-known/acme-challenge/8V1JIA7IJZVR2QETSQDBV4-P8GODROUH 1 -
+/.well-known/acme-challenge/7XQ1NYBB7T-IWQ_OSO7RS2P7-SOJ19UI 1 -
+/.well-known/acme-challenge/SWT0M_6DK0P_8-DDBNBSUU5BC6Z1ZN1K 1 -
+/.well-known/acme-challenge/D0E44SYD-MO291U2EM7D5UFRE4CPX56G 1 -
+/.well-known/acme-challenge/CX6SFV5Y0JS8XLSTFF20KNILIQWB5Z-K 1 -
+/.well-known/acme-challenge/BC7CPWH79CDWMPJ2R9W1BXTCSNH0S7OH 1 -
+/.well-known/acme-challenge/34Z2NON3D02N0-S_8J7ZPJC_KBTYZ_G_ 1 -
+/.well-known/pki-validation/44AD00AAA6C8F9E240286EBA48C464CB.txt 1 -
+/.well-known/acme-challenge/ZGWLXMP0_03QV99YHZ91YWMHYMPRE3F0 1 -
+/.well-known/acme-challenge/WV1JW22SWAC_QJIGJ8IIQ0WAFCEOJUNQ 1 -
+/.well-known/acme-challenge/1T07D1UR6915CEK9R2B5UE5X8XPPPZ6L 1 -
+/.well-known/acme-challenge/Z3JLXIF1XBG903YTUJQ8A-E_QTPWMBB3 1 -
+/.well-known/acme-challenge/19IPZOAPOLLP8MTLR0ORPFQ4SA1UPE0M 1 -
+/.well-known/acme-challenge/3IF-P46K724EO-4E0HSO4EKHUU5P15ZQ 1 -
+/.well-known/pki-validation/74647184A44E4DF7E411B5869EF7BF27.txt 1 -
+/.well-known/acme-challenge/WARM9IBLU0NZ6TY0093--K4ZFW-8G4-R 1 -
+/.well-known/acme-challenge/UVP91X3VZTOYNSJZX9TVVQPVVDREVN67 1 -
+/.well-known/acme-challenge/R8D9RWX2OWEUC_YT-UH-7PJ22JJWSYUP 1 -
+/.well-known/acme-challenge/RCSNS5WWZ8DI65L938UA_Y89AP4CGK09 1 -
+/.well-known/pki-validation/560F56D67BCCF8B498817B77F5A9FBE6.txt 1 -
+/.well-known/pki-validation/246FE445A90ED8DEFB0DBBB9B8CFD927.txt 1 -
+/.well-known/acme-challenge/KVL_5VGXFJCM63VNO-TR9R_NTM9KRZPL 1 -
+/.well-known/acme-challenge/FYAUSHKXPCMYX_9ZKLQOO69P1YY3ZR2A 1 -
+/.well-known/acme-challenge/JJY3KKFJ_NF8X0AN4XP2D3EEPYZOOIQD 1 -
+/.well-known/acme-challenge/RXTZUC1Q_6XQXH2_JX9CFJF3TKSVSCJ1 1 -
+/.well-known/pki-validation/8A327FFBAEDAD2CCEDEFAB13ED56586C.txt 1 -
+/.well-known/acme-challenge/IONX50E78J3NTW1-QMNIR6K-WUTC7EHX 1 -
+/.well-known/pki-validation/9905C68DC1017E32CF6D808CC5495064.txt 1 -
+/.well-known/pki-validation/1933048A3F09FE855A67489F37412C85.txt 1 -
+/.well-known/pki-validation/C6EEC511C309BCEA11708820D7CFD02E.txt 1 -
+/.well-known/pki-validation/2FC76D68CA6DA8018771A5276BA37E5D.txt 1 -
+/.well-known/pki-validation/7179C8F4003C5077B9F6B912527D1B02.txt 1 -
+/.well-known/acme-challenge/CQ3GN5L-FNTWJMGOQVMG2Y31-FIKI2X9 1 -
+/.well-known/acme-challenge/HOBBZVIN9YNGZT8CN3SH6ESL8IVA91EI 1 -
+/.well-known/pki-validation/0A5B8365E0C6DB2FCF5DAD72AE45D0C8.txt 1 -
+/.well-known/acme-challenge/NY9E11YZR9W8RG86SX7L-67_4E76R90C 1 -
+/.well-known/acme-challenge/4CQTBDF0NMXMA8L_BD59LB5JQDWOT6MF 1 -
+/.well-known/acme-challenge/VEUHYZ6RX255-LAWQK02TIT5GTG90M0K 1 -
+/.well-known/acme-challenge/63V4RLRD7N0DLX5AXGNSXNQ0_VND7FIT 1 -
+/.well-known/acme-challenge/2FLMM7RXY_MJ_CYLU33B3I_YRZ4LC3JK 1 -
+/.well-known/acme-challenge/FPH8JN40FBFWYOQQ_V3MZW3ETYKSG2RA 1 -
+/.well-known/acme-challenge/SQZV0SK5OXK838PW8X1I69MO2_X2X4-Y 1 -
+/.well-known/acme-challenge/5-BWCQ7SHCPQMV657ICDXLQWSPSHWB_V 1 -
+/.well-known/acme-challenge/5WXM8VYEOKBFX3G0WAE9YLS_4Z291YFU 1 -
+/.well-known/pki-validation/847E638976A383C88894D779D0C53BE1.txt 1 -
+/.well-known/acme-challenge/-Y60TJZ6OANI0B0WC1WW1-0YEZSCMGY- 1 -
+/.well-known/acme-challenge/CSF2VV2770HUBC91A0APFEZPEHROPQ0F 1 -
+/.well-known/acme-challenge/VB2X2N9F3TY4222MJ3CJG9LR09QG_BHX 1 -
+/.well-known/acme-challenge/06-PSA6Y_1VIA94VWPYXBX7R4-M_P1ZT 1 -
+/.well-known/acme-challenge/MWTLXJXMZVCJIYYXML_LJROL9GI082NF 1 -
+/.well-known/pki-validation/FE2F127887215C409FFE1039F3E85D54.txt 1 -
+/.well-known/acme-challenge/CYOXBA14YKXVK_J125RYIZPYPV17T065 1 -
+/.well-known/acme-challenge/J7-5R7T0Q9JCGG71U4-OLI9Q_SM2NIMK 1 -
+/.well-known/acme-challenge/C0030-YZ9V8FOR0BBIQ0CKLVXPADHW0C 1 -
+/.well-known/acme-challenge/0NUOUOY7CMLO3PVZER_H74A2RNP0_YD0 1 -
+/.well-known/pki-validation/F7BE2628C029B52BA23443CF847E1D11.txt 1 -
+/.well-known/acme-challenge/EAN29OTWS54_64OCZRAN0HB6Z8O_W3GL 1 -
+/.well-known/acme-challenge/BBUNIHM4UN1NY1YCUX2VVM161V0TP0Y8 1 -
+/.well-known/acme-challenge/-_CBEB--MT-XKJQDHQ5JK2BUB9K_AC7- 1 -
+/.well-known/acme-challenge/7KYMYTZNOPO2G7T23321DOY5I90HQ72N 1 -
+/.well-known/acme-challenge/7SH882PNSFGHL48VSE1CSHIUOI9DEA0Y 1 -
+/.well-known/acme-challenge/2EK-Z1D9-ENUONXI5N993695J_7WRXWN 1 -
+/.well-known/acme-challenge/RV9SUPRI8O5TP4QR52RGZ96IY-HHN1Y0 1 -
+/.well-known/pki-validation/1655A195700D40929ACDE068F8E36D45.txt 1 -
+/.well-known/pki-validation/15DD5382B6D14A692679C5137E51AC5C.txt 1 -
+/.well-known/acme-challenge/XZQ9OWMA8TFY6L_-CFOK549K5HB42HHP 1 -
+/.well-known/acme-challenge/_-7FIIFLGFLQQQJX0VDS7HT4RTS0TGXR 1 -
+/.well-known/acme-challenge/DFZ1-DPHXK4X1N6--E1LTO5GRZK9EMBS 1 -
+/.well-known/pki-validation/4D3681047665D7CA772EDCD6F19514C0.txt 1 -
+/.well-known/pki-validation/0B80FE3CF41A01AC1ACE194475AFF69B.txt 1 -
+/.well-known/acme-challenge/R1S96-FX5SZYMH2GEAU1C2N1ATTQE8QX 1 -
+/.well-known/acme-challenge/E2BDXXSBBWH77R0SCTAPGRJKDB9XJFGG 1 -
+/.well-known/acme-challenge/555PY6F072LNRR-RF6FJQM7LOU_OKVJG 1 -
+/.well-known/pki-validation/D07C5C5E4B4A44563BE930E38D4F2C20.txt 1 -
+/.well-known/acme-challenge/L5XNMAEH42GGACZ1VJ34KEX98VW8-1DX 1 -
+/.well-known/acme-challenge/6Q3ZIM3IBLP--0B48YWA7VY55BCYKQP5 1 -
+/.well-known/acme-challenge/U7QOY03XIQZ02-9YE136IB87T-GKU47E 1 -
+/.well-known/acme-challenge/BXJ6LW_P8VZJAD80CJ2GS3VSR4QAD1AI 1 -
+/.well-known/acme-challenge/T0M9ML47ZEGVU7C5U-5R6KXA3CKC-P_2 1 -
+/.well-known/acme-challenge/TZ-H_I5643L2UTLR4PJNP0M1NBJTEVOO 1 -
+/.well-known/acme-challenge/3HP6DMS3SMXV3_493V_SVHWYKUTRHJS8 1 -
+/.well-known/pki-validation/1C278210335FE8620ABFA6FC82F950ED.txt 1 -
+/.well-known/pki-validation/23249271BABC2E6002199220CA17C757.txt 1 -
+/.well-known/acme-challenge/-V1C18SQK_750VSG90FSYL3GPFXY3XKK 1 -
+/.well-known/acme-challenge/0G8WJU7RQWQ_XE4UVNOU3Q5MPD9219J7 1 -
+/.well-known/pki-validation/E43B081E9AA6F8A52FB132900B5ACBE0.txt 1 -
+/.well-known/acme-challenge/QV0--2W-B-0MBCFSV_5DPUJS7V16L1CB 1 -
+/.well-known/acme-challenge/-JK9H3LZTYJHRH7IGX50_JRY3FIXPB-9 1 -
+/.well-known/pki-validation/3898E7577E8F9C0E83C1501C679ED02F.txt 1 -
+/.well-known/acme-challenge/KJH4PN907PO4O2HZT1NJ5W6H8MKBB2VJ 1 -
+/.well-known/acme-challenge/Y45ARA-9JCGGAMCKDQJSAG9OCE91HOS0 1 -
+/.well-known/pki-validation/CB3C0EEBCBB74A2866C5758494C63F04.txt 1 -
+/.well-known/acme-challenge/0FHL46Q-H5EANGT9ML2Y03Y909-P7H4C 1 -
+/.well-known/pki-validation/E265330BB08F1226E7BA5C77BFF8329C.txt 1 -
+/.well-known/acme-challenge/Y2_M8QTOURRAI0IW644A_E0LTEO06V44 1 -
+/.well-known/acme-challenge/2XCTBSS264QR__Z5MK182_A1PABNX7QQ 1 -
+/.well-known/acme-challenge/TA_OXMBERT40PCNBQE9XPIX55VIUFEQ_ 1 -
+/.well-known/acme-challenge/-BGD8EHQXD-1-8TA03F1L8P47P6HMSMU 1 -
+/.well-known/acme-challenge/LNSIYCZ6W7-4VG7KR5-TLNGXERMC2JXL 1 -
+/.well-known/acme-challenge/0687Q__0TQAHGE47LVMJG_I06XXI983Z 1 -
+/.well-known/acme-challenge/ZOIVEDG4BGM42_V__6NAZH3DCL2ANG-S 1 -
+/.well-known/acme-challenge/W9461420NA0K-_COX-YHQNYF68WOB47R 1 -
+/.well-known/acme-challenge/48ENV092MFNOD9_NWPOUHCPY9KBPMHH0 1 -
+/.well-known/pki-validation/820DCAA86CD0E6727D241EDDFB691C1D.txt 1 -
+/.well-known/acme-challenge/J93W50_GTWUYL-NRWRPUFLBW88ILJ-FD 1 -
+/.well-known/acme-challenge/H84YLSC-7C2RKBGMD06QQT1ORVUXJMXB 1 -
+/.well-known/acme-challenge/0MZ7O0K7YMP8I4GVFTI9XRBIUY_L3U_D 1 -
+/.well-known/pki-validation/2AE9B8ABD809CFB0E6D988A44947B20A.txt 1 -
+/.well-known/acme-challenge/0LFU6D807E54F48E43O39IJXKTRAK79H 1 -
+/.well-known/acme-challenge/4M_D0XA2NF4EDAC8KWTN5CS9RCKAZK_D 1 -
+/.well-known/acme-challenge/5BH7DIOLBX0-IUJMWJP2BCJ6BJBT9O9N 1 -
+/.well-known/acme-challenge/-JJAV40_X3TN8HP01RXZWYE8BTN-WJKD 1 -
+/.well-known/pki-validation/3BE6CD2CF35826CDFB547178F17F620C.txt 1 -
+/.well-known/acme-challenge/AAREQ-BVZYTZONLI69NTG0BYM6RX9UZ6 1 -
+/.well-known/acme-challenge/49H3J5N1D_BSJS8OO3X3O_J0AJ_ZWYBA 1 -
+/.well-known/acme-challenge/BWZTG5MMXZPGU701YVNSPSODRTJXH0I- 1 -
+/.well-known/acme-challenge/-Y4S7EGJ8DDM93UB6OT93QK3CHMT__DK 1 -
+/.well-known/acme-challenge/BUYJFRLIA5QG8QVOUEAVFOTN_P2UTJXL 1 -
+/.well-known/pki-validation/8DC678951767165353CEA7E49BCDA617.txt 1 -
+/.well-known/acme-challenge/A16DJVGHVIRF2FR3QBY48J5V1S_XF93G 1 -
+/.well-known/acme-challenge/4SIYX579FIZ7N7MJ9OVFVGP8K0__-8T_ 1 -
+/.well-known/acme-challenge/D25_CTV033V4E206IQL6SG3OFUC9EAXO 1 -
+/.well-known/acme-challenge/B3G2XSKTJ_107RFRHJ2MRYV94VGJJRV_ 1 -
+/.well-known/acme-challenge/F-JIXJE-0CYR579L7J6JA8-B16AI4ZO2 1 -
+/.well-known/acme-challenge/NCDU3_L596UD0N0DYIOZ4VZPLUUNZGFJ 1 -
+/.well-known/pki-validation/5A04DB20F42299C7CBE8A7357845267E.txt 1 -
+/.well-known/acme-challenge/7OYX41C-_45JV3VF3UCQMV4F9N08T8AM 1 -
+/.well-known/acme-challenge/KZ2Q3-WQVN-HGOMND-O-XIHC1BQSHIN0 1 -
+/.well-known/acme-challenge/DTF1MJBA6TNFCKA-RQWCUDZY0P1P7070 1 -
+/.well-known/acme-challenge/BMI3RVASGO_UHVZ87HK3ZIG-C1U5_YE3 1 -
+/.well-known/acme-challenge/UMN12MMZ1NAFE8JOWJEWOLSBIFL_AHOK 1 -
+/.well-known/acme-challenge/201LHH-0W3382RE7-FLLQ8I3L4R5BOAS 1 -
+/.well-known/acme-challenge/MKQ04B6F4VHE3M8PT0ERXSHRXES33AJ8 1 -
+/.well-known/acme-challenge/_W1L-Q22WYZE49LLQ0LT60HEQ66S-YO1 1 -
+/.well-known/pki-validation/8D4818B5113BEC7D19D4653DE4FDB106.txt 1 -
+/.well-known/pki-validation/D024FF0E130E7E802D20644A69B60C47.txt 1 -
+/.well-known/pki-validation/3B2CD6C15A4A11EF5FB7C5EB2240975C.txt 1 -
+/.well-known/acme-challenge/1GS1Y9WQ6QVCTV50N_9GL0MDCH8DE93- 1 -
+/.well-known/acme-challenge/HKK-95N4WOLA7ULROLY3GB7-ORO6-GC8 1 -
+/.well-known/pki-validation/F8E9EB58BB7FA41A459BD14754C1FDF3.txt 1 -
+/.well-known/acme-challenge/5BVMVQJBZ2H91EJ1U6CJ9VQ6IAI7-TBN 1 -
+/.well-known/acme-challenge/OK52LMHORJWFV-33IQ_AR8TIOP75NQ3Z 1 -
+/.well-known/acme-challenge/LVGADE60KI-IKG86SKGY9R-G_FPH93OW 1 -
+/.well-known/acme-challenge/-NIBE66JNP07FZN0W37F4M7E7D679W5P 1 -
+/.well-known/pki-validation/9FBB7A79C9F1876A03722E888C653195.txt 1 -
+/.well-known/pki-validation/5D189F1F90BD656C3E82573AA7C6C7BC.txt 1 -
+/.well-known/pki-validation/44F6883D7391FA132B95729A2FE5C53E.txt 1 -
+/.well-known/acme-challenge/1W1GGJAIQMSBG4HI61KMZL2SP_8RCAH7 1 -
+/.well-known/pki-validation/4544207C2ABE75EFF808C7004EFDC064.txt 1 -
+/.well-known/acme-challenge/IHOHSLYVFGTIFSIJO99LG_IN8KB0UBMO 1 -
+/.well-known/pki-validation/98672630F9B0DCCF264D32E6010D106D.txt 1 -
+/.well-known/pki-validation/22A03E3AFAE137262E4B841C0B83EDED.txt 1 -
+/404.html 1 -
+/.well-known/pki-validation/F1DFBEDC53EEF7D9CB2E71268AD277D2.txt 1 -
+/.well-known/acme-challenge/V_F9U6OV-048T3UQEGLM0EP7I0SXQR4H 1 -
+/.well-known/pki-validation/2B5E46D346E809264A2DB9D42977D065.txt 1 -
+/.well-known/pki-validation/7951F9195AEDC969BCE3824F120F1330.txt 1 -
+/.well-known/acme-challenge/8M7U7J1N2SWN6S0K33VYRML4-N0WXSQJ 1 -
+/.well-known/acme-challenge/CN53_IQCN2P97D7G423MXX9APPFB7JI6 1 -
+/.well-known/pki-validation/A736327586921603CF450896FD78D5C6.txt 1 -
+/.well-known/acme-challenge/B8R7Q259MQ_7XKN60R8V7_F8ON5S2KYX 1 -
+/.well-known/acme-challenge/DXQLR3E3-TWN0LWN347G5M_YM5IBFVNB 1 -
+/.well-known/acme-challenge/LM5K2Z117FT304RIFY74P-3L6YEW9_HU 1 -
+/.well-known/acme-challenge/BUGL7I9IX-O1P39X8GKWSWS74N5D9FRD 1 -
+/.well-known/acme-challenge/CLHHVB8AJPNAF6FVDX4F1AP_9M9M5J1U 1 -
+/.well-known/pki-validation/D060843FB00338EBF0E06CC23AE6C6B4.txt 1 -
+/.well-known/acme-challenge/4KF5P0HOJ276W49TOLFI0V705Q172E4S 1 -
+/19837437_notfound.html 1 http://gatewayclinics.com
+/.well-known/pki-validation/413E4438744A5A4B0A2371C536B86396.txt 1 -
+/.well-known/acme-challenge/12QVT7UET7ECVA8PA8FMC2PA31W1HRUK 1 -
+/.well-known/pki-validation/DD933B0CD3A79200285A76E6790515CF.txt 1 -
+/.well-known/acme-challenge/I43M1CAW7WUMW7I92MTZ1VYH-3IHK_A5 1 -
+/.well-known/acme-challenge/AITDDJODXNTSIGIR0EBWJ9FZWKK5EI2B 1 -
+/.well-known/acme-challenge/YSY4YM9BSTXFW6-2C8LNWJM94LOKU36I 1 -
+/.well-known/acme-challenge/693ZJSIRXK87_3O3TWUU-SLXWGK-2QMN 1 -
+/.well-known/acme-challenge/QRJWA29FQ081EWRUP5VW17STLPPO7I5I 1 -
+/.well-known/acme-challenge/UWNCJKYFC6XMHXOL_1_W8F4DR-AAIHD2 1 -
+/.well-known/acme-challenge/OC9WU__V5SL7Z69ELLTZZ8L6OIPAKYJ4 1 -
+/.well-known/acme-challenge/UCMOGUL5HJ5HH2D0IB-3LQY-FI2OT_O6 1 -
+/.well-known/acme-challenge/VCQ8DWEB587MV7M1WQMGU2D-G4TT6UV4 1 -
+/.well-known/acme-challenge/QHS-31XAENR6GMQUINOSKNOMU-FALMVL 1 -
+/.well-known/acme-challenge/UAML40L52UHAMY8U_H3DHAFW9FWP9849 1 -
+/.well-known/acme-challenge/7J5K3UHXMNY-H25F39I56PFW_KYKQL5F 1 -
+/.well-known/acme-challenge/O42F58VGLYJ4AWZJST7Q0W62CY754SE9 1 -
+/.well-known/acme-challenge/LQFL9WO846FW4IMP8ODN4W5WATID-8X- 1 -
+/.well-known/pki-validation/B3076DE8DA708FA83030453030CAA7C5.txt 1 -
+/.well-known/acme-challenge/PP52JUKTF3HPNXX5CAXTW3R2VVJFDT2X 1 -
+/.well-known/acme-challenge/XFRCNJSO8HBJ3DDLXM2A7NF6MKZHRYT2 1 -
+/.well-known/acme-challenge/VBIRW3Z4QSEJQOJOKCA-IJMMUNQ8TECA 1 -
+/.well-known/pki-validation/FC6F33B74A26ED6ED0DB07ED75B937E8.txt 1 -
+/.well-known/acme-challenge/J99VG9U9H_2LD6LXKR6T8TQ7155Q3U44 1 -
+/.well-known/acme-challenge/4A7J6YJIGB6XQ3V693B26HFHWDINSDYJ 1 -
+/.well-known/acme-challenge/Y0AVGVFSZ_OE5RX4_1O4SD8S3CV9R0HS 1 -
+/.well-known/pki-validation/A7AF2380B5EC94595BA515F7F5D1E211.txt 1 -
+/.well-known/acme-challenge/6IKOP6081143K16P9BDLYKEJYNIJ6RCR 1 -
+/.well-known/acme-challenge/ZYPC9B4ILH415MYMXCV9_HBFPQUN7WOW 1 -
+/.well-known/acme-challenge/3DCV83L3PP8R2L0GSY68EBU7O5N64BFZ 1 -
+/.well-known/pki-validation/D6E67434815C42CAC6317C79610F9048.txt 1 -
+/.well-known/pki-validation/F4B17296372351BC8B2B780443D0AA3A.txt 1 -
+/.well-known/pki-validation/A95179F1F08339DCE183818E5C7A15C6.txt 1 -
+/.well-known/acme-challenge/MWG6S2ZSD37ZBZN9JERCF8FKJ20A278M 1 -
+/.well-known/acme-challenge/U5NR7J-0GYMFU4PTWOMZK70452BUAJLD 1 -
+/.well-known/pki-validation/953307BDF4FA77AAA57A8930A5E25DA1.txt 1 -
+/.well-known/acme-challenge/J0CN0JPR29CSTN6JVCLOH77831I52O2G 1 -
+/.well-known/acme-challenge/PNEDZ5P6H2L3ONP6J2TKWYQNZNKN-S6- 1 -
+/.well-known/acme-challenge/IQU6NJNC32VTHEFZ7PQNDJP805JCMIH- 1 -
+/.well-known/acme-challenge/O6O6A3U86XO59JBT6LZZBQTW4FZ23BN5 1 -
+/.well-known/acme-challenge/A25X017HB_VMPS7XN36QGU-R6V99XGPS 1 -
+/.well-known/acme-challenge/_E0XMZ4OEOKYH4Q-KK70W3C7-6ARW6YC 1 -
+/.well-known/pki-validation/10282E9FBFE25AA0EE7D25570F521103.txt 1 -
+/.well-known/acme-challenge/276J_GEMA1ZVNLDARN7G8YNUJ75YCQ3- 1 -
+/.well-known/pki-validation/289B614703F30272D8F4E5FA46A68C18.txt 1 -
+/.well-known/acme-challenge/SZ15JVPPXKNXIR7H78XYMG-JCJD2K3X6 1 -
+/.well-known/acme-challenge/2A9ZFU6L7HAWWY2LGEXBR-0ZHAZPAGLY 1 -
+/.well-known/acme-challenge/1BUYXI1NNLLEHC26IHLXH5G62PCUQDO3 1 -
+/.well-known/pki-validation/EBCCC08DB8421EC5A56E8CC90FD5E29F.txt 1 -
+/.well-known/acme-challenge/48JQTI70YUVJK1L-GFUZ9A7TAXP681ZP 1 -
+/.well-known/acme-challenge/8CZC0W1_-TQRGWSKPR1OHFATPX3JPZPS 1 -
+/.well-known/acme-challenge/D6S9N2OY5E6U53E8BZCN-1IN5CCPNCOY 1 -
+/.well-known/acme-challenge/8IM39U10P9T12U4GSI7ZVSHDHKDIIJJQ 1 -
+/.well-known/acme-challenge/FE1L3VYCQCNHT1W84_T7PWJ_L9PV9XG1 1 -
+/.well-known/acme-challenge/Y2MXKUKG6AEN8WV90NJ32N7MS2IW23-2 1 -
+/.well-known/acme-challenge/RNRLSXH7L_IS7HNNLZ29UV8GUA3DJ97T 1 -
+/.well-known/acme-challenge/X11G3TB54PDM2APX60H37EKYLDE6CZR9 1 -
+/.well-known/acme-challenge/Q46NDKAM-WPI70PHOQG68XWL34UVQMQY 1 -
+/.well-known/acme-challenge/AXVH_DSAR3KXVL9AU_R0HXWX-MO4TM19 1 -
+/.well-known/pki-validation/DD4F3373FD13D45BCC013A3C2D81BBE8.txt 1 -
+/.well-known/acme-challenge/RREYNONQW-AGR9PD_YD0C23IQVUNSZZD 1 -
+/.well-known/acme-challenge/Z0UN0B3QSGXEWCSU-KJD_S1QRKIQDQ03 1 -
+/.well-known/acme-challenge/D96FEA2FFQ9EUF7COHSU0Z-Q73M2KF4N 1 -
+/.well-known/pki-validation/D49CCA5407595369FB7DCD18F011859E.txt 1 -
+/.well-known/acme-challenge/21703ZGJS5WFPIR14HZW-2I23K627--_ 1 -
+/.well-known/acme-challenge/AB56BQQZZER0_75CFZIGXMTTNVC5WYVP 1 -
+/.well-known/acme-challenge/8BM0KW60EN9213FL2E9-3YPEFU8UD1HE 1 -
+/.well-known/acme-challenge/SC-T1K0V7OTM6KMY1RCKRX8TLPWLA827 1 -
+/.well-known/pki-validation/74237E396E62FE42EE037A68DB7C9892.txt 1 -
+/.well-known/acme-challenge/7WAQ1QDR45JFEWNQD57_4LUG-G0YIBN3 1 -
+/.well-known/acme-challenge/1YJQYBQU8AIOCUJOOZD4BRRQ4G_A4EFM 1 -
+/.well-known/acme-challenge/HSLS3O8J3A3KILGFMSQNB0J3T1FE6-WA 1 -
+/.well-known/pki-validation/3095E914ADF05D6CCBE2BB98576B3742.txt 1 -
+/.well-known/acme-challenge/ZP_JWE0QBFEKNFNISHJ_V7SKQWHWZKPD 1 -
+/.well-known/acme-challenge/QAYR5V65C1WEAAIBHK-3BWBISGMBVWXH 1 -
+/.well-known/acme-challenge/RNAAFAPK_F8T49LOZP-UAWX59J9R2B1F 1 -
+/.well-known/acme-challenge/4ZBTA4BRYQW4PVKFEGXZH_54OVTF2RIO 1 -
+/.well-known/acme-challenge/JWP-NUOFYLUE_-QRYF3RJJDBLFMIXAG9 1 -
+/.well-known/acme-challenge/NHA_H01-372Y8O-UIBLG_00E14_S0_3D 1 -
+/.well-known/acme-challenge/LS6HMCOLGWR9RPNIPKN3DBDNNFDJM129 1 -
+/.well-known/acme-challenge/CUUO08LH-SYU5WWV05_OCI6JUD472-J0 1 -
+/.well-known/acme-challenge/09_10JIMXGZSJN3IYV8ZCO1IINQNFWTE 1 -
+/.well-known/pki-validation/7DEC0E72D2DCAF743438F0A06C4BFBE7.txt 1 -
+/.well-known/pki-validation/85DB49FBD92D7838B9DEC41ED28BE520.txt 1 -
+/.well-known/pki-validation/BA7616E41912C8B6FC3140B1FFB27C1B.txt 1 -
+/.well-known/acme-challenge/IF9JZ5U5OIIWP9XG9K1KM_3F89EMP83I 1 -
+/.well-known/acme-challenge/X3B6SSZQV_1DTQZY88J5NXXB99O7UGF6 1 -
+/.well-known/pki-validation/EB0C161D6617BA280C0F0859E5C17E9A.txt 1 -
+/.well-known/acme-challenge/4AJX2-0DKDM338HYYC_KAOD_UE43MDY4 1 -
+/.well-known/acme-challenge/9DHL2WH-KEIYO2SZPRTRX0DADQ6T2E4D 1 -
+/.well-known/pki-validation/7DCE67DD99CD571620996D31B165818D.txt 1 -
+/.well-known/acme-challenge/-6M31TQLMPKNYMS4-PRIO95R6I-ZWJDA 1 -
+/.well-known/pki-validation/4298BC6CFDC420EB069CA275D7B1BAE3.txt 1 -
+/.well-known/pki-validation/336D99B774DF68266F5BF49E7D23288C.txt 1 -
+/.well-known/acme-challenge/JXX8KF-DYMQBQMI0CAF1LKWEAQBCH6_U 1 -
+/.well-known/acme-challenge/0C1-7ZLT9MZYYDEIINO-7CDNY4B8VIFF 1 -
+/.well-known/acme-challenge/O78ILYXMDGMNGPIUNACN7D0SZHCLMDK6 1 -
+/.well-known/acme-challenge/BFWBDMYHMYZIJOL2N0TH07HSBK8MTQ8V 1 -
+/.well-known/pki-validation/0871B88568805F56E5B7D3CC3B525DD3.txt 1 -
+/.well-known/acme-challenge/W-FI9C-J1LODQVEH9K5WD8GVZZAWA-87 1 -
+/.well-known/pki-validation/871E939FB29AB88FD88A505545DA02FE.txt 1 -
+/.well-known/acme-challenge/K1XSLH4KQFMFAXCM990PF--T659K3JOI 1 -
+/.well-known/acme-challenge/XY5MOKYLE6QJZHWUHMK5NCQ8587PLTP_ 1 -
+/.well-known/acme-challenge/NK_HWIW6TZWKAW1O43CL3SBAOEQGM9CT 1 -
+/.well-known/acme-challenge/IY3AZ6GZZ2C0AUJX6DJVU-TXJZ8XM0L1 1 -
+/.well-known/pki-validation/737EBFE83A2E6DC4B2A12E45C24AEECC.txt 1 -
+/.well-known/acme-challenge/1IL1JN1C0N-P9KWUJ1WJ56YYK-SFBPLX 1 -
+/.well-known/pki-validation/B0DFA33A36354E2897765310048ADD49.txt 1 -
+/.well-known/acme-challenge/DTSIIWRAM44KFS0LV7DSQ3QZN3CZMLUN 1 -
+/.well-known/acme-challenge/YFVCIVN8I2MS_1NE707MCJMA431HYIZ1 1 -
+/.well-known/pki-validation/88850CD2378AB61344A89CC29D91B48C.txt 1 -
+/.well-known/acme-challenge/P6GXLA0T9T-U95RPTXCQO1L-UECFH0IH 1 -
+/.well-known/acme-challenge/BFYYISQOH8MLBG-X5H89Q7SU51Z_IM9X 1 -
+/.well-known/acme-challenge/L6DKOV7KOU5H-WYKH4GA-70HU7C8JP-D 1 -
+/.well-known/pki-validation/96B5F30E023A48F0EC67A07B1960E6BA.txt 1 -
+/.well-known/acme-challenge/XWQVOBBQZE79VC8JGBOC078ISYPQ3MMA 1 -
+/.well-known/acme-challenge/OL4VT6NU9PY3YIBWAXTHYO39DAOZV8QO 1 -
+/.well-known/acme-challenge/R0NJBNHMCIB2N4-0GR49U8NQXNMPBQRJ 1 -
+/.well-known/acme-challenge/-7IRQTOTULO_7FN_FP90WWXA6BEMQE-P 1 -
+/.well-known/pki-validation/7A506AF2B782A9C193BECD7F6E6380B7.txt 1 -
+/.well-known/acme-challenge/ZHACR04TKUY0YV8R0K1TA3TIP3RMA0NJ 1 -
+/.well-known/pki-validation/AA7E990FD865F1EB23B2C31719BCD75C.txt 1 -
+/.well-known/pki-validation/D4DB034E09E85B4EC22F1772405D9A3E.txt 1 -
+/.well-known/pki-validation/E4E8E9B47D379DEB93D2B88E408CBB1E.txt 1 -
+/.well-known/pki-validation/5FCE10D7451AA67A300C06E9765AA33C.txt 1 -
+/.well-known/acme-challenge/CRJWQP886YDB-C3EQTJK5O3R407R78HN 1 -
+/.well-known/acme-challenge/01DDBBRZK81JOGFE48HW65NF8FYC8S7K 1 -
+/.well-known/pki-validation/13868B786881A99CFDD2A42CE01F1EA8.txt 1 -
+/.well-known/acme-challenge/B86BT6XH4TJW-Y9JWCNERIBLLEBP5W26 1 -
+/.well-known/pki-validation/B69DD3993138B19834B2A55D5F40D2FA.txt 1 -
+/.well-known/acme-challenge/YBJBWT1ZD3JNWXB48MW-76VM70LW5G-0 1 -
+/.well-known/acme-challenge/2Z9TYIVMPOH3N62LWJ4C0VC2JBRPF7X7 1 -
+/.well-known/acme-challenge/U7XAT034WUQHHJ-DEU27EDMUOW7OUNLO 1 -
+/.well-known/pki-validation/1642249C09996688A01BCFDFCFB4F07E.txt 1 -
+/.well-known/acme-challenge/J25IY8VOO895I4H0IIYCC5ZO7A36IKTE 1 -
+/.well-known/acme-challenge/UM0WVCAI7LQ7B8-M6JVWUVA0HEA5V5G0 1 -
+/.well-known/acme-challenge/SKET2QDG-5FZOZSG3WQL9AIRBU96M_G1 1 -
+/.well-known/acme-challenge/1UZ0YZHGHY943J17DWW3QT3WEHWZIOG_ 1 -
+/.well-known/acme-challenge/ZYJPTWR2BN90Q3FB58Y7XY7EL85MN64G 1 -
+/.well-known/acme-challenge/D_E0GDM5LKNODE8_PJQUMIR7XUXFM--V 1 -
+/.well-known/pki-validation/B9CDC47F3D4AAE3C9F5066DB65DCF9B1.txt 1 -
+/.well-known/pki-validation/D2891F970AD2B2CD43C148119A56A852.txt 1 -
+/.well-known/acme-challenge/H1FMLWQ28UQVSJT3-SD2D7VCT36_YVRR 1 -
+/.well-known/acme-challenge/S_LAP_KXD36I2MQCMSW6IRP-GWGLVEEC 1 -
+/.well-known/acme-challenge/VYI-L1RXCZBROU2DQ9UK_HAFW-KCVNSN 1 -
+/.well-known/acme-challenge/TI-MLYLUJI_NH627BDST5ME11_SD5RX1 1 -
+/.well-known/acme-challenge/1R90PO99NWBAZHO7U7MGU2IVE0FPR-Y6 1 -
+/.well-known/acme-challenge/AW4A0XAQZ6999DRT8QPZK_G8V-864BD6 1 -
+/.well-known/acme-challenge/C4WHI706QVHQVV5509B6C_OIH5X9769_ 1 -
+/.well-known/acme-challenge/ZBWHXMG8P0495LVNPCRL58TNE6DD_2_C 1 -
+/.well-known/pki-validation/CA46AEB91DB6F7781F10644C8D1DA1BD.txt 1 -
+/.well-known/acme-challenge/KJ37R4VM6H-IOEX7YGT4WFHETN02K3QW 1 -
+/.well-known/acme-challenge/QT_JI9YP45I538WAJN97ERC53N49EAH2 1 -
+/.well-known/pki-validation/88208A1E1DD834D484A191B4F0B1EB79.txt 1 -
+/.well-known/acme-challenge/FAIR8M6ZZ-PA1O4CE9I33WILOUWVPZ_5 1 -
+/.well-known/acme-challenge/GATLLQ6ND4MVZU470-ZDQ06WAJCEUGTQ 1 -
+/.well-known/pki-validation/B86C879B4DBA88E460CCC8F8720B04A9.txt 1 -
+/.well-known/acme-challenge/B63QP-T1D2NUYPCMO6NKCY3VO14400AN 1 -
+/.well-known/acme-challenge/VCHATU33UF--FMR66QK2G4X-M0MBT2PL 1 -
+/.well-known/acme-challenge/QGERK9_Y370MB_5SB6BCM7ANIE92BXOX 1 -
+/.well-known/pki-validation/F1C8FAFE38568E7494033B23C57D01BC.txt 1 -
+/.well-known/pki-validation/238CEDFF104C24343D25549D93739560.txt 1 -
+/.well-known/acme-challenge/MM3HDZ747QGEL6IXQKH71P-9LRFU6U_1 1 -
+/.well-known/acme-challenge/AQWSIS7KKFHR3VIMNWTU6CHDC7836VI1 1 -
+/.well-known/acme-challenge/Y2CMM3UXB6NXH2FV3-B7ZSVE_AN8JRL4 1 -
+/.well-known/acme-challenge/BGPQWHTLF8L_J0QSE_4W3NQISFCVFTK4 1 -
+/.well-known/pki-validation/45C47678947ABB6F3478395F9239F42A.txt 1 -
+/.well-known/acme-challenge/2RY07FCNU-N6FO3Z0BFHSHSHW5BBWEG8 1 -
+/.well-known/acme-challenge/AJ4TUQ6V-2U7YVV_LG-DWB5HF8JBVKYX 1 -
+/.well-known/pki-validation/DA49ABADB53F389230B472F924EE2998.txt 1 -
+/.well-known/pki-validation/F9B808555556C656407D111B08311C08.txt 1 -
+/.well-known/pki-validation/2BD69238DE8DB5C1E907FD6E4E04CD06.txt 1 -
+/.well-known/acme-challenge/URH6U3E6KGFGPLWKA62CN4LZ_MMMVXH_ 1 -
+/.well-known/pki-validation/864FC97960ED92766DABFFDDEBB3F81A.txt 1 -
+/.well-known/pki-validation/EE10A8B4B7D7092888B7207E0EB889F1.txt 1 -
+/.well-known/pki-validation/E6ACA5CD38EB5FB0F17B7F074FBC8A56.txt 1 -
+/.well-known/acme-challenge/MMORA7O6FRQOTZZU1TG20RRNNO734ZCF 1 -
+/.well-known/acme-challenge/0HL_AYGZHCMJ3JTRKHKFXLZ71RMALPU7 1 -
+/.well-known/acme-challenge/YXWUO21DQIX2R0FGW17ICWTAMGYNB2ZU 1 -
+/.well-known/acme-challenge/QTZR992CFN2HFOBLRMT49UFVL0NBWOEP 1 -
+/.well-known/acme-challenge/0QQV03FJ2CAZ8A--V_5SB8DHLU2VYVKZ 1 -
+/.well-known/acme-challenge/KFH6AQ8XVDJKUH1YFXP_-B_4UPJDJQX_ 1 -
+/.well-known/pki-validation/777341DE51DCFDC7ED4080F60649B485.txt 1 -
+/.well-known/pki-validation/71A759B0BB2594624EAAAEC442C9D60E.txt 1 -
+/.well-known/acme-challenge/JRKJ_JR4F96Y7VP7A0_IVLZ497QWVF9_ 1 -
+/.well-known/acme-challenge/BQTLH_K6AQ3RIM3IRJ1I0GJENTG-D6U8 1 -
+/.well-known/acme-challenge/Y4LUJ5Q84EECBGC-N3VTR1ER2F9ONYNR 1 -
+/.well-known/pki-validation/BD5BECDE34D7300D20CEE533E341921E.txt 1 -
+/.well-known/acme-challenge/QVMYLE9CL0DYYGXGMV8XD1R-YF3L-D2M 1 -
+/.well-known/acme-challenge/4YXZ7MEF7-UYBV4S1M7E8_U8H6X39ZCI 1 -
+/.well-known/acme-challenge/YFV7B77S1PE6VDE3D5V2M855KNCZU50X 1 -
+/.well-known/acme-challenge/6JPPDW4ANIA77F_YV7E5NWY_Q_XXFRXJ 1 -
+/.well-known/acme-challenge/6R1WM33U8LO3ADZ02JETKIXGBA4DIVWI 1 -
+/.well-known/acme-challenge/J78C274DH800NBY4FOQWHY3L-533908C 1 -
+/.well-known/acme-challenge/LMNB3CVA99F_SCLS4448CE12W2HUZ8K5 1 -
+/.well-known/acme-challenge/_O0Q5X4VST59HLR1DALG4JKZ6NU5CORC 1 -
+/.well-known/acme-challenge/9XP8NJNLEXY-RAXIWBR7DY2L4QFNTJ5T 1 -
+/.well-known/acme-challenge/7TDR76QAXALD4RJ23DT6LO-F5UJ5RWLP 1 -
+/.well-known/pki-validation/89CA5958BBB7C8720E352CF9E8C1710B.txt 1 -
+/.well-known/acme-challenge/KPY-RDD1RTG_JI9KUX6VMFZ5TY0MBGCW 1 -
+/.well-known/acme-challenge/Q_CEBT-WJ0NV7S3Q8DPT1VGEU89LGOW1 1 -
+/.well-known/acme-challenge/9TN5AN3M45XN56RJO1NZ46QY3L51T9_Z 1 -
+/.well-known/acme-challenge/ZW5N-SFXOOIV4NOVUSYEBX1P0X_3-Y2T 1 -
+/.well-known/pki-validation/31A3CA14701F18C43851A64F0729F02E.txt 1 -
+/.well-known/pki-validation/F74FDFD9E107D7154358AA8A7C4C5600.txt 1 -
+/.well-known/acme-challenge/SZ2PQBYAIGRF77G9C2N2UK92ZZPIZIMN 1 -
+/.well-known/acme-challenge/02M-J4MYEHB4A08X5MA3G_3HUJRD8DU3 1 -
+/.well-known/pki-validation/9CDF8C584441B3FCB48170E045AA796B.txt 1 -
+/.well-known/acme-challenge/6VTZ0YF9QC7IP4W4TUYE2ZWN-MVN9UVY 1 -
+/.well-known/pki-validation/FD2399FDD8E4CD3CA6B1BF95ABFBDB60.txt 1 -
+/.well-known/acme-challenge/IFJXX97W_E--I7Q1R8P6RAO70OSGWWE5 1 -
+/.well-known/acme-challenge/V67WV08VP_KBJK55PT34YIVZHGRE5HE3 1 -
+/.well-known/acme-challenge/GNZSFZNDTGRB01SYSQFPM0NSL-AA2LNX 1 -
+/.well-known/acme-challenge/V75VJBZJR9RAXJ220NMB-G0Q6F2XKDH0 1 -
+/.well-known/acme-challenge/GR51MHM7NQ03B37DQY5ZL1NTIE2JHUZ5 1 -
+/.well-known/acme-challenge/AREEFIVKI5KZ2JO-UWYCC_0JLPX7BMK8 1 -
+/.well-known/acme-challenge/U5WTLA--0B4UWFUR4FP4IDHA7V2ZWKW_ 1 -
+/.well-known/pki-validation/1A5C8713DEFB9962E04F6733208D0265.txt 1 -
+/.well-known/acme-challenge/EC60YFN9M-_IDLBCKYV4LYH62HKRFUJQ 1 -
+/.well-known/pki-validation/E578913C521B054ED661E5123D181126.txt 1 -
+/.well-known/acme-challenge/YCQPCF3AW9OXGZUK32T0QMZWTVVTKV5O 1 -
+/.well-known/pki-validation/348AD2D41006B0AD4F723B4ABC4851C7.txt 1 -
+/.well-known/acme-challenge/SRLLV4DIS0YJ3EFBA9M-ORRLU07R7V94 1 -
+/.well-known/acme-challenge/WHPA6Y8K_9UIQRWB8GU7S7CL5O46BXLK 1 -
+/.well-known/acme-challenge/8GIAZA_D5B79NWHS2RGFJJVLTM157GXW 1 -
+/.well-known/pki-validation/A988AD6EE6D0DB27A7BE07101246D37E.txt 1 -
+/.well-known/acme-challenge/CL5536BM0AYW-R51Q9YQSRX43AUWP8BX 1 -
+/.well-known/acme-challenge/TM68AIVY7VLVMNJ9BGDBR9JUK0UO0-JJ 1 -
+/.well-known/pki-validation/293D48CD6DC76C3EEA0C3C3B97417FC4.txt 1 -
+/.well-known/pki-validation/1C3AD810D13B335EEB3ADCF1C7E1B8F2.txt 1 -
+/.well-known/acme-challenge/0P8YM6E204MTIILZRLA6ND1UCT95JP3P 1 -
+/.well-known/acme-challenge/BEFSKV_SS0CET978LB3DD4SA9LT4CUXO 1 -
+/.well-known/acme-challenge/BE6R_O-CHUXDJPB4C1UX_TEVPS08LPXD 1 -
+/.well-known/pki-validation/23C15738B1B537A21CE636BEA6613429.txt 1 -
+/.well-known/acme-challenge/64VGXER1NVKMVPS0OPNE7_JB-_K6TD15 1 -
+/.well-known/acme-challenge/KB8FE2E7FTNV3KYH7NH_3M_7DWI3FS44 1 -
+/.well-known/acme-challenge/XKBC56USPPRUH-VJI9BLVEGS4SJJANQY 1 -
+/.well-known/acme-challenge/IWCFRN878UWJ4G4J8BLFP6CU483CG7JZ 1 -
+/.well-known/acme-challenge/N-P8N4HUPAADYB_FIMAX7VV-_BE3UX1A 1 -
+/.well-known/acme-challenge/5_1FX0LWSQCEU4M8HP158XTFOOYCJF0N 1 -
+/.well-known/pki-validation/0E33533DCB79535F7317007D79298B43.txt 1 -
+/.well-known/pki-validation/89403B79A0F826F0D2B34C2F00C8B71A.txt 1 -
+/.well-known/acme-challenge/A5ISFDNP0J_9X0FCYPSXXN8EJ0FJSO0C 1 -
+/.well-known/acme-challenge/DSW2_2GV8NZUD-62X19X1WRSIRLR9G2P 1 -
+/.well-known/acme-challenge/8B8_7AXZJ78V-4T3W4S-Q-9UJ8Y8HO6T 1 -
+/.well-known/acme-challenge/AO7G-L4BDHM_N1JB-SWC773TW7_UVC55 1 -
+/.well-known/acme-challenge/F8IYN7AM0YTSD4Q0CGOF03SA0QCS59C7 1 -
+/.well-known/acme-challenge/DMOXXP4X1MCZUOYBSW4PRIUMYJTSY7_- 1 -
+/.well-known/acme-challenge/N2MAGDT55YD33UMHEH3-G6G1XADZEPB3 1 -
+/.well-known/acme-challenge/AROH4MTGH5ZOTG_9CGNH8D53KKGW0EXI 1 -
+/.well-known/acme-challenge/RP7WRRAPNGQRMPULJRY1V_TKSNIZU72A 1 -
+/.well-known/acme-challenge/7UE0UCQ3JQ2P6624174LVXKHPH_549Q7 1 -
+/.well-known/acme-challenge/5Z8WE2-Z1QPJ1EGRYIBXVMQK83893OB6 1 -
+/.well-known/acme-challenge/A621_0P_-27CTPO58SJXXMCGVVWGWX2_ 1 -
+/.well-known/acme-challenge/VFI1B_2Z2M2LSAV73YWZDOG4TKNQQB34 1 -
+/.well-known/pki-validation/56E0B0E6AEEE1BFDF8143D556A1704E1.txt 1 -
+/.well-known/acme-challenge/-Z-PB9B51YJMSRACK3K8YKFZ2E5CYINC 1 -
+/.well-known/acme-challenge/2OQR83E-KS4RFCUM_JDDWSC26M63JOI6 1 -
+/.well-known/acme-challenge/0KAA_EUK-YRYES1VUZML6BR9LA7FV1OX 1 -
+/.well-known/acme-challenge/778CX7DX473L2ZY86KYJRJK_F9OFCRM_ 1 -
+/.well-known/acme-challenge/LY8KXU1CIHO9HLCQZ4THB90ICRY76SNE 1 -
+/.well-known/acme-challenge/SO1XK6U-K5Z5HB9GHCI1D4NGZXPNCD2C 1 -
+/.well-known/acme-challenge/EWO8XKRH_OFTVPNBVCV0K5QCIIV8P231 1 -
+/.well-known/pki-validation/1757F0F8303EF756B0676ECC411DE6E4.txt 1 -
+/.well-known/acme-challenge/3LOKU4G2HBIW5QMRCP94S0TJ-D60N5DQ 1 -
+/.well-known/acme-challenge/WZM-EW0-4T2B29F_DFKFH393LJCZUK__ 1 -
+/.well-known/acme-challenge/H2OVJJQGXTTUUJT1QQRQG2E-ZHUVPU4Q 1 -
+/.well-known/pki-validation/9A65D770B8321F514B064BF92242497F.txt 1 -
+/.well-known/acme-challenge/FITI_2PXNKAB8SUUDRPVP68YXN7ZL4RX 1 -
+/.well-known/acme-challenge/GR3RE049HEJ1WHFVZ78EWFD7YH_79ZMJ 1 -
+/.well-known/pki-validation/C16952825F4624AB03873ED0A8A1D805.txt 1 -
+/Doctor-Page.html 1 http://gatewayclinics.com/Doctor-Page.html
+/.well-known/acme-challenge/H-4VAFQWJV2YO4K_MX64KG1QHJB06-LA 1 -
+/.well-known/acme-challenge/K-G2-E9KBZLCDR5F9EP-XSJD8C-P0H7- 1 -
+/.well-known/acme-challenge/H95LNHERVYFFPO0UMKF04A1ULQ213W5P 1 -
+/.well-known/acme-challenge/ONQ4LBUPF-BFU-PLUT-3ZVQ_0J69L2AF 1 -
+/.well-known/pki-validation/DB7DE9819C64344761A98C9BD061EDFD.txt 1 -
+/.well-known/acme-challenge/UBYHIF37W5-9AHORVF3MO89R2PRFKDGC 1 -
+/.well-known/acme-challenge/F3SRQ-Q3F1EG2TZRSSFRG4_6_0AUG75P 1 -
+/.well-known/pki-validation/04F705136319896C0CBBE77E60E5F74D.txt 1 -
+/.well-known/pki-validation/87E048442DAB4B207A08C092862C9F54.txt 1 -
+/.well-known/acme-challenge/VW1K2AS7239D4Q2XJCBK0D08W92CG0H9 1 -
+/.well-known/acme-challenge/S50NT6WHOUL457-4NGND7LGN89EX4-CO 1 -
+/.well-known/acme-challenge/2FG6IPQ-C3WJE_1DXH3_U_TGBZWJ3MBL 1 -
+/.well-known/acme-challenge/2IBRMNR1UU1LKPHV4NRP2XPQPYD2Y3N6 1 -
+/.well-known/acme-challenge/YMKARCX68OVFYVO-TKHVT10IPXFQ4B15 1 -
+/.well-known/acme-challenge/3TV-LHXQO_FBGSO_9P3_4RUP9K_HE30B 1 -
+/.well-known/acme-challenge/PZGX72W35ENJB_AVLH3N9MQBMUCAW73M 1 -
+/.well-known/acme-challenge/Z0HBX8J5LB17R9NNKRZ3X43XDV71BUSL 1 -
+/.well-known/acme-challenge/DVS493U453GN3RFYU1W_ZF1X77-I8LS7 1 -
+/.well-known/acme-challenge/NXL0ZEZQ2RF4F55-R-L__U7C67MI1VZB 1 -
+/.well-known/pki-validation/79D37E90CA58F35BA3616A8BBF757ED9.txt 1 -
+/.well-known/acme-challenge/DJNT6PTSOYYX24IP83NE2KG79JSK_4G4 1 -
+/.well-known/acme-challenge/WX6S1OZJ2CVKGM07YG1MV4JT4HZZ_H-J 1 -
+/.well-known/pki-validation/24993EF05F16337E8A96D27B215F17B9.txt 1 -
+/.well-known/acme-challenge/_QNEFW1AD7J-5ARZLH3_TCAHKEI8W6NO 1 -
+/.well-known/acme-challenge/IGAFFXUKALOG7JFXSVM-XQA_BNKC_CJS 1 -
+/.well-known/acme-challenge/RDSBNRV0RMQAX4HVK17GQQTBDJAJ70MT 1 -
+/.well-known/pki-validation/DB6628A58B5FE39A360D7C3CBFF7F857.txt 1 -
+/.well-known/acme-challenge/WMOY_ZCXNP9N-77APE7L14H_KRPLX-KE 1 -
+/.well-known/acme-challenge/6AO0OI06LW-UG_CY2G5_VZ74DOEVBRDO 1 -
+/.well-known/pki-validation/AEDCAC596F179FC4094CCBC0B378A3FA.txt 1 -
+/.well-known/acme-challenge/9N-NRNQV80ZRX6NG_XYYDIIN1762QNS3 1 -
+/.well-known/acme-challenge/ITJCN4HRS8RZX3KEH3P9SLOTUMXN2NKC 1 -
+/.well-known/pki-validation/63AB08223325F5B8EE817E21CC9A6F0D.txt 1 -
+/.well-known/acme-challenge/BG5YYK-AW0CRSWFKKME3NUX3CDBCXRWG 1 -
+/.well-known/acme-challenge/PSAPD25ZX-50ZO0NG98Q-KFGVLB1Z0JZ 1 -
+/.well-known/pki-validation/17BC8561D368A71B69B90F90B372B4F6.txt 1 -
+/.well-known/acme-challenge/2M57HNZNKSTJKRB4NVS2C6BU95LC3MOU 1 -
+/.well-known/acme-challenge/_ETUG6-7XE46_D6HD5AT4NEJDSZUL_CU 1 -
+/.well-known/acme-challenge/2CMQIQSXWVW8MN4TM29UJDP5DSXYT0FX 1 -
+/.well-known/acme-challenge/PL70V5P_3871S_0NZ1LYVFFZDPIVPIS7 1 -
+/.well-known/acme-challenge/2W7E_JHTC1Z34H4HDEBRJ36YVRDRKUDW 1 -
+/.well-known/pki-validation/A229379BD941C897DF2F2EAC27EE2A16.txt 1 -
+/.well-known/pki-validation/9C95CE16BA661229D9ADC45FAADEF829.txt 1 -
+/.well-known/acme-challenge/MZADV9O0VHWWYK6JRIW3WHL_WU6FG_MJ 1 -
+/.well-known/acme-challenge/FW3YMKSGNNO5RV8K1XLNIGIVR8DP89N4 1 -
+/.well-known/pki-validation/8749E02247B8C516BEC7C739B9A2D7AE.txt 1 -
+/.well-known/acme-challenge/MBPX41M5DQJO47VFU2JK501JCIW7W7Y6 1 -
+/.well-known/acme-challenge/6VQQD4O2DT18CZNR59GNZ4NYJ37776K3 1 -
+/.well-known/acme-challenge/TK-EIARL4F8_PT3UWG00LEFF8959IPR9 1 -
+/.well-known/acme-challenge/6M90KJ7B3_M5RN0Z-_IYUA5LAY8E601N 1 -
+/.well-known/pki-validation/D71EDBF85F921BCBD6CF2B422A333AD3.txt 1 -
+/.well-known/acme-challenge/NIACMYR-LUS3-CJKMK82DWG36G61KD09 1 -
+/.well-known/acme-challenge/FEYXMVVLBQBUZZR8EH-975SQSEKNI8JZ 1 -
+/.well-known/pki-validation/2728D8CD69F4C29071EC239069D592FC.txt 1 -
+/.well-known/acme-challenge/YP_T5-T5-UH99KKTI7XV_0I-2VVUER3P 1 -
+/.well-known/acme-challenge/8-L2P9SOFT_UK2UG4A6KD5R6BF2S2025 1 -
+/.well-known/acme-challenge/E_1325-PT3XNSFJ4M7VUEYN1CHIV1ZB_ 1 -
+/.well-known/acme-challenge/7FZW3KNA-CWAV6PXAQCXVW_TR_WJ99GV 1 -
+/.well-known/acme-challenge/3RJXQQ70AI54M4FWOCR10CMM1OASY2J1 1 -
+/.well-known/acme-challenge/CO1F4XFX88PUXX54BYOH3SMPOZW6G6E3 1 -
+/.well-known/pki-validation/2465CFF889777EA5ACBB634CC56DDED6.txt 1 -
+/.well-known/acme-challenge/X2JMNQH5JSGRI8ZPP1KZECC-6_789M9Y 1 -
+/.well-known/acme-challenge/BON6VY-GRKKPGH2ABRW6EI3FGD5UL4-S 1 -
+/.well-known/acme-challenge/M4VJJXGVELWFKG0O-EA192-JQA3H1LWH 1 -
+/.well-known/acme-challenge/0_BQ6PFC5BYPWCU_M1TUQ2SRL48J3BXV 1 -
+/.well-known/acme-challenge/2D1BJ4XZPLTM-CQ4YIMCJETYHRJWBGUK 1 -
+/.well-known/acme-challenge/YIG9Q2KUC87J6B-CAVZS5JEQ0_OJR9Y5 1 -
+/.well-known/acme-challenge/R2Y48VGPR8ICYVALZ9GO_9AGLW72C1UE 1 -
+/.well-known/acme-challenge/4X9C48H46CND9Y429DYP_O7M4-L7B378 1 -
+/.well-known/acme-challenge/6G31FWXRP39Q8WW-6N76SQPE1W71B4RQ 1 -
+/.well-known/pki-validation/F8FD50AEB57A414315F9087D708B00D6.txt 1 -
+/.well-known/acme-challenge/5K4T51WG0B9197ZIZKC_3Z7C-85QMP4B 1 -
+/.well-known/acme-challenge/17M9GF0S35FFNYL6W4YHRXVHHTFX9KID 1 -
+/.well-known/acme-challenge/AQ-8K0_V2030F4PPGO6TLGHK5OPDN8-S 1 -
+/.well-known/acme-challenge/1I98UC_OJW67OT6EKD6HBLT4MMGGVC03 1 -
+/.well-known/pki-validation/26BA7770D7C4A8205EFD1CCA6CA487D3.txt 1 -
+/.well-known/acme-challenge/13B1O696H6WU4RO2VH41LGXB-FRJ3A4N 1 -
+/.well-known/acme-challenge/4I1H52HICJ7PXHWLRE-8EGSRKK5ZQ786 1 -
+/.well-known/pki-validation/21FBC10049CDC4273AF7D7AA5D3D7B63.txt 1 -
+/.well-known/acme-challenge/LVK4XRCPIQORFQATBJXMCYJ4A34-RP_I 1 -
+/.well-known/pki-validation/403AFFD8CEF29AA4329316CD81DF2B8B.txt 1 -
+/.well-known/pki-validation/AA87E0E1046BB3A795EE4CCD0284B5CB.txt 1 -
+/.well-known/acme-challenge/Z-CAZWY_3O263121XPHT3F0-WSGAKSDF 1 -
+/.well-known/acme-challenge/VN221XLV-O_595TT60MHG9C9GU63UJF4 1 -
+/.well-known/pki-validation/9FA11B6E0486A04F5756BF11F1B4D05E.txt 1 -
+/.well-known/acme-challenge/LB6I4FZVI7RKI5X5RYUM8V3JNOI02FM4 1 -
+/.well-known/acme-challenge/EER_82135702HELZOKMPI4QHA1WQSD6C 1 -
+/.well-known/pki-validation/2D4EC20EBC37C8B992C7DB2A7068329B.txt 1 -
+/.well-known/acme-challenge/E4J8-QAASVR8CANP3C7Z1TS7-KJI3_LG 1 -
+/.well-known/acme-challenge/VI00F1Y3EU8MC6B6SU5D6HYF8VE9GL6A 1 -
+/.well-known/acme-challenge/K_V9MAJNAVDH5QW2BNSDPFIFXDWZ7JAN 1 -
+/.well-known/acme-challenge/-B4C5EZWBWQF4Q-EQ14KRZVQWYY5HKS9 1 -
+/.well-known/acme-challenge/3B93SGVOXTOB4W7THTBJOO3-MS1WYIYT 1 -
+/.well-known/acme-challenge/RD978-U56Y0XTVACOG9UN41RWEL2HUP0 1 -
+/.well-known/acme-challenge/N0CYI8P6A7_N2F0E3J2311NY2721772W 1 -
+/.well-known/acme-challenge/3Z3KN2DKI3_HT1IVC5RM64TP4LATXB_U 1 -
+/.well-known/acme-challenge/FSTJG2EKMRLJOHB8JP6M-QZWN_HTS9-N 1 -
+/.well-known/pki-validation/896BC7948ABD2286DAA66C95FE49A3C5.txt 1 -
+/.well-known/acme-challenge/9Q25X8NJI648PYFLELLW7YED5D2MN9UB 1 -
+/.well-known/acme-challenge/SFQB4MH0D540NOUTLQ1GQ0PA_MEJ6XRQ 1 -
+/.well-known/acme-challenge/_MBA8QF-AA247ZLI89BP3VSVV3FJ89M- 1 -
+/.well-known/pki-validation/44DD479E0BF95FEABBCE9FDE89845035.txt 1 -
+/.well-known/pki-validation/9AFFE2B4CB6742F0E7FB546CEB9E5D64.txt 1 -
+/.well-known/pki-validation/F8D4C8D2D435F1A4E8105E9319DC6609.txt 1 -
+/.well-known/acme-challenge/8JCTRUQZ-F6MNV2DL-0WQ7UCUC-S7LN9 1 -
+/.well-known/acme-challenge/DVS9D0_3SC_XFTAQ7N1EWFFKZRAX6RQ6 1 -
+/.well-known/acme-challenge/Z7XXFQAMJRZ7SZMIWWSH3WMP221_KMV4 1 -
+/.well-known/acme-challenge/1HD1CXS7ZP-T8LOUKUDNRZROMXFNF_XQ 1 -
+/.well-known/acme-challenge/FMTRJLAB9_TL84ZP9BSKS3VTFSNMXQTN 1 -
+/.well-known/pki-validation/3431A444D6B8CB76B0A5747EE341DB10.txt 1 -
+/.well-known/acme-challenge/1J1ZSHVLAYU914WJ_R6WE7R7C1A4GRIR 1 -
+/.well-known/acme-challenge/_29O8TN3IMU5O2HUB2PAZD9S20Q9M4T7 1 -
+/.well-known/acme-challenge/QEFF0KL374IPHZBW1NY270YN8N-TH3MU 1 -
+/.well-known/acme-challenge/C5_HZYEPI2_O0YGBT4STSYR-XBL33_TH 1 -
+/.well-known/acme-challenge/9QSVXAW4S1PKSOJR9RUM8DFBMJ_N_P68 1 -
+/.well-known/acme-challenge/41OA76K41JFXIOZON60CI2HT0HX3FLH9 1 -
+/.well-known/pki-validation/1CD72FF0A42210B92D552007A65AA818.txt 1 -
+/.well-known/pki-validation/08B914769CBB53E306918B498BDEA283.txt 1 -
+/.well-known/acme-challenge/R18-SPNVZFGUJ6OEAZ6X7SQTIIQO1RV_ 1 -
+/.well-known/acme-challenge/OG88Z-EN-HMC-KD0Q38GZRS2ZOQIFI3M 1 -
+/.well-known/acme-challenge/_DA46FS2CL80S2EW36NZ3TRD1DOH3BZE 1 -
+/.well-known/acme-challenge/OEFGU-Y5XBSN3PLW9K18TYM8R3KBKAEY 1 -
+/.well-known/acme-challenge/5YAZCGQAC91F5IJU-FXH-LENTRQ72O95 1 -
+/.well-known/acme-challenge/0IVL91R3NV6ED8T0M_ZEMI4GRPI3ZROG 1 -
+/.well-known/pki-validation/5F75A7E2BFC2D885E09EF71EE22EE3D7.txt 1 -
+/.well-known/pki-validation/B6FB19D2E113EDDE5678103D25CCA369.txt 1 -
+/.well-known/acme-challenge/3V299WGB3HBEX-J5R5XNFFOXIPSYJUTT 1 -
+/.well-known/acme-challenge/901C7KAHV4CJHD8-ODKUSP5TID6W-47C 1 -
+/.well-known/acme-challenge/X8XVAZUVZWRTC_4KCC_7XEQWIDE0DY3E 1 -
+/.well-known/acme-challenge/B_FHEF7NKMCYXRJ-_-AZ5JMGHMVH--S7 1 -
+/.well-known/pki-validation/D6F77DAA846D0E4C3594BE4E3587041E.txt 1 -
+/.well-known/acme-challenge/A82MC6AZTR39W73GR1UKUKWP_XX-33SV 1 -
+/.well-known/pki-validation/4753A252354CA0D1C99764F1799A7ABB.txt 1 -
+/.well-known/acme-challenge/04QE_PIGHRAP5JBLXTES_WDC_VMMFN73 1 -
+/.well-known/acme-challenge/5_-U73BIXTSH66XCEPWUSDUL3P3J6_KG 1 -
+/.well-known/acme-challenge/V-L0TTQ1D0MNL12HAS6_4WHZO9ACDRO1 1 -
+/.well-known/acme-challenge/_G7EFWVIG2BB7EICYA1E_ALXJNTHOOK6 1 -
+/.well-known/pki-validation/DD256F0BD728C9F22686B3BD85191800.txt 1 -
+/.well-known/acme-challenge/LG69OIMUICRLE1OPHX52NE7JML9ZJ0L_ 1 -
+/.well-known/acme-challenge/TJLNKFLLIM7UV1K2F9CX0WI794DDVW__ 1 -
+/.well-known/acme-challenge/HIYS69D7AQK_0_22L687G_C96F28VV4H 1 -
+/.well-known/acme-challenge/LOV1ESW_QJY9AMQ3SNMEX_MHRIQK92OL 1 -
+/.well-known/acme-challenge/12TNLFVNVDFUK-CUB276CFAMOGG_OHWF 1 -
+/.well-known/pki-validation/0C94FFBB56DB11766CEAB5E9F99BBACC.txt 1 -
+/.well-known/acme-challenge/FE69RRWGU9K_C_8KEBMN36WVL0WCSH92 1 -
+/.well-known/pki-validation/C54538B159D450A8D6C3D59AF129F9CB.txt 1 -
+/.well-known/acme-challenge/V8SQ6L07OJJK3ESX54AIX9_53OXIY3YJ 1 -
+/.well-known/acme-challenge/TVGSZLG1VS7JR9MM63XAUJL_Z4BBSF_9 1 -
+/.well-known/acme-challenge/X1HE8HTD6UR_4R3J8477Y4JUHOQLA863 1 -
+/.well-known/acme-challenge/YJ_5RH50HIBB7D_4XPAA39RP6E1ANJNM 1 -
+/.well-known/pki-validation/C18C76CA4AD1932C7EDD419427A66F8A.txt 1 -
+/.well-known/pki-validation/A4464CC72B9B3AE6A08D5CCC622E0ADA.txt 1 -
+/.well-known/pki-validation/F3D15B841AA9A569EEAA40550DC8372D.txt 1 -
+/.well-known/acme-challenge/RXSZ7AOZGDEPGEPJWHI3YZ0G58855I9E 1 -
+/.well-known/acme-challenge/61NAM6AZWYMAP-R84AK22BVWWH37-KQ_ 1 -
+/.well-known/acme-challenge/29LLWZGNV0IVULJ8F9OI725PKJLIFUXY 1 -
+/.well-known/acme-challenge/4RG7YFJS0SRIOZVOWLRNAMUEKH3P4LDQ 1 -
+/.well-known/acme-challenge/ZTSMICJ5D-BDAAXAH1R0-BOS1O1GSMHK 1 -
+/.well-known/acme-challenge/I3T6LO7HAKX_JIR9EDPIY910A3CBL_QZ 1 -
+/.well-known/acme-challenge/7LSK2PKKJWX3XQ5IP0BR766YUX__II57 1 -
+/.well-known/acme-challenge/U5GJDPJ67767BQJ8HEK1_1M1YGG-BG1L 1 -
+/.well-known/acme-challenge/C26T_H2FZ1J6C2S2T5GBO2HOF-XZ02L8 1 -
+/.well-known/acme-challenge/I_EW0TRNTLKNKYVEP6WBS13E0BPQP57G 1 -
+/.well-known/acme-challenge/62KDR9X5IV73HI15KMWRUN1-2JX1C_WS 1 -
+/.well-known/pki-validation/26D2F752F8D3108BE2D7923CE06DA657.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 891
+54.39.29.64 18 18 698202 20211222144127
+37.192.177.23 15 15 581835 20211222084617
+104.152.168.13 12 12 1044 20211214021520
+91.78.115.117 9 9 349101 20211228132027
+94.180.207.5 9 9 349101 20211213063444
+37.113.62.111 8 8 310312 20211209103432
+35.187.166.226 8 8 88395 20211221233725
+178.159.37.7 8 8 310312 20211214165748
+193.169.87.194 7 7 271523 20211226062607
+217.107.122.237 7 7 271523 20211227205603
+185.209.31.169 7 7 271523 20211219140239
+91.242.162.79 7 7 79789 20211229182202
+46.21.250.244 6 6 232734 20211206234909
+95.216.37.99 6 6 232734 20211215073902
+185.72.224.156 6 6 232734 20211212164954
+195.46.190.111 5 5 193945 20211218184249
+111.240.201.106 4 4 155156 20211218014552
+163.172.31.249 4 4 155156 20211211203544
+103.216.82.22 4 4 155156 20211219205228
+178.159.37.84 4 4 155156 20211218213523
+92.207.253.226 4 4 155156 20211204202007
+51.75.170.141 4 4 155156 20211214131912
+123.118.9.131 4 4 107188 20211213135255
+95.217.122.149 4 4 155156 20211206063327
+94.103.81.70 4 4 155156 20211218142628
+178.197.248.32 1 1 26797 20211209114023
+109.70.100.35 2 2 77578 20211217015837
+177.10.201.170 1 1 26797 20211204184422
+217.73.95.3 2 2 53594 20211211215708
+107.6.242.203 1 1 26797 20211220172836
+187.122.248.194 1 1 26797 20211215170141
+41.217.1.69 2 2 53594 20211206233032
+124.41.240.53 1 1 26797 20211210172805
+128.148.231.11 1 1 9940 20211206015357
+120.24.192.51 1 1 26797 20211218192836
+189.115.149.216 1 1 26797 20211202161623
+188.136.162.204 1 1 26797 20211209034610
+31.179.162.78 1 1 26797 20211208074418
+178.66.9.146 2 2 77578 20211221013735
+180.167.101.134 2 2 77578 20211212121022
+103.24.135.30 2 2 53594 20211222093516
+101.108.226.33 1 1 26797 20211213093523
+193.38.235.152 1 1 38789 20211214014904
+195.246.120.144 1 1 38789 20211214085335
+116.68.192.230 2 2 53594 20211227212339
+52.185.74.44 2 2 16700 20211219135611
+203.223.44.214 1 1 26797 20211223162145
+46.148.234.229 3 3 116367 20211219034908
+37.152.180.224 1 1 26797 20211202210238
+103.241.227.118 2 2 77578 20211209060112
+62.33.138.39 1 1 11064 20211201034434
+88.147.152.198 2 2 77578 20211217005120
+182.111.174.52 1 1 26797 20211213024749
+16.162.191.38 2 2 77578 20211212082806
+115.85.81.138 1 1 26797 20211207102148
+102.66.225.163 1 1 26797 20211206082714
+59.153.235.132 2 2 53594 20211217121028
+120.78.216.210 1 1 26797 20211218161615
+182.64.146.155 1 1 11233 20211217101454
+180.92.212.200 1 1 26797 20211202051549
+45.138.5.62 1 1 38789 20211202132714
+191.6.40.180 1 1 26797 20211222212304
+217.61.121.22 1 1 26797 20211219002403
+165.231.5.6 1 1 38789 20211205215417
+51.68.214.45 3 3 116367 20211206071956
+119.18.159.14 2 2 53594 20211212045952
+66.42.60.67 1 1 26797 20211219030317
+85.203.20.76 2 2 77578 20211208132639
+81.91.137.43 1 1 26797 20211206010108
+105.213.114.245 1 1 26797 20211220103911
+125.27.172.28 1 1 26797 20211210204824
+118.67.160.251 1 1 26797 20211212050814
+94.159.1.10 1 1 26797 20211211002503
+177.158.240.76 1 1 26797 20211220142938
+177.38.5.200 1 1 26797 20211203221723
+47.107.94.85 1 1 26797 20211217105910
+112.78.161.232 1 1 26797 20211209115457
+195.208.61.25 1 1 38789 20211215042717
+212.233.105.14 1 1 26797 20211222205737
+185.72.224.76 2 2 77578 20211206004143
+181.204.5.162 1 1 26797 20211211015006
+91.211.251.235 2 2 77578 20211201072116
+123.200.9.30 1 1 26797 20211216192305
+185.231.39.88 1 1 26797 20211210153927
+146.56.189.218 1 1 26797 20211220005301
+171.236.132.208 1 1 26797 20211203041451
+62.149.95.59 1 1 26797 20211201220425
+91.242.162.20 2 2 17099 20211218001949
+103.71.53.231 1 1 26797 20211213183455
+61.5.70.12 1 1 26797 20211212022619
+106.35.172.198 1 1 26797 20211223130015
+41.190.233.30 1 1 26797 20211205092203
+202.5.36.133 1 1 26797 20211221120356
+47.115.10.253 1 1 26797 20211221011455
+192.99.7.189 1 1 26797 20211223091026
+84.221.208.74 1 1 26797 20211212182122
+119.45.233.175 2 2 53594 20211224202900
+129.154.61.173 1 1 26797 20211207225918
+188.126.73.221 1 1 38789 20211210181818
+110.83.12.124 1 1 26797 20211206062724
+92.255.202.72 1 1 26797 20211215124116
+125.87.94.236 1 1 26797 20211218170752
+103.231.201.6 1 1 26797 20211227014332
+114.84.2.137 1 1 26797 20211218172355
+185.220.100.248 1 1 38789 20211203083651
+34.227.158.18 1 1 26797 20211207233851
+23.154.177.4 3 3 116367 20211215193341
+114.37.218.238 1 1 26797 20211222213333
+111.240.225.111 2 2 77578 20211211023628
+109.87.39.192 1 1 26797 20211217180632
+110.82.165.243 2 2 53594 20211211071737
+24.37.125.246 1 1 26797 20211214122336
+118.173.39.23 1 1 26797 20211226172102
+103.122.66.184 2 2 53594 20211206180500
+188.126.79.14 2 2 77578 20211216200602
+121.205.219.65 1 1 26797 20211206190824
+61.221.57.104 1 1 26797 20211204001906
+178.159.214.4 1 1 26797 20211230150241
+91.221.66.52 2 2 77578 20211231010437
+106.197.39.91 1 1 8350 20211230044303
+120.76.246.8 1 1 26797 20211222154549
+103.142.140.82 1 1 26797 20211217060855
+178.122.237.64 1 1 38789 20211226015815
+92.242.198.94 1 1 26797 20211209124113
+182.253.56.7 1 1 26797 20211203213806
+104.244.78.168 1 1 38789 20211203083652
+46.229.205.18 2 2 53594 20211210160220
+36.65.63.40 1 1 26797 20211219090318
+107.189.13.172 1 1 38789 20211211225747
+134.35.22.34 2 2 53594 20211206214555
+18.139.160.83 1 1 26797 20211205053208
+188.115.185.46 1 1 26797 20211214165656
+103.9.113.90 1 1 26797 20211208071737
+31.40.129.203 3 3 116367 20211204060541
+18.118.167.224 1 1 26797 20211210192225
+91.242.162.9 1 1 9802 20211230074534
+120.24.188.83 1 1 26797 20211217234805
+43.129.168.112 1 1 26797 20211231103954
+60.168.81.241 1 1 26797 20211213152320
+205.185.123.97 1 1 38789 20211211225746
+177.91.194.148 1 1 26797 20211222190705
+54.236.204.224 1 1 26797 20211205033728
+184.82.142.81 1 1 26797 20211206125205
+188.162.64.253 2 2 77578 20211203105031
+59.60.140.146 2 2 53594 20211205062904
+109.248.148.250 2 2 77578 20211212024032
+187.171.67.249 1 1 26797 20211206051045
+109.93.15.158 1 1 26797 20211220125947
+5.2.72.124 2 2 77578 20211222194530
+45.128.125.71 1 1 38789 20211208152925
+192.252.211.197 1 1 26797 20211214043516
+160.116.92.184 2 2 19674 20211228012445
+103.142.140.252 1 1 26797 20211214111624
+59.91.226.94 1 1 26797 20211206001929
+45.128.124.15 1 1 38789 20211204223452
+80.208.35.132 1 1 26797 20211222221305
+61.9.52.90 1 1 26797 20211220024937
+199.249.230.156 3 3 116367 20211218095336
+5.39.20.37 1 1 37340 20211214002226
+115.202.70.227 1 1 26797 20211225174059
+45.57.247.46 1 1 26797 20211211215651
+27.68.139.25 1 1 26797 20211201234745
+103.52.153.210 1 1 26797 20211222155407
+154.6.26.39 3 3 116367 20211208050200
+178.93.34.112 1 1 26797 20211229224532
+152.249.136.136 1 1 26797 20211210054722
+200.58.79.244 1 1 26797 20211206011817
+192.169.217.115 1 1 26797 20211206235856
+81.174.37.114 3 3 80391 20211216135636
+113.88.235.187 1 1 26797 20211204083402
+137.220.231.149 1 1 26797 20211210154240
+109.70.100.32 1 1 38789 20211211050444
+80.253.235.44 1 1 38789 20211201133656
+45.115.39.18 2 2 53594 20211221021546
+195.187.156.2 1 1 26797 20211217151212
+185.51.134.83 2 2 77578 20211219074027
+197.254.11.102 2 2 53594 20211230010944
+159.192.193.99 1 1 26797 20211203053429
+82.162.185.173 1 1 26797 20211206174030
+185.252.41.13 1 1 26797 20211210204018
+206.253.164.198 2 2 77578 20211218093143
+80.52.223.98 1 1 26797 20211210152814
+79.173.83.153 2 2 77578 20211221014010
+14.177.161.114 1 1 26797 20211212064204
+106.35.172.42 2 2 53594 20211217230149
+185.220.101.170 3 3 116367 20211220232355
+93.75.49.56 2 2 77578 20211209145916
+103.207.170.235 1 1 26797 20211204011751
+203.217.169.85 1 1 26797 20211218152835
+188.168.75.254 1 1 26797 20211202154044
+185.100.87.250 3 3 116367 20211231000417
+194.156.95.239 3 3 116367 20211219055155
+69.16.157.143 3 3 116367 20211219111818
+91.225.170.25 1 1 26797 20211222233437
+37.233.17.225 2 2 77578 20211227114550
+207.148.125.154 1 1 26797 20211222201316
+138.199.36.137 1 1 38789 20211205084932
+1.172.13.245 1 1 26797 20211220135610
+46.17.254.104 1 1 26797 20211204090109
+186.42.185.123 1 1 26797 20211219185856
+83.136.82.83 2 2 77578 20211222075320
+120.38.64.150 1 1 26797 20211227031259
+178.130.81.127 2 2 53594 20211219111222
+177.38.5.121 1 1 26797 20211206014257
+116.209.53.121 1 1 26797 20211222202634
+94.153.209.22 2 2 53594 20211230122825
+112.78.167.236 1 1 26797 20211203030949
+185.220.100.253 1 1 38789 20211206081113
+184.178.172.5 1 1 26797 20211230194632
+46.109.118.225 1 1 26797 20211222172210
+109.94.172.45 2 2 77578 20211202155528
+202.44.228.173 1 1 26797 20211204021738
+213.246.4.90 1 1 26797 20211227044258
+195.208.119.161 1 1 38789 20211218031627
+79.174.161.213 1 1 26797 20211230052519
+219.91.255.178 2 2 77578 20211220091609
+14.205.92.168 1 1 26797 20211222210359
+176.119.83.114 1 1 38789 20211230170911
+109.194.141.174 1 1 9994 20211211022107
+203.194.111.43 1 1 26797 20211224234337
+27.184.53.13 2 2 53594 20211231081148
+196.27.105.130 2 2 53594 20211231172944
+185.220.101.18 1 1 38789 20211211000235
+109.87.172.133 2 2 53594 20211212073245
+200.105.65.44 1 1 26797 20211216234622
+2.188.221.17 2 2 53594 20211212030959
+185.204.1.237 1 1 38789 20211218124050
+5.183.209.135 1 1 38789 20211201172620
+103.232.33.145 1 1 26797 20211218000133
+212.109.197.1 2 2 77578 20211222125842
+8.210.226.35 1 1 26797 20211210181155
+103.111.33.136 1 1 38789 20211214222419
+117.0.151.177 1 1 26797 20211212062016
+178.168.201.244 3 3 116367 20211212231704
+94.240.8.147 1 1 26797 20211201173410
+106.208.56.53 2 2 28016 20211210120127
+175.110.39.148 1 1 26797 20211214014937
+45.81.226.10 1 1 38789 20211207150624
+131.196.13.229 1 1 26797 20211204084933
+183.23.74.120 1 1 26797 20211206083938
+66.76.33.5 1 1 26797 20211222220824
+120.76.75.159 1 1 26797 20211222232841
+183.53.29.139 1 1 26797 20211225215603
+109.200.165.44 1 1 26797 20211230231947
+46.161.242.248 1 1 26797 20211217165450
+66.42.224.229 3 3 104375 20211226224830
+72.255.9.84 2 2 77578 20211219230139
+94.177.136.34 2 2 53594 20211217170800
+37.228.129.5 2 2 77578 20211213164538
+59.153.254.65 1 1 26797 20211217115422
+182.34.102.36 1 1 26797 20211207095419
+152.44.109.2 1 1 7297 20211204055007
+23.229.64.204 3 3 116367 20211211185138
+164.132.203.193 1 1 9994 20211220180117
+199.249.230.183 3 3 116367 20211219153552
+109.110.189.131 2 2 53594 20211228131915
+117.69.230.87 1 1 26797 20211210180123
+213.166.77.142 2 2 77578 20211218085215
+193.203.8.235 1 1 38789 20211225193829
+14.177.161.112 2 2 53594 20211213072117
+82.147.153.3 1 1 26797 20211206164110
+217.173.2.106 1 1 11064 20211205203244
+104.248.116.136 1 1 26797 20211218094858
+104.160.14.78 1 1 11064 20211203193407
+119.148.103.166 1 1 26797 20211203203343
+117.50.158.213 1 1 26797 20211206194543
+101.51.104.76 1 1 26797 20211230172111
+193.218.118.183 1 1 38789 20211227230745
+109.74.38.112 1 1 26797 20211220231729
+5.141.81.106 1 1 26797 20211205043852
+18.212.50.203 1 1 26797 20211204152615
+110.83.12.187 2 2 53594 20211221025149
+194.233.87.214 2 2 77578 20211216185816
+192.53.122.176 1 1 26797 20211206205311
+152.44.98.168 1 1 14271 20211222175003
+112.66.73.62 1 1 26797 20211213123929
+59.63.102.190 1 1 26797 20211215084815
+138.199.36.191 1 1 38789 20211204173611
+117.111.13.50 1 1 26797 20211226013536
+117.26.131.33 2 2 53594 20211205052906
+54.36.181.62 1 1 26797 20211205083040
+116.58.232.46 1 1 26797 20211204004648
+114.37.231.13 1 1 26797 20211219112529
+203.80.170.47 2 2 53594 20211212043457
+120.79.169.246 1 1 26797 20211218144623
+94.72.153.133 2 2 53594 20211215101147
+89.38.99.188 3 3 116367 20211203032915
+34.221.255.206 3 3 261 20211214021521
+103.141.108.119 2 2 77578 20211228211027
+79.173.90.198 3 3 116367 20211218065938
+117.102.77.204 1 1 26797 20211221090741
+103.199.23.63 2 2 53594 20211225174435
+144.76.102.243 1 1 94876 20211221124041
+115.208.72.119 2 2 53594 20211226222217
+77.89.212.246 1 1 26797 20211220005857
+117.251.44.105 1 1 14008 20211201031456
+52.185.73.216 2 2 21018 20211224122954
+31.180.170.174 1 1 26797 20211220033835
+103.95.40.190 1 1 26797 20211206045707
+188.126.73.208 2 2 77578 20211209163947
+178.178.95.123 1 1 38789 20211226143136
+119.28.138.80 1 1 26797 20211206173317
+178.129.226.238 2 2 77578 20211230074317
+105.213.92.66 1 1 26797 20211213112912
+129.226.167.221 1 1 26797 20211208054628
+221.239.128.52 1 1 26797 20211208122036
+187.44.35.32 1 1 26797 20211206041029
+182.86.190.208 1 1 26797 20211229020115
+121.205.177.51 2 2 53594 20211215142208
+217.138.209.114 1 1 7297 20211208021929
+5.252.194.59 2 2 77578 20211211165105
+124.123.185.189 1 1 8350 20211227044850
+120.24.183.31 1 1 26797 20211222215545
+36.90.163.64 1 1 26797 20211222055021
+58.39.197.100 1 1 26797 20211205223148
+40.72.98.2 1 1 26797 20211204034625
+105.213.65.184 1 1 26797 20211212165450
+169.255.124.5 1 1 14008 20211231050724
+185.141.134.183 1 1 26797 20211222224514
+110.169.175.89 1 1 26797 20211217173108
+103.144.149.217 1 1 26797 20211206134804
+13.113.145.244 1 1 26797 20211216192300
+140.82.30.166 1 1 26797 20211214141808
+179.187.157.27 1 1 26797 20211205072710
+182.253.235.35 1 1 26797 20211204030549
+195.78.49.151 1 1 26797 20211222090648
+203.218.252.225 1 1 26797 20211224191517
+114.235.30.29 1 1 26797 20211228214805
+200.98.72.151 1 1 26797 20211205223540
+105.213.139.42 1 1 26797 20211205092430
+103.138.73.123 1 1 26797 20211219094727
+182.141.129.205 1 1 26797 20211220015542
+36.91.45.10 1 1 26797 20211219062139
+58.153.175.195 1 1 26797 20211210135116
+45.72.45.136 2 2 22128 20211219202226
+52.175.24.115 1 1 26797 20211213122540
+219.136.174.97 1 1 26797 20211227233227
+147.78.141.237 2 2 77578 20211214082130
+81.17.18.61 2 2 77578 20211201172623
+189.68.223.98 1 1 26797 20211215192426
+217.20.174.142 1 1 26797 20211205075420
+182.34.56.135 2 2 53594 20211211145954
+23.22.235.148 1 1 26797 20211209064041
+102.164.216.62 1 1 26797 20211211134755
+181.204.4.74 1 1 26797 20211213030522
+91.185.236.24 2 2 53594 20211206053700
+106.195.43.88 1 1 14008 20211210045012
+192.186.177.213 1 1 8350 20211203191732
+41.94.152.130 2 2 53594 20211209131158
+67.201.33.9 1 1 26797 20211211221931
+78.137.36.19 1 1 26797 20211220002835
+188.65.41.57 1 1 38789 20211218111123
+20.212.18.62 1 1 26797 20211219233105
+185.89.156.130 1 1 26797 20211220111206
+93.190.181.191 1 1 26797 20211208130149
+112.2.35.162 1 1 26797 20211221124109
+161.117.5.252 2 2 77578 20211207025423
+103.85.11.112 3 3 116367 20211206214250
+120.24.110.232 1 1 26797 20211217224735
+37.20.248.213 2 2 77578 20211216232011
+103.69.46.204 1 1 26797 20211221113243
+121.231.123.215 1 1 26797 20211212084017
+113.88.253.119 1 1 26797 20211204035314
+1.2.193.144 1 1 26797 20211205195107
+80.92.233.140 1 1 26797 20211205173403
+94.158.190.63 1 1 38789 20211220093042
+222.65.177.17 1 1 26797 20211202123038
+194.113.106.76 1 1 38789 20211201004042
+5.39.20.38 1 1 42182 20211214002222
+121.206.10.204 1 1 26797 20211215081253
+116.101.243.241 1 1 26797 20211229103939
+178.22.49.219 3 3 116367 20211215090030
+27.76.14.76 1 1 26797 20211222051505
+213.193.4.113 2 2 77578 20211208115300
+47.240.171.252 1 1 26797 20211222154935
+45.91.22.167 3 3 116367 20211218052425
+31.31.177.179 1 1 26797 20211212065057
+185.61.92.207 1 1 26797 20211204024614
+81.19.140.251 1 1 11064 20211201000426
+5.202.46.37 1 1 26797 20211203233754
+62.16.11.50 1 1 38789 20211212181756
+114.238.38.115 1 1 26797 20211206021024
+178.150.35.221 1 1 26797 20211220231424
+95.180.214.129 1 1 26797 20211205054355
+59.58.104.57 1 1 26797 20211212055656
+196.216.95.5 1 1 26797 20211206043110
+181.66.37.197 1 1 26797 20211204044524
+103.108.193.117 1 1 26797 20211206022920
+178.184.101.172 2 2 77578 20211213162626
+115.133.55.56 2 2 77578 20211210210715
+116.232.70.57 2 2 53594 20211210150501
+185.220.101.164 1 1 38789 20211203083653
+104.238.101.238 2 2 53594 20211226000604
+91.242.162.67 2 2 17005 20211229134322
+210.3.248.168 1 1 26797 20211229122925
+59.55.255.23 1 1 26797 20211201123823
+191.101.132.132 1 1 38789 20211213155828
+202.159.6.242 1 1 26797 20211216012814
+125.78.14.44 2 2 0 20211201234215
+182.38.125.38 1 1 26797 20211201234218
+88.255.106.20 1 1 26797 20211211095825
+60.185.157.168 1 1 26797 20211203091202
+191.96.150.181 2 2 77578 20211212080542
+65.21.141.194 1 1 38789 20211212190156
+82.162.52.83 1 1 26797 20211215012226
+138.199.36.204 2 2 77578 20211212012643
+173.242.118.68 1 1 26797 20211214112455
+59.61.161.7 1 1 26797 20211220155943
+208.105.123.219 1 1 26797 20211226010213
+36.67.251.229 1 1 26797 20211215023549
+162.14.135.190 2 2 53594 20211212075328
+114.222.245.82 2 2 53594 20211206124524
+138.36.86.237 1 1 26797 20211219122223
+182.84.78.214 2 2 53594 20211206084404
+202.144.134.150 1 1 26797 20211215175653
+187.120.241.81 1 1 26797 20211230004055
+194.32.122.48 2 2 77578 20211201075315
+135.125.132.185 1 1 26797 20211206084236
+14.248.76.146 1 1 26797 20211210061110
+41.75.135.76 1 1 26797 20211201190455
+185.243.51.215 1 1 26797 20211218002600
+59.91.155.218 1 1 14008 20211208033736
+51.158.67.180 1 1 26797 20211213125000
+120.24.237.141 1 1 26797 20211218132736
+172.56.23.10 1 1 26797 20211220133227
+104.244.79.234 3 3 116367 20211225034923
+107.189.3.246 1 1 38789 20211211101738
+163.172.52.166 1 1 38789 20211212063828
+113.124.220.225 1 1 26797 20211211223114
+185.94.167.149 3 3 116367 20211217082024
+46.32.70.78 1 1 38789 20211221100720
+47.243.60.175 1 1 26797 20211204073956
+59.33.139.193 1 1 26797 20211207142046
+103.199.71.191 2 2 53594 20211220134325
+101.51.233.165 1 1 26797 20211227072305
+185.67.100.105 2 2 53594 20211229154724
+106.197.155.54 1 1 8350 20211204043638
+177.200.2.41 1 1 26797 20211206083622
+95.65.81.152 3 3 116367 20211210151206
+5.39.20.36 2 2 78328 20211214002224
+102.66.237.2 2 2 53594 20211225093515
+41.60.232.167 1 1 26797 20211220131547
+191.101.132.204 1 1 38789 20211220110745
+42.192.17.155 1 1 11064 20211219104003
+84.236.158.133 1 1 26797 20211220105605
+105.213.132.101 1 1 26797 20211203194442
+62.16.8.74 1 1 38789 20211213135048
+176.10.99.200 3 3 116367 20211206061322
+77.89.224.146 1 1 26797 20211219024556
+105.213.146.69 1 1 26797 20211213070404
+116.24.152.127 1 1 26797 20211205085503
+120.24.54.224 1 1 26797 20211218172739
+110.42.179.97 1 1 26797 20211212172033
+117.54.114.50 3 3 116367 20211201090103
+5.39.20.33 3 3 101851 20211214002231
+217.66.206.146 1 1 26797 20211224013206
+175.110.0.152 2 2 53594 20211225223955
+213.92.217.174 1 1 26797 20211210103647
+46.183.218.133 3 3 116367 20211203225508
+122.174.203.116 2 2 28016 20211229055953
+181.129.144.59 1 1 26797 20211204055201
+120.38.17.180 1 1 26797 20211227221105
+193.233.137.49 2 2 77578 20211221151633
+146.56.178.108 1 1 26797 20211211223448
+54.37.137.53 1 1 26797 20211220144726
+79.140.31.83 1 1 38789 20211211085817
+59.50.244.192 1 1 26797 20211204143519
+93.81.63.234 1 1 26797 20211210171629
+117.26.231.18 1 1 26797 20211220133146
+174.64.199.82 1 1 26797 20211223143856
+95.106.204.135 1 1 26797 20211204091531
+134.35.217.86 1 1 26797 20211218224310
+37.120.198.179 2 2 77578 20211212131523
+5.253.19.41 1 1 38789 20211231080138
+188.187.128.23 2 2 77578 20211222153537
+98.171.154.23 1 1 26797 20211209121159
+120.25.77.230 1 1 26797 20211218155441
+181.111.175.234 2 2 53594 20211208084122
+188.126.73.204 1 1 38789 20211204053500
+185.220.101.7 3 3 116367 20211210194335
+120.24.194.11 1 1 26797 20211217122351
+203.218.249.207 1 1 26797 20211229054711
+98.188.47.150 1 1 26797 20211215045000
+195.176.3.24 2 2 77578 20211218224012
+185.220.101.179 3 3 116367 20211214062920
+45.153.160.136 2 2 77578 20211206081119
+104.237.145.59 1 1 26797 20211209071436
+184.185.2.190 1 1 26797 20211203231653
+156.146.55.180 1 1 38789 20211223125558
+188.163.73.203 1 1 38789 20211215102114
+181.15.154.154 1 1 26797 20211201060908
+178.93.46.85 1 1 26797 20211220225409
+109.86.190.92 1 1 26797 20211213064655
+36.65.67.189 1 1 26797 20211201182803
+152.0.97.156 1 1 26797 20211227190045
+186.225.7.113 1 1 26797 20211213033845
+179.124.204.90 1 1 26797 20211212172124
+134.35.226.79 1 1 26797 20211219052955
+180.183.2.244 1 1 26797 20211231014428
+92.242.220.39 1 1 26797 20211201212803
+158.176.68.114 1 1 26797 20211224022817
+101.83.37.142 1 1 26797 20211217125307
+104.144.105.114 1 1 38789 20211207005041
+91.227.182.217 2 2 77578 20211219142446
+185.238.137.183 3 3 116367 20211201072130
+50.62.35.16 1 1 26797 20211204181528
+47.89.153.245 1 1 26797 20211220095809
+20.84.225.205 2 2 16700 20211203115942
+113.74.13.76 1 1 26797 20211223091130
+180.164.71.69 1 1 26797 20211222092256
+157.51.19.147 1 1 14008 20211217005654
+1.13.159.66 2 2 53594 20211231200136
+115.72.35.115 1 1 26797 20211213070230
+54.151.174.142 1 1 26797 20211209110243
+77.242.24.248 1 1 26797 20211218181100
+193.28.177.52 1 1 26797 20211204183901
+36.231.108.48 1 1 26797 20211210110023
+177.91.101.242 1 1 26797 20211206022134
+134.236.136.17 1 1 26797 20211211223811
+61.221.52.121 1 1 26797 20211230103806
+150.109.15.110 1 1 26797 20211212071052
+113.121.37.192 1 1 26797 20211220025052
+212.174.44.15 1 1 26797 20211222211019
+203.112.134.74 1 1 26797 20211205020909
+190.199.254.251 1 1 26797 20211204210147
+121.205.229.244 2 2 53594 20211215164725
+139.59.107.181 1 1 26797 20211204082149
+182.253.232.96 1 1 26797 20211213073016
+66.133.109.36 3 3 261 20211214021521
+105.213.169.166 1 1 26797 20211225230020
+2.187.213.135 1 1 26797 20211224225022
+183.88.156.188 1 1 26797 20211204005511
+165.225.122.105 1 1 14008 20211221060005
+110.136.242.90 1 1 26797 20211212071955
+103.220.30.61 1 1 26797 20211206063147
+120.25.105.189 1 1 26797 20211218124519
+194.5.193.183 2 2 77578 20211213084501
+194.28.15.133 1 1 26797 20211202231621
+188.126.73.202 2 2 77578 20211217234635
+41.60.233.198 1 1 26797 20211207100859
+46.8.247.3 2 2 53594 20211212041205
+42.2.114.108 1 1 26797 20211214124849
+5.234.161.203 1 1 26797 20211221112123
+86.59.201.44 1 1 26797 20211209072512
+45.12.214.236 3 3 116367 20211203032712
+194.233.79.211 1 1 38789 20211221113750
+101.51.45.98 1 1 26797 20211208234342
+178.34.151.151 2 2 77578 20211210173021
+134.35.217.133 1 1 26797 20211225171929
+103.158.121.194 1 1 26797 20211206194518
+3.142.122.14 1 1 87 20211214021519
+47.113.125.154 1 1 26797 20211217110321
+217.66.223.67 1 1 26797 20211214124859
+200.150.114.107 1 1 26797 20211221113933
+116.110.38.9 1 1 26797 20211205082807
+120.237.44.57 2 2 77578 20211222122758
+88.135.33.83 1 1 26797 20211211130908
+54.163.208.195 1 1 26797 20211204022335
+49.49.222.97 2 2 77578 20211205105407
+176.213.208.67 2 2 77578 20211217224620
+20.79.224.125 1 1 38789 20211206151710
+167.99.209.88 1 1 8350 20211225120921
+14.207.144.197 1 1 26797 20211204131542
+47.107.108.14 1 1 26797 20211220131059
+200.106.165.86 1 1 26797 20211228172300
+119.41.192.45 2 2 53594 20211227021638
+54.38.123.225 3 3 116367 20211201054859
+185.2.28.86 1 1 38789 20211202140235
+18.192.36.99 3 3 261 20211214021521
+190.108.95.100 1 1 26797 20211204041846
+46.167.238.128 1 1 26797 20211216184811
+117.98.191.121 2 2 22358 20211223142118
+103.241.227.107 1 1 38789 20211214223114
+90.188.255.142 1 1 38789 20211213045725
+196.11.158.211 1 1 26797 20211207103634
+72.217.216.239 1 1 26797 20211205092433
+200.71.97.1 1 1 26797 20211201044216
+185.217.108.65 2 2 53594 20211206045020
+103.6.207.246 1 1 26797 20211210144909
+62.210.80.33 3 3 116367 20211211145533
+145.255.22.50 2 2 77578 20211211031928
+31.135.113.194 1 1 26797 20211203044531
+20.84.225.204 2 2 21018 20211212122808
+103.137.40.130 1 1 26797 20211213043333
+110.44.126.24 1 1 26797 20211201070036
+180.247.114.132 1 1 26797 20211213171457
+182.75.220.186 1 1 26797 20211227022610
+202.131.246.250 1 1 26797 20211219050741
+185.51.247.130 1 1 38789 20211230120008
+112.78.144.62 1 1 26797 20211225191313
+172.94.122.2 1 1 38789 20211223210902
+94.26.119.190 1 1 26797 20211204051656
+189.51.99.101 1 1 26797 20211205225937
+113.128.30.69 1 1 26797 20211221003602
+221.226.195.128 2 2 53594 20211214111808
+164.90.164.144 1 1 26797 20211207180304
+172.247.35.94 1 1 26797 20211207074055
+176.31.115.13 3 3 116367 20211208080849
+123.117.234.206 1 1 26797 20211217112347
+151.232.11.126 1 1 26797 20211217163939
+185.236.46.221 1 1 26797 20211222204028
+113.128.122.54 2 2 53594 20211218174234
+103.251.225.16 1 1 38789 20211204202047
+177.43.212.24 2 2 53594 20211210044348
+184.181.217.210 1 1 26797 20211220115800
+134.35.168.35 2 2 53594 20211203074427
+140.0.78.68 1 1 26797 20211228132345
+80.91.120.49 2 2 53594 20211213091149
+105.213.161.184 1 1 26797 20211220235649
+115.214.134.229 1 1 26797 20211220131252
+117.95.199.59 2 2 53594 20211219102345
+18.116.86.117 2 2 174 20211214021521
+184.72.245.176 1 1 26797 20211209120358
+194.38.3.242 1 1 26797 20211203064919
+113.53.155.24 1 1 26797 20211226223849
+78.140.195.66 1 1 26797 20211213100018
+61.221.30.104 1 1 26797 20211206234603
+103.113.104.246 1 1 26797 20211215120412
+5.56.134.237 1 1 26797 20211213183832
+49.206.115.116 1 1 14008 20211203204943
+203.223.41.34 1 1 26797 20211202053853
+111.192.184.171 1 1 26797 20211219205149
+185.2.28.94 1 1 38789 20211207090642
+179.158.241.96 1 1 26797 20211211070917
+78.154.44.242 2 2 53594 20211215091459
+195.228.65.164 1 1 26797 20211217232254
+54.88.115.147 1 1 26797 20211206095255
+195.246.120.175 3 3 116367 20211223224412
+179.61.145.137 1 1 26797 20211218151244
+20.75.128.100 1 1 9031 20211207143641
+188.126.73.197 1 1 38789 20211211171015
+72.49.49.11 1 1 26797 20211218173851
+103.143.84.72 1 1 26797 20211206151020
+111.77.113.68 1 1 26797 20211203232946
+83.174.218.83 1 1 38789 20211221010330
+101.51.85.101 1 1 26797 20211205102354
+104.244.79.6 1 1 38789 20211211101733
+37.17.53.108 1 1 26797 20211220001020
+112.78.161.242 1 1 26797 20211215001818
+67.43.112.129 1 1 26797 20211231220730
+175.110.57.58 1 1 26797 20211215220043
+18.163.116.114 1 1 26797 20211221110505
+202.79.35.7 1 1 26797 20211206163631
+186.113.30.22 2 2 53594 20211222235445
+114.41.132.90 1 1 26797 20211202225225
+96.69.234.178 1 1 26797 20211213133710
+105.213.109.44 1 1 26797 20211207112146
+103.255.240.72 2 2 53594 20211222203157
+1.169.128.99 2 2 77578 20211221043924
+47.254.241.178 1 1 26797 20211231091215
+37.75.7.160 1 1 26797 20211207034644
+182.86.191.149 2 2 53594 20211228141240
+1.169.25.241 1 1 26797 20211231051508
+222.129.39.161 1 1 26797 20211221131507
+103.221.254.102 1 1 26797 20211207084429
+119.45.162.191 2 2 53594 20211227195757
+110.78.141.58 1 1 26797 20211210234338
+120.24.195.168 1 1 26797 20211219032824
+1.0.231.164 2 2 53594 20211202010105
+192.140.91.133 1 1 26797 20211229200929
+182.52.19.215 1 1 26797 20211202013926
+120.24.68.247 1 1 26797 20211218184628
+101.43.82.239 2 2 53594 20211218112428
+114.37.109.84 1 1 26797 20211204062942
+91.146.224.225 1 1 26797 20211208125630
+182.93.84.20 1 1 26797 20211213004724
+183.89.180.118 1 1 26797 20211213094659
+120.25.105.219 1 1 26797 20211222201406
+51.75.161.78 1 1 38789 20211214074458
+14.115.28.57 1 1 26797 20211207074545
+148.72.65.230 1 1 26797 20211208140416
+45.66.55.134 1 1 26797 20211207093857
+134.35.99.105 1 1 26797 20211227231142
+185.2.28.82 2 2 77578 20211203053533
+104.244.72.115 1 1 38789 20211218224013
+94.181.47.232 1 1 38789 20211201112317
+146.56.138.232 1 1 26797 20211218043836
+18.222.88.206 1 1 26797 20211207091457
+178.205.251.134 2 2 53594 20211224015108
+166.62.43.205 1 1 26797 20211201080338
+118.172.173.55 1 1 26797 20211222231311
+121.5.113.11 1 1 11064 20211204132709
+47.106.224.118 1 1 26797 20211221110704
+103.120.162.159 2 2 53594 20211229215833
+120.78.185.215 1 1 26797 20211218120750
+178.70.72.241 2 2 77578 20211211005836
+190.239.205.193 1 1 26797 20211212080622
+58.212.34.115 2 2 53594 20211231082226
+185.220.100.242 3 3 116367 20211215191911
+200.118.122.6 2 2 53594 20211212004429
+103.252.116.26 1 1 26797 20211221110302
+158.255.154.234 1 1 38789 20211220133618
+154.38.255.254 2 2 77578 20211216014400
+116.110.208.41 2 2 53594 20211208202432
+186.89.41.55 1 1 26797 20211202083851
+60.249.3.125 1 1 26797 20211218065248
+41.194.37.106 1 1 26797 20211205060743
+103.76.149.174 1 1 26797 20211214114250
+103.100.12.1 1 1 26797 20211202212257
+80.253.235.62 3 3 116367 20211211185111
+134.195.101.88 1 1 26797 20211229113328
+93.126.35.64 1 1 26797 20211231095704
+216.238.66.40 1 1 26797 20211222230807
+46.138.221.211 1 1 38789 20211221223644
+185.220.101.15 3 3 116367 20211221140647
+121.231.176.20 1 1 26797 20211211155820
+201.251.61.234 1 1 26797 20211213142955
+49.64.164.82 2 2 53594 20211212044705
+31.3.170.51 1 1 26797 20211212021048
+80.72.121.179 1 1 26797 20211215010112
+95.179.195.197 1 1 26797 20211211080421
+190.92.72.242 1 1 26797 20211202053623
+42.179.0.233 1 1 26797 20211205075136
+88.147.153.212 2 2 77578 20211209034636
+185.5.251.184 1 1 38789 20211210142949
+177.135.5.168 1 1 26797 20211209080821
+124.120.39.104 1 1 26797 20211207221634
+79.143.187.58 1 1 26797 20211208114425
+39.165.98.152 1 1 26797 20211231102333
+104.244.72.247 3 3 116367 20211209020712
+119.136.144.35 1 1 26797 20211219223101
+91.199.149.239 2 2 77578 20211217073733
+95.55.61.50 2 2 77578 20211218235554
+47.252.11.166 1 1 26797 20211219094050
+171.224.95.20 2 2 53594 20211227190433
+117.5.120.75 1 1 26797 20211204191310
+185.72.224.16 2 2 77578 20211208164458
+3.89.121.140 1 1 26797 20211206233209
+59.50.245.100 1 1 26797 20211202160855
+103.140.189.51 1 1 26797 20211229233609
+46.39.84.39 1 1 38789 20211203024804
+113.195.144.191 1 1 26797 20211203202601
+188.131.206.17 1 1 26797 20211213034920
+8.217.97.249 1 1 26797 20211217231829
+95.38.51.181 1 1 26797 20211217215821
+200.89.178.63 2 2 53594 20211212091511
+84.17.49.52 1 1 38789 20211226200340
+104.144.110.228 1 1 38789 20211203040221
+180.252.239.203 1 1 26797 20211215012854
+120.38.16.248 1 1 26797 20211213064216
+117.31.76.6 1 1 26797 20211214130936
+50.62.30.5 1 1 26797 20211218134021
+59.153.235.139 1 1 26797 20211217115404
+106.208.133.175 1 1 8350 20211216115807
+113.160.219.210 1 1 26797 20211220234136
+182.77.105.188 1 1 14008 20211222063807
+46.29.118.215 1 1 26797 20211209162010
+52.3.12.214 1 1 26797 20211208000518
+134.209.43.115 1 1 26797 20211226225631
+119.148.103.230 1 1 26797 20211209001616
+162.216.142.90 1 1 14008 20211217072524
+45.57.243.245 2 2 22128 20211216230751
+182.50.249.51 1 1 26797 20211217163223
+125.25.204.95 1 1 26797 20211212082625
+103.21.163.87 1 1 26797 20211213053322
+207.148.75.45 1 1 26797 20211223000732
+92.242.254.15 1 1 26797 20211210122730
+194.190.179.208 1 1 38789 20211211231740
+180.242.116.159 1 1 26797 20211204010813
+219.221.106.123 1 1 26797 20211209115913
+78.29.115.142 2 2 77578 20211220184743
+185.221.90.19 1 1 26797 20211204235650
+117.28.40.190 1 1 0 20211219052951
+167.179.75.165 1 1 26797 20211221013315
+103.97.3.104 1 1 26797 20211223172042
+51.159.23.22 2 2 77578 20211220104602
+188.126.79.27 2 2 77578 20211214012652
+1.0.173.10 1 1 26797 20211204015651
+193.189.100.197 3 3 116367 20211218154921
+202.137.114.3 2 2 53594 20211205064255
+203.81.95.70 1 1 26797 20211213033058
+104.144.227.177 1 1 8350 20211218055616
+72.206.181.105 1 1 26797 20211206144447
+51.155.3.184 1 1 26797 20211220174618
+187.103.0.16 1 1 26797 20211219031426
+45.132.115.246 3 3 116367 20211215033024
+47.106.20.55 1 1 26797 20211217114236
+188.166.109.213 1 1 26797 20211223060305
+46.29.218.6 1 1 26797 20211222195516
+85.203.20.142 2 2 77578 20211202162246
+35.72.175.177 2 2 53594 20211227124137
+188.124.42.124 3 3 116367 20211203024831
+170.155.100.128 1 1 38789 20211219001629
+103.98.205.182 1 1 26797 20211203065851
+109.248.108.219 1 1 38789 20211202160408
+120.34.216.157 2 2 53594 20211217064707
+49.70.95.209 2 2 53594 20211214004548
+3.142.236.113 1 1 26797 20211212092657
+188.126.79.20 1 1 38789 20211208025504
+117.242.39.208 2 2 53594 20211226235249
+5.39.20.39 2 2 206060 20211214002227
+213.168.65.178 1 1 8350 20211213040200
+218.252.73.245 1 1 26797 20211215115527
+119.123.236.108 1 1 26797 20211206060035
+203.189.154.151 2 2 53594 20211214125008
+177.66.59.132 1 1 26797 20211203211633
+125.27.42.30 1 1 26797 20211222224523
+220.198.114.118 1 1 26797 20211227163348
+47.242.174.4 1 1 26797 20211229110226
+103.216.82.19 2 2 77578 20211205084404
+191.6.40.232 1 1 26797 20211215161813
+47.106.172.151 1 1 26797 20211218131748
+136.185.15.150 2 2 53594 20211222203226
+171.250.46.21 1 1 26797 20211209103137
+118.166.231.248 1 1 26797 20211205101301
+175.110.11.40 2 2 53594 20211218105143
+179.185.136.164 1 1 26797 20211221001111
+116.237.128.30 1 1 26797 20211211234216
+69.9.44.90 1 1 26797 20211201051806
+182.34.34.49 2 2 53594 20211210234212
+190.108.93.154 1 1 26797 20211211235130
+213.74.118.106 1 1 26797 20211206032804
+138.186.93.4 1 1 26797 20211209072413
+5.39.20.32 4 4 134220 20211214002231
+46.167.237.119 1 1 26797 20211211223338
+72.221.232.155 2 2 53594 20211222201757
+192.252.209.155 1 1 26797 20211205033019
+87.244.171.205 3 3 116367 20211212071553
+211.136.100.154 4 4 155156 20211219011814
+122.241.26.60 1 1 26797 20211213110314
+195.246.120.169 3 3 116367 20211219202758
+105.213.69.208 1 1 26797 20211207080344
+124.77.228.159 1 1 26797 20211214213230
+168.0.172.100 1 1 26797 20211220203152
+192.252.208.70 1 1 26797 20211204032125
+121.200.63.26 1 1 26797 20211203190407
+95.48.22.68 1 1 26797 20211208070705
+94.25.229.13 1 1 38789 20211203082322
+193.36.118.251 2 2 77578 20211202025721
+173.206.11.9 2 2 53594 20211212163741
+198.199.109.36 1 1 26797 20211207143431
+62.113.118.20 3 3 116367 20211220213505
+5.143.81.181 1 1 26797 20211206190144
+140.237.30.10 2 2 53594 20211217223634
+197.243.80.194 1 1 26797 20211221033042
+196.244.191.164 1 1 38789 20211207060910
+202.59.133.62 1 1 26797 20211207105539
+185.209.22.132 3 3 116367 20211222024239
+54.166.13.255 1 1 26797 20211207153711
+185.82.126.31 1 1 38789 20211214074456
+95.38.69.111 1 1 26797 20211220141611
+45.87.60.40 2 2 22128 20211211171426
+31.186.241.7 1 1 26797 20211209055729
+185.220.101.144 2 2 77578 20211203024734
+45.128.125.201 1 1 38789 20211205130750
+158.46.180.18 2 2 77578 20211218050028
+134.35.103.203 1 1 26797 20211228021509
+185.191.127.231 1 1 38789 20211214074432
+23.105.192.148 1 1 26797 20211213162505
+186.176.210.90 1 1 26797 20211201163806
+201.177.173.207 1 1 26797 20211201193753
+221.226.194.152 1 1 26797 20211214141358
+132.232.211.203 1 1 26797 20211211155532
+111.240.201.190 2 2 77578 20211225232138
+27.156.193.80 1 1 26797 20211205134950
+51.195.42.226 3 3 116367 20211206234252
+104.237.6.22 1 1 26797 20211210093630
+173.208.223.66 1 1 26797 20211228011455
+45.236.152.158 1 1 26797 20211213064226
+85.196.183.162 1 1 26797 20211204001920
+102.64.69.132 1 1 26797 20211208062526
+194.110.114.197 1 1 38789 20211203143806
+68.98.4.133 1 1 38789 20211218021540
+81.12.124.108 1 1 26797 20211205063037
+223.240.98.85 1 1 26797 20211203081323
+185.220.101.168 1 1 38789 20211211050518
+110.82.166.96 1 1 26797 20211219111341
+200.233.205.97 1 1 26797 20211220140204
+81.12.124.144 1 1 26797 20211222224515
+5.189.154.78 1 1 26797 20211229100657
+103.66.177.15 1 1 26797 20211205041652
+91.245.34.95 3 3 116367 20211216120125
+176.114.190.126 4 4 155156 20211227104237
+1.20.168.198 1 1 26797 20211213153022
+105.213.74.24 1 1 26797 20211206180048
+46.161.11.76 1 1 38789 20211229012138
+36.90.185.93 1 1 26797 20211211173434
+185.220.100.246 1 1 38789 20211211101736
+27.109.116.187 2 2 53594 20211210145944
+5.39.20.34 1 1 37489 20211214002226
+190.28.74.250 1 1 26797 20211202143009
+192.169.139.161 1 1 38789 20211210055354
+47.252.32.86 1 1 26797 20211227064040
+113.121.113.93 1 1 26797 20211224063114
+185.220.100.249 2 2 77578 20211221181045
+208.102.51.6 3 3 80391 20211226220912
+20.205.110.163 1 1 26797 20211203072745
+120.24.174.223 1 1 26797 20211219073018
+171.237.211.5 1 1 26797 20211217201132
+103.209.64.19 1 1 38789 20211224164139
+47.106.83.26 1 1 26797 20211222085739
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20211201 51 51 1640550 36
+20211202 26 26 816642 22
+20211203 65 65 2113638 47
+20211204 51 51 1468863 47
+20211205 50 50 1515989 41
+20211206 81 81 2501468 59
+20211207 29 29 843291 28
+20211208 39 39 1236901 28
+20211209 35 35 1117775 28
+20211210 55 55 1723276 41
+20211211 59 59 1932231 48
+20211212 70 70 2202974 48
+20211213 53 53 1593666 44
+20211214 79 79 2002059 44
+20211215 42 42 1341330 29
+20211216 25 25 799892 16
+20211217 50 50 1490580 39
+20211218 76 76 2485294 53
+20211219 60 60 1868682 41
+20211220 51 51 1517732 46
+20211221 46 46 1389819 32
+20211222 61 61 1849142 47
+20211223 16 16 469468 14
+20211224 14 14 366566 11
+20211225 19 19 574640 13
+20211226 18 18 554298 14
+20211227 26 26 726243 21
+20211228 14 14 377214 10
+20211229 26 26 538757 16
+20211230 17 17 468075 14
+20211231 22 22 648697 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+0s-30s 979
+30s-2mn 6
+2mn-5mn 2
+5mn-15mn 2
+15mn-30mn 2
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/contact-us.html 703 18660400 618 617
+/anal-fissure-fistula.html 526 20012724 324 325
+/chairmans-page.html 16 304996 13 13
+/worlds-heaviest-ovarian-cancer-tumour-news.html 13 108550 9 9
+/cancer.html 5 81410 3 2
+http://gatewayclinics.com/anal-fissure-fistula.html 5 193945 3 2
+/about.html 4 60895 2 1
+/.well-known/acme-challenge/34vpzfufy8NFE0vXzWn5w1G1VhmB1Jn7yGkgROE8GiU 4 348 4 0
+/ 4 75881 2 2
+/.well-known/acme-challenge/q4aYCZrkURlbesZI279nL2-1zLi2z2byArSux5VDde8 4 348 1 1
+/.well-known/acme-challenge/YvDEqjStrPaQw-AQHyQRmZR6q7KT_6k3EJjDyILRGpI 4 348 0 0
+/medical-tourism.html 4 66012 2 2
+/.well-known/acme-challenge/DUJpn8ts-QheokZjawDqZJ1HOCMckQOBh1MxSRiIm1w 4 348 0 4
+/appendix.html 4 68774 2 2
+/.well-known/acme-challenge/MWi5CgPZov3Tm0uFYfqCqNRIueX-73K4tMVTJ7xzxAA 4 348 1 0
+/.well-known/acme-challenge/dXNbyBUufknxCAheYNE_hZ9yxITs1Ixb87aq-lzk7x8 4 348 0 1
+/training.html 3 145848 1 1
+/day-care-laparoscopy.html 2 19674 1 1
+/newsletter.html 2 16700 2 2
+/photo-gallery.html 2 112884 0 1
+/colorectal-cancer.html 2 44863 1 1
+/hysterectomy.html 1 37489 1 1
+/video-gallery-1.html 1 31015 0 0
+/press-release.html 1 14271 1 1
+/piles-hemorrhoids.html 1 34230 0 1
+/gallbladder.html 1 37340 1 1
+/hernia-surgery.html 1 38326 0 0
+/gallery.html 1 7437 0 1
+END_SIDER

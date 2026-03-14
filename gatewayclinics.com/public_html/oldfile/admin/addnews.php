@@ -1,0 +1,271 @@
+<?php 
+error_reporting(0);
+@ob_start();
+@session_start();
+include("maindb.php");?>
+<?php
+
+
+
+
+ include("../connection/connection.php");
+
+
+
+
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Add PostDetails</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+   	<link rel="stylesheet" href="css/responsive-tables.css">
+    <script language="javascript" src="city.js"></script>
+    <script language="JavaScript" type="text/javascript" src="wysiwyg.js">
+</script>
+<script language="javascript">
+
+var ajax = new Array();
+
+function getCityList(sel)
+{
+	var countryCode = sel.options[sel.selectedIndex].value;
+	document.getElementById('pname').options.length = 0;	// Empty city select box
+	if(countryCode.length>0){
+		var index = ajax.length;
+		ajax[index] = new sack();
+		var url='getCities.php?countryCode='+countryCode
+		//alert(url);
+		ajax[index].requestFile =url ;	// Specifying which file to get
+		ajax[index].onCompletion = function(){ createCities(index) };	// Specify function that will be executed after file has been found
+		ajax[index].runAJAX();		// Execute AJAX function
+	}
+}
+
+function createCities(index)
+{
+	var obj = document.getElementById('pname');
+	eval(ajax[index].response);	// Executing the response from Ajax as Javascript code	
+}
+
+
+
+</script>
+    <script language="JavaScript">
+function Inamodel_validate(theval)
+{
+
+if(theval.image.value=="")
+{
+alert("Select A Image");
+theval.image.focus();
+return (false);
+}
+
+
+}
+</script> <link rel="stylesheet" href="docs/css/bootstrap-3.2.0.min.css" type="text/css">
+        <link rel="stylesheet" href="docs/css/bootstrap-example.css" type="text/css">
+        <link rel="stylesheet" href="docs/css/prettify.css" type="text/css">
+
+        <script type="text/javascript" src="docs/js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="docs/js/bootstrap-3.2.0.min.js"></script>
+        <script type="text/javascript" src="docs/js/prettify.js"></script>
+
+        <link rel="stylesheet" href="dist/css/bootstrap-multiselect.css" type="text/css">
+        <script type="text/javascript" src="dist/js/bootstrap-multiselect1.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                window.prettyPrint() && prettyPrint();
+            });
+        </script>
+</head>
+<body>
+
+	
+	<!-- Header -->
+	<div id="header">
+		<div class="shell">
+		  <!-- Navigation -->
+          <?php include("header.php");?>
+          <!-- End Navigation -->
+</div>
+	</div>
+	<!-- End Header -->
+	
+	
+	
+	<!-- Content -->
+	<div id="content" class="shell">
+		
+		<!-- Help Navigation -->
+	  <div id="help-nav"></div>
+		<!-- End Help Navigation -->
+
+		<h6 class="red">Welcome <?php echo $_SESSION['SESS_USER_NAME'];?><br />
+		</h6>
+		<form action="addnews.php"method="post" enctype="multipart/form-data" name="example" id="example"  onsubmit="return Inamodel_validate(this);">
+		  <table width="1000" border="1" bordercolor="#000000" align="center" cellpadding="1" cellspacing="1">
+		    <tr>
+		      <td width="817" align="center"><table width="800" border="0" align="center">
+		        <tr>
+		          <td colspan="2">&nbsp;</td>
+		          <td width="581"><?php include("Message.php");?></td>
+	            </tr>
+		        <input name="username" type="hidden" value="<?php echo $_SESSION['SESS_USER_NAME'];?>" />
+
+		        
+		        <tr>
+		          <td valign="top" class="left">Title</td>
+		          <td align="center" valign="middle" class="inputtextfiled_names">&nbsp;</td>
+		          <td><label for="textfield"></label>
+	              <input type="text" name="title" id="title" /></td>
+	            </tr>
+		        <tr>
+		          <td width="129" valign="top" class="left">Upload Image</td>
+		          <td width="35" align="center" valign="middle" class="inputtextfiled_names">&nbsp;</td>
+		          <td><input type="file" name="image" accept="image/gif,image/png,image/jpg,image/jpeg,image/pdf" id="image" /></td>
+	            </tr>
+		        <tr>
+		          <td valign="top" class="left">Upload Pdf</td>
+		          <td align="center" valign="middle" class="inputtextfiled_names">&nbsp;</td>
+		          <td><input type="file" name="image2" accept="image/pdf" id="image2" /></td>
+	            </tr>
+		        
+		        <tr>
+		          <td colspan="2">&nbsp;</td>
+		          <td>&nbsp;</td>
+	            </tr>
+		        <tr>
+		          <td colspan="2">&nbsp;</td>
+		          <td><input name="step1" type="submit" id="step1" value="Submit" />
+	              <input name="reset" type="reset" id="reset" value="Reset" /></td>
+	            </tr>
+		        <tr>
+		          <td colspan="2">&nbsp;</td>
+		          <td>&nbsp;</td>
+	            </tr>
+	          </table></td>
+	        </tr>
+	      </table>
+      </form>
+		<h6 class="red">&nbsp; </h6>		
+		<h1>&nbsp;</h1>
+	</div>
+	
+	<!-- End Content -->
+</div>
+
+<!-- Footer -->
+<?php include("footer.php");?>
+<!-- End Footer -->
+</body>
+</html><?php 
+
+
+
+ 
+ define ("MAX_SIZE","134443400"); 
+function getExtension($str) 
+{        
+ $i = strrpos($str,".");      
+    if (!$i) { return ""; }        
+	 $l = strlen($str) - $i;         
+	 $ext = substr($str,$i+1,$l);         
+	 return $ext; }
+$errors=0;
+  {
+$image=$_FILES['image']['name'];
+if ($image)  	{
+$filename = stripslashes($_FILES['image']['name']);
+$extension = getExtension($filename); 		$extension = strtolower($extension);
+ if(($extension != "jpeg") && ($extension != "jpg") && ($extension != "png")&& ($extension != "gif"))  		{
+ 
+ $msg="Please Specifies  Only Images"; 
+ 
+
+?>
+<?php
+			$errors=1; 		} 		else 		{
+$size=filesize($_FILES['image']['tmp_name']);
+if ($size > MAX_SIZE*1024){	echo '<h1>You have exceeded the size limit!</h1>';	$errors=1;}
+$image_name=time().'.'.$extension;
+$newname="../news/".$image_name;
+$copied = copy($_FILES['image']['tmp_name'], $newname);if (!$copied)
+ {	
+ echo '<h1>Copy unsuccessfull!</h1>';	
+ $errors=1;}}}}
+$image2=$_FILES['image2']['name'];
+if ($image2)  	{
+$image2 = stripslashes($_FILES['image2']['name']);
+$extension2 = getExtension($image2); 		$extension2 = strtolower($extension2);
+ if (($extension2 != "pdf"))  		{
+ 
+ $msg="Please Specifies  Only Pdf"; 
+ 
+
+?>
+<?php
+			$errors2=1; 		} 		else 		{
+$size2=filesize($_FILES['image2']['tmp_name']);
+if ($size2 > MAX_SIZE*1024){	echo '<h1>You have exceeded the size limit!</h1>';	$errors2=1;}
+$image_name2=time().'.'.$extension2;
+$newname2="../news/".$image_name2;
+$copied2 = copy($_FILES['image2']['tmp_name'], $newname2);if (!$copied2)
+ {	
+ echo '<h1>Copy unsuccessfull!</h1>';	
+ $errors2=1;}}}
+
+
+ 
+
+if(isset($_POST['step1'])){
+ $category=$_POST['category'];
+  $pname=$_POST['pname'];
+
+$title=$_POST['title'];
+$recom=$_POST['recom'];
+	
+$details1=$_POST['details'];
+if(!get_magic_quotes_gpc()){
+$details=addslashes($details1);
+ }else{
+ $details=$details1;
+ }
+ 
+$image=$_POST['image'];
+$image2=$_POST['image2'];
+$filesize=$_POST['filesize'];
+$username=$_POST['username'];
+$verif_box=$_POST['verif_box'];
+$createddate=$_POST['createddate'];
+$createddate=date('Y-m-d');
+	
+	//echo "Image was successfully uploaded.";
+				$createdon=$serverdate;	
+ $insert="insert into $_table58 (username,title,image,filesize,image2,createddate)values('$username','$title','$image_name','$filesize','$image_name2','$serverdate')";
+mysql_query($insert,$link) or die(mysql_error());
+
+
+  
+				
+ 
+ $message=base64_encode('product_success');
+header("location:addnews.php?mes=$message&$random");
+
+
+  
+  
+	
+ // end for submit
+
+}// end for action 
+
+?>
+ 
